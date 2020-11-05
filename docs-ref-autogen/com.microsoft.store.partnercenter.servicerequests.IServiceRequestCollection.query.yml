@@ -10,7 +10,7 @@ members:
   nameWithType: "IServiceRequestCollection.query(IQuery serviceRequestsQuery)"
   summary: "Queries service requests associated to an organization. - Count queries are not supported by this operation. - You can set the page size or filter or do both at the same time. - Sort is not supported. Default sorting is on status field"
   parameters:
-  - description: "A query to apply onto service requests. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\">QueryFactory</xref> to see how to\n            build queries."
+  - description: "A query to apply onto service requests. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"QueryFactory\"></xref> to see how to\n            build queries."
     name: "serviceRequestsQuery"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ResourceCollection<ServiceRequest> query(IQuery serviceRequestsQuery)"
