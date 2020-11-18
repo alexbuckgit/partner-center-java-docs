@@ -10,7 +10,7 @@ members:
   nameWithType: "ICustomerCollection.query(IQuery customersQuery)"
   summary: "Queries customers associated to the partner. - Count queries are not supported by this operation. - You can set the page size or filter or do both at the same time. - Sort is not supported. - You can navigate to other pages by specifying a seek query with the seek operation and the continuation token sent by the previous operation."
   parameters:
-  - description: "A query to apply onto customers. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\">com.microsoft.store.partnercenter.models.query.QueryFactory</xref> to see how to build queries."
+  - description: "A query to apply onto customers. Check <xref uid=\"com.microsoft.store.partnercenter.models.query.QueryFactory\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.microsoft.store.partnercenter.models.query.QueryFactory\"></xref> to see how to build queries."
     name: "customersQuery"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SeekBasedResourceCollection<Customer> query(IQuery customersQuery)"
