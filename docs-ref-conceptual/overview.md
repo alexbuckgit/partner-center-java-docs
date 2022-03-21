@@ -5,7 +5,7 @@ description: Overview of the Partner Center SDK for Java.
 
 # Partner Center SDK for Java
 
-The Partner Center SDK for Java is commonly used by partners and [control panel vendors](https://docs.microsoft.com/partner-center/enroll-as-cpv) to manage Partner Center resources. It is an open source project maintained by the partner community. Since this SDK is maintained by the partner community, it is not officially supported by Microsoft. You can [get help from the community](https://stackoverflow.com/search?q=partner+center) or open an [issue](https://github.com/MicrosoftDocs/partner-center-java-docs/issues) on GitHub if there is a problem.
+The Partner Center SDK for Java is commonly used by partners and [control panel vendors](/partner-center/enroll-as-cpv) to manage Partner Center resources. It is an open source project maintained by the partner community. Since this SDK is maintained by the partner community, it is not officially supported by Microsoft. You can [get help from the community](https://stackoverflow.com/search?q=partner+center) or open an [issue](https://github.com/MicrosoftDocs/partner-center-java-docs/issues) on GitHub if there is a problem.
 
 ## Prerequisites
 
@@ -34,5 +34,5 @@ See [getting started](get-started.md) with the Partner Center SDK for Java for m
 
 The following are additional resources that will help you explore the capabilities for the Partner Center SDK for Java.
 
-- [Partner Center SDK for Java samples project](https://docs.microsoft.com/samples/microsoft/partner-center-java-samples/partner-center-java-sdk-samples/)
-- [Partner Center Scenarios](https://docs.microsoft.com/partner-center/develop/scenarios)
+- [Partner Center SDK for Java samples project](/samples/microsoft/partner-center-java-samples/partner-center-java-sdk-samples/)
+- [Partner Center Scenarios](/partner-center/develop/scenarios)
