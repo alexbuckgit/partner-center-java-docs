@@ -12,6 +12,7 @@ inheritedMembers:
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,T)"
 - "com.fasterxml.jackson.databind.JsonDeserializer.deserializeWithType(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext,com.fasterxml.jackson.databind.jsontype.TypeDeserializer,T)"
 - "com.fasterxml.jackson.databind.JsonDeserializer.findBackReference(java.lang.String)"
+- "com.fasterxml.jackson.databind.JsonDeserializer.getAbsentValue(com.fasterxml.jackson.databind.DeserializationContext)"
 - "com.fasterxml.jackson.databind.JsonDeserializer.getDelegatee()"
 - "com.fasterxml.jackson.databind.JsonDeserializer.getEmptyAccessPattern()"
 - "com.fasterxml.jackson.databind.JsonDeserializer.getEmptyValue()"
