@@ -8,7 +8,7 @@ members:
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
   name: "get()"
   nameWithType: "AgreementDetailsCollectionOperations.get()"
-  summary: "Retrieves the agreement details.\n\n**Deprecated.**for test method."
+  summary: "Retrieves the agreement details.\n**Deprecated.**for test method."
   syntax: "@Deprecated(since=\"11\", forRemoval=true)\npublic ResourceCollection<AgreementMetaData> get()"
   returns:
     description: "A list of agreement details."
