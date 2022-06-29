@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 name: "AgreementDetailsCollectionOperations"
 nameWithType: "AgreementDetailsCollectionOperations"
-summary: "Agreement details collection operations implementation class.\n\n **Deprecated**for test class."
+summary: "Agreement details collection operations implementation class.\n\n**Deprecated.**for test class."
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
