@@ -9,7 +9,9 @@ methods:
 type: "interface"
 typeParameters:
 - name: "TTYpe"
+  description: "some description for TTYpe"
 - name: "TEntity"
+  description: "some description for TEntity"
 metadata: {}
 package: "com.microsoft.store.partnercenter.genericoperations"
 artifact: com.microsoft.store:partnercenter:1.15.3
