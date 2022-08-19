@@ -10,6 +10,7 @@ members:
   nameWithType: "IReceiptDocuments.getStatement()"
   summary: "Gets the receipt statement operations."
   syntax: "public abstract IReceiptStatement getStatement()"
+  desc: "Gets the receipt statement operations."
   returns:
     description: "The available receipt statement operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IReceiptStatement?alt=com.microsoft.store.partnercenter.invoices.IReceiptStatement&text=IReceiptStatement\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "IProduct.get()"
   summary: "Retrieves the product information"
   syntax: "public abstract Product get()"
+  desc: "Retrieves the product information"
   returns:
     description: "The product information."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.products.Product?alt=com.microsoft.store.partnercenter.models.products.Product&text=Product\" data-throw-if-not-resolved=\"False\" />"

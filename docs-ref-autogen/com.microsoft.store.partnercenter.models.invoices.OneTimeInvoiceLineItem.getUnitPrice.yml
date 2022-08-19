@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getUnitPrice()"
   summary: "Gets the unit price for the line item."
   syntax: "public double getUnitPrice()"
+  desc: "Gets the unit price for the line item."
   returns:
     description: "The unit price for the line item."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

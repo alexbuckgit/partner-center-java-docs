@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setPercentUsed(double value)"
+  desc: "Sets the percentage used out of the allocated budget."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.usage"

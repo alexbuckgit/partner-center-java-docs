@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.customers.ICustomer.delete()"
   name: "delete()"
   nameWithType: "ICustomer.delete()"
-  summary: "Deletes the customer from a testing in production account. This won't work for real accounts."
+  summary: "Deletes the customer from a testing in production account."
   syntax: "public abstract void delete()"
+  desc: "Deletes the customer from a testing in production account. This won't work for real accounts."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.customers"

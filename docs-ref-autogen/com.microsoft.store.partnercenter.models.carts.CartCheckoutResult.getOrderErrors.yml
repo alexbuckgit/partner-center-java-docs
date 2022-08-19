@@ -10,6 +10,7 @@ members:
   nameWithType: "CartCheckoutResult.getOrderErrors()"
   summary: "Gets the collection of order failure information."
   syntax: "public List<OrderError> getOrderErrors()"
+  desc: "Gets the collection of order failure information."
   returns:
     description: "The collection of order failure information."
     type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.carts.OrderError?alt=com.microsoft.store.partnercenter.models.carts.OrderError&text=OrderError\" data-throw-if-not-resolved=\"False\" />&gt;"

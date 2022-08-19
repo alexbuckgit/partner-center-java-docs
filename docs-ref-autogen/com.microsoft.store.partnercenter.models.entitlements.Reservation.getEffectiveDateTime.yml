@@ -10,6 +10,7 @@ members:
   nameWithType: "Reservation.getEffectiveDateTime()"
   summary: "Gets the effective date and time."
   syntax: "public DateTime getEffectiveDateTime()"
+  desc: "Gets the effective date and time."
   returns:
     description: "The effective date and time for the reservation."
     type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"

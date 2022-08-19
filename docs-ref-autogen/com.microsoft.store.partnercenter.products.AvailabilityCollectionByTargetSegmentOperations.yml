@@ -5,8 +5,8 @@ name: "AvailabilityCollectionByTargetSegmentOperations"
 nameWithType: "AvailabilityCollectionByTargetSegmentOperations"
 summary: "Implements the available availability operations."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -28,6 +28,7 @@ methods:
 - "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.byReservationScope(java.lang.String)"
 - "com.microsoft.store.partnercenter.products.AvailabilityCollectionByTargetSegmentOperations.get()"
 type: "class"
+desc: "Implements the available availability operations."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment?alt=com.microsoft.store.partnercenter.products.IAvailabilityCollectionByTargetSegment&text=IAvailabilityCollectionByTargetSegment\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

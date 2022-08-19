@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerOperations.getQualification()"
   summary: "Obtains the Customer qualification."
   syntax: "public ICustomerQualification getQualification()"
+  desc: "Obtains the Customer qualification."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.qualification.ICustomerQualification?alt=com.microsoft.store.partnercenter.qualification.ICustomerQualification&text=ICustomerQualification\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

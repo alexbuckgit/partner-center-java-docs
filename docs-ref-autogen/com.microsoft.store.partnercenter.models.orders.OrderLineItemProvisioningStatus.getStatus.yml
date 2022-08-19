@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItemProvisioningStatus.getStatus()"
   summary: "Gets the aggregated state of an order line item."
   syntax: "public String getStatus()"
+  desc: "Gets the aggregated state of an order line item."
   returns:
     description: "The aggregated state of an order line item."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

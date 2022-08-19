@@ -10,6 +10,7 @@ members:
   nameWithType: "ISubscription.getUpgrades()"
   summary: "Gets the current subscription's upgrade operations."
   syntax: "public abstract ISubscriptionUpgradeCollection getUpgrades()"
+  desc: "Gets the current subscription's upgrade operations."
   returns:
     description: "The current subscription's upgrade operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionUpgradeCollection&text=ISubscriptionUpgradeCollection\" data-throw-if-not-resolved=\"False\" />"

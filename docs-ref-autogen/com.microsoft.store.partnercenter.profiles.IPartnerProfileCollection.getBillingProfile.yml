@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartnerProfileCollection.getBillingProfile()"
   summary: "Gets the operations available for the partner billing profile."
   syntax: "public abstract IBillingProfile getBillingProfile()"
+  desc: "Gets the operations available for the partner billing profile."
   returns:
     description: "The operations available for the partner billing profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.profiles.IBillingProfile?alt=com.microsoft.store.partnercenter.profiles.IBillingProfile&text=IBillingProfile\" data-throw-if-not-resolved=\"False\" />"

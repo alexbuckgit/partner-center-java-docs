@@ -5,7 +5,7 @@ name: "ResourceBase"
 nameWithType: "ResourceBase"
 summary: "Base class for resources"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -25,6 +25,7 @@ constructors:
 methods:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 type: "class"
+desc: "Base class for resources"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"
 artifact: com.microsoft.store:partnercenter:1.15.3

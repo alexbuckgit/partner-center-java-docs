@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLinks.getPatchOperation()"
   summary: "Gets the link to the patch operation of an order."
   syntax: "public Link getPatchOperation()"
+  desc: "Gets the link to the patch operation of an order."
   returns:
     description: "The link to the patch operation of an oder."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"

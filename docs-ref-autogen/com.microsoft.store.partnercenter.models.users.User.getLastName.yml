@@ -10,6 +10,7 @@ members:
   nameWithType: "User.getLastName()"
   summary: "Gets the last name for the user."
   syntax: "public String getLastName()"
+  desc: "Gets the last name for the user."
   returns:
     description: "The last name for the user."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

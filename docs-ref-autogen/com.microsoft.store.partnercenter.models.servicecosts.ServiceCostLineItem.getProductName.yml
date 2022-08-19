@@ -10,6 +10,7 @@ members:
   nameWithType: "ServiceCostLineItem.getProductName()"
   summary: "Gets the name of the product."
   syntax: "public String getProductName()"
+  desc: "Gets the name of the product."
   returns:
     description: "The name of the product."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

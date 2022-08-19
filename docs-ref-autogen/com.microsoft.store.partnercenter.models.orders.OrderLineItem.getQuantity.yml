@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItem.getQuantity()"
   summary: "Gets the product quantity."
   syntax: "public int getQuantity()"
+  desc: "Gets the product quantity."
   returns:
     description: "The product quantity."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

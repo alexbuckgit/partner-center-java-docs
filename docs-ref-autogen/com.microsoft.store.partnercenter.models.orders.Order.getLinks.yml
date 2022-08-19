@@ -11,6 +11,7 @@ members:
   summary: "Gets the links corresponding to the order."
   overridden: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
   syntax: "public OrderLinks getLinks()"
+  desc: "Gets the links corresponding to the order."
   returns:
     description: "The links corresponding to the order."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.orders.OrderLinks?alt=com.microsoft.store.partnercenter.models.orders.OrderLinks&text=OrderLinks\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "IBatchJobStatus.get()"
   summary: "Retrieves a specific customer devices batch upload status details."
   syntax: "public abstract BatchUploadDetails get()"
+  desc: "Retrieves a specific customer devices batch upload status details."
   returns:
     description: "The devices batch upload status details."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails?alt=com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails&text=BatchUploadDetails\" data-throw-if-not-resolved=\"False\" />"

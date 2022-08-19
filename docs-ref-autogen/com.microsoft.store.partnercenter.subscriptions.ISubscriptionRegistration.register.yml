@@ -10,6 +10,7 @@ members:
   nameWithType: "ISubscriptionRegistration.register()"
   summary: "Register a subscription to enable Azure Reserved instance purchase."
   syntax: "public abstract String register()"
+  desc: "Register a subscription to enable Azure Reserved instance purchase."
   returns:
     description: "The location which indicates the URL of the API to query for status."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

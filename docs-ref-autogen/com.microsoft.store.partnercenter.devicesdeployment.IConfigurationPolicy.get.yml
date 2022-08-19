@@ -10,6 +10,7 @@ members:
   nameWithType: "IConfigurationPolicy.get()"
   summary: "Retrieves the configuration policy."
   syntax: "public abstract ConfigurationPolicy get()"
+  desc: "Retrieves the configuration policy."
   returns:
     description: "The configuration policy."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy?alt=com.microsoft.store.partnercenter.models.devicesdeployment.ConfigurationPolicy&text=ConfigurationPolicy\" data-throw-if-not-resolved=\"False\" />"

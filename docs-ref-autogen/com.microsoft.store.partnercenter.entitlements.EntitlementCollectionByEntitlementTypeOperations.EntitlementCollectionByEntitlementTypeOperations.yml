@@ -20,6 +20,7 @@ members:
     name: "entitlementType"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public EntitlementCollectionByEntitlementTypeOperations(IPartner rootPartnerOperations, String customerId, String entitlementType)"
+  desc: "Initializes a new instance of the EntitlementCollectionByEntitlementTypeOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.entitlements"

@@ -14,6 +14,7 @@ members:
     name: "subscriptionUpgrade"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Upgrade?alt=com.microsoft.store.partnercenter.models.subscriptions.Upgrade&text=Upgrade\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public UpgradeResult create(Upgrade subscriptionUpgrade)"
+  desc: "Performs a subscription upgrade."
   returns:
     description: "The subscription upgrade result."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult?alt=com.microsoft.store.partnercenter.models.subscriptions.UpgradeResult&text=UpgradeResult\" data-throw-if-not-resolved=\"False\" />"

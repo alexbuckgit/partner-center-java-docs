@@ -5,9 +5,9 @@ name: "DailyRatedUsageLineItem"
 nameWithType: "DailyRatedUsageLineItem"
 summary: "Represents un-billed, billed recon line items for daily rated usage."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
@@ -130,6 +130,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem.setUnitType(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.invoices.DailyRatedUsageLineItem.setUsageDate(org.joda.time.DateTime)"
 type: "class"
+desc: "Represents un-billed, billed recon line items for daily rated usage."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

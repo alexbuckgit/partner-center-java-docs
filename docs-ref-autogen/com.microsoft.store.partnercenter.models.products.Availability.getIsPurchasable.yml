@@ -10,6 +10,7 @@ members:
   nameWithType: "Availability.getIsPurchasable()"
   summary: "Gets a flag indicating whether the availability is purchasable or not."
   syntax: "public boolean getIsPurchasable()"
+  desc: "Gets a flag indicating whether the availability is purchasable or not."
   returns:
     description: "A flag indicating whether the availability is purchasable or not."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

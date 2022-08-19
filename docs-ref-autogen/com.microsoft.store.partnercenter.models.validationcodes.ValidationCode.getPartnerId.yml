@@ -10,6 +10,7 @@ members:
   nameWithType: "ValidationCode.getPartnerId()"
   summary: "Gets the identifier for the partner."
   syntax: "public String getPartnerId()"
+  desc: "Gets the identifier for the partner."
   returns:
     description: "The identifier for the partner."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

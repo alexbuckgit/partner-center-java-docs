@@ -10,6 +10,7 @@ members:
   nameWithType: "BaseResourceCollectionEnumerator<T>.getCurrent()"
   summary: "The current resource collection."
   syntax: "public T getCurrent()"
+  desc: "The current resource collection."
   returns:
     description: "The current resource collection."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"

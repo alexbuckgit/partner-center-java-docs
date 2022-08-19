@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerServiceRequestOperations.get()"
   summary: "Get Service Request By customer ID"
   syntax: "public ServiceRequest get()"
+  desc: "Get Service Request By customer ID"
   returns:
     description: "Service Request"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />"

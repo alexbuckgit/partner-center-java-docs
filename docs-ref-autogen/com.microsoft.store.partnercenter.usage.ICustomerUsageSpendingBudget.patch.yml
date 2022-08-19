@@ -14,6 +14,7 @@ members:
     name: "spendingBudget"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SpendingBudget?alt=com.microsoft.store.partnercenter.models.usage.SpendingBudget&text=SpendingBudget\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract SpendingBudget patch(SpendingBudget spendingBudget)"
+  desc: "Patches the customer's usage spending budget."
   returns:
     description: "The updated customer's usage spending budget."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SpendingBudget?alt=com.microsoft.store.partnercenter.models.usage.SpendingBudget&text=SpendingBudget\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomerLicensesAnalyticsCollection.getDeployment()"
   summary: "Gets the customer level licenses deployment analytics."
   syntax: "public abstract ICustomerLicensesDeploymentInsightsCollection getDeployment()"
+  desc: "Gets the customer level licenses deployment analytics."
   returns:
     description: "The customer level licenses deployment analytics"
     type: "<xref href=\"com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection?alt=com.microsoft.store.partnercenter.analytics.ICustomerLicensesDeploymentInsightsCollection&text=ICustomerLicensesDeploymentInsightsCollection\" data-throw-if-not-resolved=\"False\" />"

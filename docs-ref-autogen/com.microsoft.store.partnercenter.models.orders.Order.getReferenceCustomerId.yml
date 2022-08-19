@@ -10,6 +10,7 @@ members:
   nameWithType: "Order.getReferenceCustomerId()"
   summary: "Gets the reference customer identifier."
   syntax: "public String getReferenceCustomerId()"
+  desc: "Gets the reference customer identifier."
   returns:
     description: "The reference customer identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

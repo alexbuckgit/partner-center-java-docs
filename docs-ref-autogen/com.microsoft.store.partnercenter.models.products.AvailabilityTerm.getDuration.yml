@@ -10,6 +10,7 @@ members:
   nameWithType: "AvailabilityTerm.getDuration()"
   summary: "Gets the ISO standard representation of this term's duration."
   syntax: "public String getDuration()"
+  desc: "Gets the ISO standard representation of this term's duration."
   returns:
     description: "The ISO standard representation of this term's duration."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

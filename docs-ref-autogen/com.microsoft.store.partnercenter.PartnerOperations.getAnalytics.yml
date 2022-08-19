@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerOperations.getAnalytics()"
   summary: "Gets the analytics collection operations."
   syntax: "public IPartnerAnalyticsCollection getAnalytics()"
+  desc: "Gets the analytics collection operations."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection?alt=com.microsoft.store.partnercenter.analytics.IPartnerAnalyticsCollection&text=IPartnerAnalyticsCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

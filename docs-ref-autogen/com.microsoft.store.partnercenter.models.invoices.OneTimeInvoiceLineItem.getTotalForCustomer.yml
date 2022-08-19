@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getTotalForCustomer()"
   summary: "Gets the total amount after discount and tax."
   syntax: "public double getTotalForCustomer()"
+  desc: "Gets the total amount after discount and tax."
   returns:
     description: "The total amount after discount and tax."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "Reservation.getReservationId()"
   summary: "Gets the identifier for the reservation."
   syntax: "public String getReservationId()"
+  desc: "Gets the identifier for the reservation."
   returns:
     description: "The identifier for the reservation."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

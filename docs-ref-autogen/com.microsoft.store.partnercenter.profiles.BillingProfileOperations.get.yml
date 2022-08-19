@@ -10,6 +10,7 @@ members:
   nameWithType: "BillingProfileOperations.get()"
   summary: "Retrieves the partner billing profile."
   syntax: "public BillingProfile get()"
+  desc: "Retrieves the partner billing profile."
   returns:
     description: "The partner billing profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.BillingProfile?alt=com.microsoft.store.partnercenter.models.partners.BillingProfile&text=BillingProfile\" data-throw-if-not-resolved=\"False\" />"

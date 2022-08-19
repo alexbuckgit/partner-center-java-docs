@@ -17,6 +17,7 @@ members:
     name: "sortDirection"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.sort.SortDirection?alt=com.microsoft.store.partnercenter.models.query.sort.SortDirection&text=SortDirection\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Sort(String sortField, SortDirection sortDirection)"
+  desc: "Initializes a new instance of the Sort class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.query.sort"

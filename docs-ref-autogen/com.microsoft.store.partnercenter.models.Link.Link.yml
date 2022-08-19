@@ -19,6 +19,7 @@ members:
     name: "uri"
     type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Link(URI uri)"
+  desc: "Initializes a new instance of the Link class."
 - uid: "com.microsoft.store.partnercenter.models.Link.Link(java.net.URI,java.lang.String)"
   fullName: "com.microsoft.store.partnercenter.models.Link.Link(URI uri, String string)"
   name: "Link(URI uri, String string)"
@@ -45,6 +46,7 @@ members:
     name: "headers"
     type: "<xref href=\"java.util.Collection?alt=java.util.Collection&text=Collection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.KeyValuePair?alt=com.microsoft.store.partnercenter.models.utils.KeyValuePair&text=KeyValuePair\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
   syntax: "public Link(URI uri, String method, Collection<KeyValuePair<String,String>> headers)"
+  desc: "Initializes a new instance of the Link class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"

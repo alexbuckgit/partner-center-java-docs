@@ -11,6 +11,7 @@ members:
   summary: "Returns the billing provider"
   overridden: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getBillingProvider()"
   syntax: "public BillingProvider getBillingProvider()"
+  desc: "Returns the billing provider"
   returns:
     description: "The billing provider."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BillingProvider?alt=com.microsoft.store.partnercenter.models.invoices.BillingProvider&text=BillingProvider\" data-throw-if-not-resolved=\"False\" />"

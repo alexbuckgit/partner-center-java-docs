@@ -13,6 +13,7 @@ members:
   - name: "id"
     type: "<xref href=\"java.lang.Integer?alt=java.lang.Integer&text=Integer\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IOrderLineItem byId(Integer id)"
+  desc: "Gets the available order line item operations."
   returns:
     description: "The available order line item operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderLineItem?alt=com.microsoft.store.partnercenter.orders.IOrderLineItem&text=IOrderLineItem\" data-throw-if-not-resolved=\"False\" />"

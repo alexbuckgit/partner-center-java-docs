@@ -8,6 +8,7 @@ syntax: "public interface ICountryValidationRulesCollection extends IPartnerComp
 methods:
 - "com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRulesCollection.byCountry(java.lang.String)"
 type: "interface"
+desc: "Interface and Template for Country-Specific Rules for Validation"
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.store.partnercenter.genericoperations.ICountrySelector?alt=com.microsoft.store.partnercenter.genericoperations.ICountrySelector&text=ICountrySelector\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules?alt=com.microsoft.store.partnercenter.countryvalidationrules.ICountryValidationRules&text=ICountryValidationRules\" data-throw-if-not-resolved=\"False\" />&gt;"

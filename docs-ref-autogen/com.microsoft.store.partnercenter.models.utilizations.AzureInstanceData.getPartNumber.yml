@@ -10,6 +10,7 @@ members:
   nameWithType: "AzureInstanceData.getPartNumber()"
   summary: "Gets the unique namespace used to identify the resource for Azure Marketplace third party usage."
   syntax: "public String getPartNumber()"
+  desc: "Gets the unique namespace used to identify the resource for Azure Marketplace third party usage."
   returns:
     description: "The unique namespace used to identify the resource for Azure Marketplace third party usage."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

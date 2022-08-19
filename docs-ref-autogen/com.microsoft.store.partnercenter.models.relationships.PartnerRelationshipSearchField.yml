@@ -5,8 +5,8 @@ name: "PartnerRelationshipSearchField"
 nameWithType: "PartnerRelationshipSearchField"
 summary: "Lists the supported partner relationship search fields."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -38,6 +38,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -58,6 +59,7 @@ methods:
   syntax: "public static PartnerRelationshipSearchField[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipSearchField&text=PartnerRelationshipSearchField\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Lists the supported partner relationship search fields."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.relationships"
 artifact: com.microsoft.store:partnercenter:1.15.3

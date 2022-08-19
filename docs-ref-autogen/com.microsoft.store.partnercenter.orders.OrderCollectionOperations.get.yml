@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderCollectionOperations.get()"
   summary: "Retrieves all the orders the customer made."
   syntax: "public ResourceCollection<Order> get()"
+  desc: "Retrieves all the orders the customer made."
   returns:
     description: "All the customer orders."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -23,6 +24,7 @@ members:
     name: "includePrice"
     type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResourceCollection<Order> get(Boolean includePrice)"
+  desc: "Gets a collection of orders."
   returns:
     description: "The collection of orders including pricing details (based on access permissions) when requested."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />&gt;"

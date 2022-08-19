@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getPricingCurrency()"
   summary: "Gets the ISO currency in which the meter is charged in USD or catalog currency used for rating."
   syntax: "public String getPricingCurrency()"
+  desc: "Gets the ISO currency in which the meter is charged in USD or catalog currency used for rating."
   returns:
     description: "The ISO currency in which the meter is charged in USD or catalog currency used for rating."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

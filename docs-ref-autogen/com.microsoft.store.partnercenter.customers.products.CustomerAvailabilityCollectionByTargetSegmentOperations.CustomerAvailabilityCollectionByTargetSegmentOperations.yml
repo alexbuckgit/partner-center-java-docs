@@ -26,6 +26,7 @@ members:
     name: "targetSegment"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CustomerAvailabilityCollectionByTargetSegmentOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId, String targetSegment)"
+  desc: "Initializes a new instance of the CustomerAvailabilityCollectionByTargetSegmentOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.customers.products"

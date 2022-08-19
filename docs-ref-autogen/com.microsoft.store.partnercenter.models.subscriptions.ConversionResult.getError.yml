@@ -10,6 +10,7 @@ members:
   nameWithType: "ConversionResult.getError()"
   summary: "Gets the error encountered while attempting to perform the conversion, if applicable."
   syntax: "public ConversionError getError()"
+  desc: "Gets the error encountered while attempting to perform the conversion, if applicable."
   returns:
     description: "The error encountered while attempting to perform the conversion, if applicable."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.ConversionError?alt=com.microsoft.store.partnercenter.models.subscriptions.ConversionError&text=ConversionError\" data-throw-if-not-resolved=\"False\" />"

@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.getQuantity()"
   name: "getQuantity()"
   nameWithType: "Subscription.getQuantity()"
-  summary: "Gets the quantity for the subscription. In the case of seat based billing, this value is the seat count."
+  summary: "Gets the quantity for the subscription."
   syntax: "public int getQuantity()"
+  desc: "Gets the quantity for the subscription. In the case of seat based billing, this value is the seat count."
   returns:
     description: "The quantity for the subscription."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

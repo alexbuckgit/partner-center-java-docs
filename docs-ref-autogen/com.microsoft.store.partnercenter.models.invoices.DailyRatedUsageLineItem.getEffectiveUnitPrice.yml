@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getEffectiveUnitPrice()"
   summary: "Gets the effective unit price."
   syntax: "public double getEffectiveUnitPrice()"
+  desc: "Gets the effective unit price."
   returns:
     description: "The effective unit price."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

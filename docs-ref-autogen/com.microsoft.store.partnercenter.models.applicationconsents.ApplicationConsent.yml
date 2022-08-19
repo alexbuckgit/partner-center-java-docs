@@ -3,10 +3,10 @@ uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationCo
 fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent"
 name: "ApplicationConsent"
 nameWithType: "ApplicationConsent"
-summary: "The ApplicationConsent resource. Represents the enabled consents for an application."
+summary: "The ApplicationConsent resource."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -31,6 +31,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setApplicationId(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationConsent.setDisplayName(java.lang.String)"
 type: "class"
+desc: "The ApplicationConsent resource. Represents the enabled consents for an application."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.applicationconsents"
 artifact: com.microsoft.store:partnercenter:1.15.3

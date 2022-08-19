@@ -10,6 +10,7 @@ members:
   nameWithType: "BillingProfile.BillingProfile()"
   summary: "Initializes a new instance of the BillingProfile class."
   syntax: "public BillingProfile()"
+  desc: "Initializes a new instance of the BillingProfile class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.partners"

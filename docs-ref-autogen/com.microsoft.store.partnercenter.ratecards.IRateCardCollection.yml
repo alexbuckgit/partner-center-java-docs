@@ -8,6 +8,7 @@ syntax: "public interface IRateCardCollection extends IPartnerComponentString"
 methods:
 - "com.microsoft.store.partnercenter.ratecards.IRateCardCollection.getAzure()"
 type: "interface"
+desc: "Holds operations that apply to rate cards."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

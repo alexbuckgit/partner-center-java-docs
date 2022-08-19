@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartnerComponent<TContext>.getContext()"
   summary: "Gets the component context object."
   syntax: "public abstract TContext getContext()"
+  desc: "Gets the component context object."
   returns:
     description: "The component context object."
     type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"

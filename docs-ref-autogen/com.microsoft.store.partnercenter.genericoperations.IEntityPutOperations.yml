@@ -10,6 +10,7 @@ methods:
 type: "interface"
 typeParameters:
 - name: "T"
+desc: "Groups operations for updating a single entity."
 metadata: {}
 package: "com.microsoft.store.partnercenter.genericoperations"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -9,6 +9,7 @@ methods:
 - "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.create(com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest,java.lang.String)"
 - "com.microsoft.store.partnercenter.servicerequests.IPartnerServiceRequestCollection.getSupportTopics()"
 type: "interface"
+desc: "Represents the behavior of partner service requests."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection?alt=com.microsoft.store.partnercenter.servicerequests.IServiceRequestCollection&text=IServiceRequestCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

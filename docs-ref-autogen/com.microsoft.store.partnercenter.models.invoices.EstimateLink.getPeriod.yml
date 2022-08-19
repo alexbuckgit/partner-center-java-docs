@@ -10,6 +10,7 @@ members:
   nameWithType: "EstimateLink.getPeriod()"
   summary: "Gets the period associated with the estimate."
   syntax: "public String getPeriod()"
+  desc: "Gets the period associated with the estimate."
   returns:
     description: "The period associated with the estimate."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

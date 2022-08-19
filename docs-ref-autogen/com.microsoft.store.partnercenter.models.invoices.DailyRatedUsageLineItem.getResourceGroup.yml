@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getResourceGroup()"
   summary: "Gets the name of the resource group."
   syntax: "public String getResourceGroup()"
+  desc: "Gets the name of the resource group."
   returns:
     description: "The name of the resource group."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

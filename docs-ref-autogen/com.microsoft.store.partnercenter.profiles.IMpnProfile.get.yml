@@ -10,6 +10,7 @@ members:
   nameWithType: "IMpnProfile.get()"
   summary: "Retrieves the logged in partner's MPN profile."
   syntax: "public abstract MpnProfile get()"
+  desc: "Retrieves the logged in partner's MPN profile."
   returns:
     description: "The partner's MPN profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.MpnProfile?alt=com.microsoft.store.partnercenter.models.partners.MpnProfile&text=MpnProfile\" data-throw-if-not-resolved=\"False\" />"
@@ -23,6 +24,7 @@ members:
     name: "mpnId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract MpnProfile get(String mpnId)"
+  desc: "Retrieves a partner's MPN profile by MPN Id."
   returns:
     description: "The partner's MPN profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.MpnProfile?alt=com.microsoft.store.partnercenter.models.partners.MpnProfile&text=MpnProfile\" data-throw-if-not-resolved=\"False\" />"

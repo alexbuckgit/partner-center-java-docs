@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.subscriptions.SubscriptionOperations.getConversions()"
   name: "getConversions()"
   nameWithType: "SubscriptionOperations.getConversions()"
-  summary: "Gets the current subscription's conversion operations. These operations will only apply to trial subscriptions."
+  summary: "Gets the current subscription's conversion operations."
   syntax: "public ISubscriptionConversionCollection getConversions()"
+  desc: "Gets the current subscription's conversion operations. These operations will only apply to trial subscriptions."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionConversionCollection&text=ISubscriptionConversionCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

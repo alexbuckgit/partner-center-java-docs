@@ -10,6 +10,7 @@ members:
   nameWithType: "IEntityGetOperations<T>.get()"
   summary: "Retrieves an entity."
   syntax: "public abstract T get()"
+  desc: "Retrieves an entity."
   returns:
     description: "The entity."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"

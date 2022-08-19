@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItem.getSubscriptionId()"
   summary: "Gets the resulting subscription identifier."
   syntax: "public String getSubscriptionId()"
+  desc: "Gets the resulting subscription identifier."
   returns:
     description: "The resulting subscription identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

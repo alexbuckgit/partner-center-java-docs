@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setEffectiveUnitPrice(double value)"
+  desc: "Sets the effective unit price."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.invoices"

@@ -13,6 +13,7 @@ members:
   - name: "value"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setToken(Object value)"
+  desc: "Sets the query token."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.query"

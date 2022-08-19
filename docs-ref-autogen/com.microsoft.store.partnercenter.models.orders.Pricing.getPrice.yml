@@ -10,6 +10,7 @@ members:
   nameWithType: "Pricing.getPrice()"
   summary: "Gets the price for the order line item."
   syntax: "public Double getPrice()"
+  desc: "Gets the price for the order line item."
   returns:
     description: "The price for the order line item."
     type: "<xref href=\"java.lang.Double?alt=java.lang.Double&text=Double\" data-throw-if-not-resolved=\"False\" />"

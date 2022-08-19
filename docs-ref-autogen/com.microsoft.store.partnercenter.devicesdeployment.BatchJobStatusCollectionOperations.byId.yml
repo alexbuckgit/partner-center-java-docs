@@ -14,6 +14,7 @@ members:
     name: "trackingId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IBatchJobStatus byId(String trackingId)"
+  desc: "Retrieves a specific customer's devices batch upload status operations."
   returns:
     description: "The customer's devices batch upload status operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus?alt=com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus&text=IBatchJobStatus\" data-throw-if-not-resolved=\"False\" />"

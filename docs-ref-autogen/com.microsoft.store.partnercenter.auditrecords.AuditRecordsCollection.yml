@@ -3,11 +3,11 @@ uid: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection"
 fullName: "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection"
 name: "AuditRecordsCollection"
 nameWithType: "AuditRecordsCollection"
-summary: "An Implementation of `IAuditRecordsCollection` for handling common partner component properties and behavior. See parent class `BasePartnerComponentString` for additional details."
+summary: "An Implementation of `IAuditRecordsCollection` for handling common partner component properties and behavior."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -28,6 +28,7 @@ constructors:
 methods:
 - "com.microsoft.store.partnercenter.auditrecords.AuditRecordsCollection.query(org.joda.time.DateTime,org.joda.time.DateTime,com.microsoft.store.partnercenter.models.query.IQuery)"
 type: "class"
+desc: "An Implementation of `IAuditRecordsCollection` for handling common partner component properties and behavior. See parent class `BasePartnerComponentString` for additional details."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection?alt=com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection&text=IAuditRecordsCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

@@ -10,6 +10,7 @@ members:
   nameWithType: "SupportProfileOperations.get()"
   summary: "Retrieves the partner support profile."
   syntax: "public SupportProfile get()"
+  desc: "Retrieves the partner support profile."
   returns:
     description: "The partner support profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.SupportProfile?alt=com.microsoft.store.partnercenter.models.partners.SupportProfile&text=SupportProfile\" data-throw-if-not-resolved=\"False\" />"

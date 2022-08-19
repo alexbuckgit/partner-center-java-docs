@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomerUser.delete()"
   summary: "Deletes a user."
   syntax: "public abstract void delete()"
+  desc: "Deletes a user."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.customerusers"

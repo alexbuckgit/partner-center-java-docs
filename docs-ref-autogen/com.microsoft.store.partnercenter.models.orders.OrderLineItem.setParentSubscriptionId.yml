@@ -8,12 +8,13 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.setParentSubscriptionId(String value)"
   name: "setParentSubscriptionId(String value)"
   nameWithType: "OrderLineItem.setParentSubscriptionId(String value)"
-  summary: "Sets the parent subscription identifier. This parameter should only be set for add-on offer purchase applies to order updates only."
+  summary: "Sets the parent subscription identifier."
   parameters:
   - description: "The parent subscription identifier."
     name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setParentSubscriptionId(String value)"
+  desc: "Sets the parent subscription identifier. This parameter should only be set for add-on offer purchase applies to order updates only."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.orders"

@@ -5,7 +5,7 @@ name: "CurrencyInfo"
 nameWithType: "CurrencyInfo"
 summary: "Class that represents the currency related information."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -27,6 +27,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.setCode(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.products.CurrencyInfo.setSymbol(java.lang.String)"
 type: "class"
+desc: "Class that represents the currency related information."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"
 artifact: com.microsoft.store:partnercenter:1.15.3

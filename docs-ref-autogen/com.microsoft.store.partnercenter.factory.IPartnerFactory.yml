@@ -8,6 +8,7 @@ syntax: "public interface IPartnerFactory"
 methods:
 - "com.microsoft.store.partnercenter.factory.IPartnerFactory.build(com.microsoft.store.partnercenter.IPartnerCredentials)"
 type: "interface"
+desc: "Creates instances of <xref uid=\"com.microsoft.store.partnercenter.IPartner\" data-throw-if-not-resolved=\"false\" data-raw-source=\"com.microsoft.store.partnercenter.IPartner\"></xref>."
 metadata: {}
 package: "com.microsoft.store.partnercenter.factory"
 artifact: com.microsoft.store:partnercenter:1.15.3

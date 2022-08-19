@@ -5,7 +5,7 @@ name: "PartnerOperations"
 nameWithType: "PartnerOperations"
 summary: "The partner implementation class."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -47,6 +47,7 @@ methods:
 - "com.microsoft.store.partnercenter.PartnerOperations.getUsageSummary()"
 - "com.microsoft.store.partnercenter.PartnerOperations.getValidations()"
 type: "class"
+desc: "The partner implementation class."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

@@ -10,6 +10,7 @@ members:
   nameWithType: "ServiceCostsCollectionOperations.getSummary()"
   summary: "Gets the customer's service cost summary."
   syntax: "public IServiceCostSummary getSummary()"
+  desc: "Gets the customer's service cost summary."
   returns:
     description: "The customer's service cost summary."
     type: "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostSummary&text=IServiceCostSummary\" data-throw-if-not-resolved=\"False\" />"

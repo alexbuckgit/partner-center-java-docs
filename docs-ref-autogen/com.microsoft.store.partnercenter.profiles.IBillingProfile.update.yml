@@ -14,6 +14,7 @@ members:
     name: "billingProfile"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.BillingProfile?alt=com.microsoft.store.partnercenter.models.partners.BillingProfile&text=BillingProfile\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract BillingProfile update(BillingProfile billingProfile)"
+  desc: "Updates the partner's billing profile."
   returns:
     description: "The updated billing profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.partners.BillingProfile?alt=com.microsoft.store.partnercenter.models.partners.BillingProfile&text=BillingProfile\" data-throw-if-not-resolved=\"False\" />"

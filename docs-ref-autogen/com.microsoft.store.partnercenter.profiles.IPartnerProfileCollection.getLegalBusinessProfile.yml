@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartnerProfileCollection.getLegalBusinessProfile()"
   summary: "Gets the operations available for the legal business profile."
   syntax: "public abstract ILegalBusinessProfile getLegalBusinessProfile()"
+  desc: "Gets the operations available for the legal business profile."
   returns:
     description: "The operations available for the legal business profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile?alt=com.microsoft.store.partnercenter.profiles.ILegalBusinessProfile&text=ILegalBusinessProfile\" data-throw-if-not-resolved=\"False\" />"

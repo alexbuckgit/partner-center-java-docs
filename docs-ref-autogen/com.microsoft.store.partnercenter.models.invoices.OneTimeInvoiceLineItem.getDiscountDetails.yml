@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getDiscountDetails()"
   summary: "Gets the discount details associated with this purchase."
   syntax: "@Deprecated\npublic String getDiscountDetails()"
+  desc: "Gets the discount details associated with this purchase."
   returns:
     description: "The discount details associated with this purchase."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

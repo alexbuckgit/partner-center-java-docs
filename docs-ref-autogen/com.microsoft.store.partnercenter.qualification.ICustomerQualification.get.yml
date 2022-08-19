@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomerQualification.get()"
   summary: "Retrieves the customer qualification."
   syntax: "public abstract CustomerQualification get()"
+  desc: "Retrieves the customer qualification."
   returns:
     description: "Customer Qualification."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />"

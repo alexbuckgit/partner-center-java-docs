@@ -5,8 +5,8 @@ name: "CustomerProductCollectionByTargetViewByTargetSegmentOperations"
 nameWithType: "CustomerProductCollectionByTargetViewByTargetSegmentOperations"
 summary: "Implements the product operations by customer, target segment, and target view."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -28,6 +28,7 @@ methods:
 - "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations.byReservationScope(java.lang.String)"
 - "com.microsoft.store.partnercenter.customers.products.CustomerProductCollectionByTargetViewByTargetSegmentOperations.get()"
 type: "class"
+desc: "Implements the product operations by customer, target segment, and target view."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegment&text=ICustomerProductCollectionByTargetViewByTargetSegment\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

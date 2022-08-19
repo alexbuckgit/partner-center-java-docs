@@ -10,6 +10,7 @@ members:
   nameWithType: "SubscriptionActivationResult.getSubscriptionId()"
   summary: "Gets the subscription identifier."
   syntax: "public String getSubscriptionId()"
+  desc: "Gets the subscription identifier."
   returns:
     description: "The identifier for the subscription."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

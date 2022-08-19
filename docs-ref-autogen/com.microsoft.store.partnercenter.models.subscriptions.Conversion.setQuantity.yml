@@ -8,12 +8,13 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion.setQuantity(int value)"
   name: "setQuantity(int value)"
   nameWithType: "Conversion.setQuantity(int value)"
-  summary: "Sets the quantity to be purchased. Defaults to the source subscription quantity."
+  summary: "Sets the quantity to be purchased."
   parameters:
   - description: "The quantity to be purchased. Defaults to the source subscription quantity."
     name: "value"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setQuantity(int value)"
+  desc: "Sets the quantity to be purchased. Defaults to the source subscription quantity."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"

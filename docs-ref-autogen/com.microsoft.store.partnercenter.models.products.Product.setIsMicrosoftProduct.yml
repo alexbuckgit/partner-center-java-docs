@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setIsMicrosoftProduct(boolean value)"
+  desc: "Sets a flag indicating whether this is a Microsoft product or not."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"

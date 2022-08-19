@@ -10,6 +10,7 @@ members:
   nameWithType: "IEntityDeleteOperations<T>.delete()"
   summary: "Deletes an entity."
   syntax: "public abstract void delete()"
+  desc: "Deletes an entity."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.genericoperations"

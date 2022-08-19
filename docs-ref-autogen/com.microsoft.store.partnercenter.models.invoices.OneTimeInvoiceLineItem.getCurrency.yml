@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getCurrency()"
   summary: "Gets the currency used for this line item."
   syntax: "public String getCurrency()"
+  desc: "Gets the currency used for this line item."
   returns:
     description: "The currency used for this line item."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

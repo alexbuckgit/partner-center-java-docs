@@ -10,6 +10,7 @@ members:
   nameWithType: "IRateCardCollection.getAzure()"
   summary: "Gets the Azure rate card operations."
   syntax: "public abstract IAzureRateCard getAzure()"
+  desc: "Gets the Azure rate card operations."
   returns:
     description: "The Azure rate card operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.ratecards.IAzureRateCard?alt=com.microsoft.store.partnercenter.ratecards.IAzureRateCard&text=IAzureRateCard\" data-throw-if-not-resolved=\"False\" />"

@@ -23,6 +23,7 @@ members:
     name: "deviceId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public DeviceOperations(IPartner rootPartnerOperations, String customerId, String deviceBatchId, String deviceId)"
+  desc: "Initializes a new instance of the DeviceOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.devicesdeployment"

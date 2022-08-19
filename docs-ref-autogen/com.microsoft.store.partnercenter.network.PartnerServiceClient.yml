@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.network.PartnerServiceClient"
 name: "PartnerServiceClient"
 nameWithType: "PartnerServiceClient"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.rest.ServiceClient\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.rest.ServiceClient?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.rest.ServiceClient.httpClient()"
 - "com.microsoft.rest.ServiceClient.restClient()"

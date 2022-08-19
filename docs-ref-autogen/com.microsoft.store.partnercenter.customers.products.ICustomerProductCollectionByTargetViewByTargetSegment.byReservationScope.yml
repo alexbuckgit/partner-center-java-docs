@@ -14,6 +14,7 @@ members:
     name: "reservationScope"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope byReservationScope(String reservationScope)"
+  desc: "Gets the operations that can be applied on customer products filtered by a specific reservation scope."
   returns:
     description: "The customer products collection operations by reservation scope."
     type: "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope&text=ICustomerProductCollectionByTargetViewByTargetSegmentByReservationScope\" data-throw-if-not-resolved=\"False\" />"

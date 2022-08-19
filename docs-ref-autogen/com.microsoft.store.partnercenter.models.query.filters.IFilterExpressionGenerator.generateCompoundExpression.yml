@@ -20,6 +20,7 @@ members:
     name: "rightSideExpression"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract String generateCompoundExpression(String leftSideExpression, FieldFilterOperation operation, String rightSideExpression)"
+  desc: "Generates a compound filter expression (A equals 5 and (B equals 8 or C notEquals 0))"
   returns:
     description: "The filter expression."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -5,8 +5,8 @@ name: "BatchJobStatusOperations"
 nameWithType: "BatchJobStatusOperations"
 summary: "Cart collection operations implementation class."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -27,6 +27,7 @@ constructors:
 methods:
 - "com.microsoft.store.partnercenter.devicesdeployment.BatchJobStatusOperations.get()"
 type: "class"
+desc: "Cart collection operations implementation class."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus?alt=com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus&text=IBatchJobStatus\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

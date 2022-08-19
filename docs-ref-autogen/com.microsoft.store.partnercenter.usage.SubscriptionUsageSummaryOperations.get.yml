@@ -10,6 +10,7 @@ members:
   nameWithType: "SubscriptionUsageSummaryOperations.get()"
   summary: "Gets the subscription usage summary."
   syntax: "public SubscriptionUsageSummary get()"
+  desc: "Gets the subscription usage summary."
   returns:
     description: "The subscription usage summary."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary?alt=com.microsoft.store.partnercenter.models.usage.SubscriptionUsageSummary&text=SubscriptionUsageSummary\" data-throw-if-not-resolved=\"False\" />"

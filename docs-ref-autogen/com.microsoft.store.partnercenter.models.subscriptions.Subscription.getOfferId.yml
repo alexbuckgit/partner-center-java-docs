@@ -10,6 +10,7 @@ members:
   nameWithType: "Subscription.getOfferId()"
   summary: "Gets the offer identifier that created the subscription."
   syntax: "public String getOfferId()"
+  desc: "Gets the offer identifier that created the subscription."
   returns:
     description: "The offer identifier that created the subscription."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

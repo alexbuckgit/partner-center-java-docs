@@ -5,7 +5,7 @@ name: "ProductUpgradeErrorDetail"
 nameWithType: "ProductUpgradeErrorDetail"
 summary: "Represents error details for a product upgrade."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -27,6 +27,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeErrorDetail.setCode(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeErrorDetail.setDescription(java.lang.String)"
 type: "class"
+desc: "Represents error details for a product upgrade."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.productupgrades"
 artifact: com.microsoft.store:partnercenter:1.15.3

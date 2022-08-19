@@ -10,6 +10,7 @@ members:
   nameWithType: "Subscription.getIsMicrosoftProduct()"
   summary: "Gets a flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product."
   syntax: "public boolean getIsMicrosoftProduct()"
+  desc: "Gets a flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product."
   returns:
     description: "A flag indicating whether gets or sets the value indicating that the subscription is a Microsoft product."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

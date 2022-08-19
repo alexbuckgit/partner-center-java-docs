@@ -10,6 +10,7 @@ members:
   nameWithType: "IOrderLineItem.getActivationLink()"
   summary: "Gets the available customer order line item activation link operations."
   syntax: "public abstract IOrderLineItemActivationLink getActivationLink()"
+  desc: "Gets the available customer order line item activation link operations."
   returns:
     description: "The available customer order line item activation link operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink?alt=com.microsoft.store.partnercenter.orders.IOrderLineItemActivationLink&text=IOrderLineItemActivationLink\" data-throw-if-not-resolved=\"False\" />"

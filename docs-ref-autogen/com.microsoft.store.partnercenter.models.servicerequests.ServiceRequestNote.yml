@@ -5,7 +5,7 @@ name: "ServiceRequestNote"
 nameWithType: "ServiceRequestNote"
 summary: "Represents a Service Request Note class"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -29,6 +29,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setCreatedDate(org.joda.time.DateTime)"
 - "com.microsoft.store.partnercenter.models.servicerequests.ServiceRequestNote.setText(java.lang.String)"
 type: "class"
+desc: "Represents a Service Request Note class"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.servicerequests"
 artifact: com.microsoft.store:partnercenter:1.15.3

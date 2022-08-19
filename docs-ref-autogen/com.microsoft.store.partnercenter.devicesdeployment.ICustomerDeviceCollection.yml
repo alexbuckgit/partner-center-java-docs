@@ -8,6 +8,7 @@ syntax: "public interface ICustomerDeviceCollection extends IPartnerComponentStr
 methods:
 - "com.microsoft.store.partnercenter.devicesdeployment.ICustomerDeviceCollection.update(com.microsoft.store.partnercenter.models.devicesdeployment.DevicePolicyUpdateRequest)"
 type: "interface"
+desc: "Represents the operations that can be done on the partner's devices."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

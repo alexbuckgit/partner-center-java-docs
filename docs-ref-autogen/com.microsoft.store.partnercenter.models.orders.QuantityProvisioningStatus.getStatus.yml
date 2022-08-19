@@ -10,6 +10,7 @@ members:
   nameWithType: "QuantityProvisioningStatus.getStatus()"
   summary: "Gets the provisioning status."
   syntax: "public String getStatus()"
+  desc: "Gets the provisioning status."
   returns:
     description: "The provisioning status."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -14,6 +14,7 @@ members:
     name: "customerProfile"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract T update(T customerProfile)"
+  desc: "Updates the customer profile."
   returns:
     description: "The updated customer profile."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"

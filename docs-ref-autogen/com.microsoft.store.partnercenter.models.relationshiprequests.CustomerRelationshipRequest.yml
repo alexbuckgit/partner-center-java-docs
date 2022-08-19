@@ -5,8 +5,8 @@ name: "CustomerRelationshipRequest"
 nameWithType: "CustomerRelationshipRequest"
 summary: "Represents a customer relationship request with a partner."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -27,6 +27,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest.getUrl()"
 - "com.microsoft.store.partnercenter.models.relationshiprequests.CustomerRelationshipRequest.setUrl(java.net.URI)"
 type: "class"
+desc: "Represents a customer relationship request with a partner."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.relationshiprequests"
 artifact: com.microsoft.store:partnercenter:1.15.3

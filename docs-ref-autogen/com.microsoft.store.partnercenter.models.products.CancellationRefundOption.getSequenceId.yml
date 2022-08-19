@@ -10,6 +10,7 @@ members:
   nameWithType: "CancellationRefundOption.getSequenceId()"
   summary: "Gets the identifier that represents the position of this refund option (relative to other sibling refund options)."
   syntax: "public String getSequenceId()"
+  desc: "Gets the identifier that represents the position of this refund option (relative to other sibling refund options)."
   returns:
     description: "The identifier that represents the position of this refund option (relative to other sibling refund options)."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"java.util.Locale?alt=java.util.Locale&text=Locale\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setCurrencyLocale(Locale value)"
+  desc: "Sets the locale of the currency."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.usage"

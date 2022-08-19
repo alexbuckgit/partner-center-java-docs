@@ -10,6 +10,7 @@ members:
   nameWithType: "ValidationCode.getMaxCreates()"
   summary: "Gets the maximum number of customer creates for this code."
   syntax: "public int getMaxCreates()"
+  desc: "Gets the maximum number of customer creates for this code."
   returns:
     description: "The maximum number of customer creates for this code."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

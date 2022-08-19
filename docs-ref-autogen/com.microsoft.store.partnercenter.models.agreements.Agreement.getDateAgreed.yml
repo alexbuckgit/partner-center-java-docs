@@ -10,6 +10,7 @@ members:
   nameWithType: "Agreement.getDateAgreed()"
   summary: "Gets the date the agreement was signed."
   syntax: "public DateTime getDateAgreed()"
+  desc: "Gets the date the agreement was signed."
   returns:
     description: "The date the agreement was signed."
     type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"

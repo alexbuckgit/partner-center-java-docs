@@ -3,13 +3,14 @@ uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
 name: "IEntityGetOperations<T>"
 nameWithType: "IEntityGetOperations<T>"
-summary: "Groups operations for getting a single entity. The entity type."
+summary: "Groups operations for getting a single entity."
 syntax: "public interface IEntityGetOperations<T>"
 methods:
 - "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()"
 type: "interface"
 typeParameters:
 - name: "T"
+desc: "Groups operations for getting a single entity. The entity type."
 metadata: {}
 package: "com.microsoft.store.partnercenter.genericoperations"
 artifact: com.microsoft.store:partnercenter:1.15.3

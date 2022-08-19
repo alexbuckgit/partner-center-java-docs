@@ -17,6 +17,7 @@ members:
     name: "domain"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected DomainOperations(IPartner rootPartnerOperations, String domain)"
+  desc: "Initializes a new instance of the DomainOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.domains"

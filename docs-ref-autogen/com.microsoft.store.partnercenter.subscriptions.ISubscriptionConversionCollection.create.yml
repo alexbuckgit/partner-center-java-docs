@@ -14,6 +14,7 @@ members:
     name: "conversion"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Conversion?alt=com.microsoft.store.partnercenter.models.subscriptions.Conversion&text=Conversion\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ConversionResult create(Conversion conversion)"
+  desc: "Submits a trial subscription conversion."
   returns:
     description: "The customer subscription usage record."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.ConversionResult?alt=com.microsoft.store.partnercenter.models.subscriptions.ConversionResult&text=ConversionResult\" data-throw-if-not-resolved=\"False\" />"

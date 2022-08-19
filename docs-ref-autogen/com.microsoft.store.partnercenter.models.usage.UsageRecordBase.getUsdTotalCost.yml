@@ -10,6 +10,7 @@ members:
   nameWithType: "UsageRecordBase.getUsdTotalCost()"
   summary: "Gets the estimated total cost of usage in USD."
   syntax: "public double getUsdTotalCost()"
+  desc: "Gets the estimated total cost of usage in USD."
   returns:
     description: "The estimated total cost of usage in USD."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

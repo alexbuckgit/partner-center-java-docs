@@ -10,6 +10,7 @@ members:
   nameWithType: "AgreementSignatureStatus.getIsAgreementSigned()"
   summary: "Gets a value indicating whether agreement is signed."
   syntax: "public boolean getIsAgreementSigned()"
+  desc: "Gets a value indicating whether agreement is signed."
   returns:
     description: "A value indicating whether agreement is signed."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

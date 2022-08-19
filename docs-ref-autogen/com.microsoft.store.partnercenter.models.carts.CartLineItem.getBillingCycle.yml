@@ -10,6 +10,7 @@ members:
   nameWithType: "CartLineItem.getBillingCycle()"
   summary: "Gets the type of billing cycle for the selected catalog item."
   syntax: "public BillingCycleType getBillingCycle()"
+  desc: "Gets the type of billing cycle for the selected catalog item."
   returns:
     description: "The type of billing cycle for the selected catalog item."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.products.BillingCycleType?alt=com.microsoft.store.partnercenter.models.products.BillingCycleType&text=BillingCycleType\" data-throw-if-not-resolved=\"False\" />"

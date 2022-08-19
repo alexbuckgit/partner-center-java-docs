@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomerOfferCategoryCollection.get()"
   summary: "Retrieves all the offer categories for the provided customer."
   syntax: "public abstract ResourceCollection<OfferCategory> get()"
+  desc: "Retrieves all the offer categories for the provided customer."
   returns:
     description: "The offer categories for the provided customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.OfferCategory?alt=com.microsoft.store.partnercenter.models.offers.OfferCategory&text=OfferCategory\" data-throw-if-not-resolved=\"False\" />&gt;"

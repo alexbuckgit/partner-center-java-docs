@@ -23,6 +23,7 @@ members:
     name: "responseType"
     type: "<xref href=\"com.fasterxml.jackson.core.type.TypeReference?alt=com.fasterxml.jackson.core.type.TypeReference&text=TypeReference\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public IndexBasedCollectionEnumerator(IPartner partnerOperations, TResourceCollection pagedResourceCollection, ObjectMapper resourceCollectionConverter, TypeReference<TResourceCollection> responseType)"
+  desc: "Initializes a new instance of the IndexBasedCollectionEnumerator class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.enumerators"

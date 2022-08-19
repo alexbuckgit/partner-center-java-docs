@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getResellerMpnId()"
   summary: "Gets the MPN identifier of the indirect reseller."
   syntax: "public String getResellerMpnId()"
+  desc: "Gets the MPN identifier of the indirect reseller."
   returns:
     description: "The MPN identifier of the indirect reseller."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

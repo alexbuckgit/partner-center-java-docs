@@ -20,6 +20,7 @@ members:
     name: "userId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CustomerUserLicenseUpdateOperations(IPartner rootPartnerOperations, String customerId, String userId)"
+  desc: "Initializes a new instance of the CustomerUserLicenseUpdateOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.customerusers"

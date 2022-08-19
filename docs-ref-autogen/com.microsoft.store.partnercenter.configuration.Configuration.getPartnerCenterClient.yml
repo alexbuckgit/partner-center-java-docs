@@ -10,6 +10,7 @@ members:
   nameWithType: "Configuration.getPartnerCenterClient()"
   summary: "Gets or sets the Partner Center client name."
   syntax: "public String getPartnerCenterClient()"
+  desc: "Gets or sets the Partner Center client name."
   returns:
     description: "The Partner Center client name."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

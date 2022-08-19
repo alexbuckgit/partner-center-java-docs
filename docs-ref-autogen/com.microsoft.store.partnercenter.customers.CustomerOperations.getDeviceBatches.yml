@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerOperations.getDeviceBatches()"
   summary: "Obtains the devices batches behavior of the customer."
   syntax: "public IDevicesBatchCollection getDeviceBatches()"
+  desc: "Obtains the devices batches behavior of the customer."
   returns:
     description: "The devices batches behavior of the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection?alt=com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatchCollection&text=IDevicesBatchCollection\" data-throw-if-not-resolved=\"False\" />"

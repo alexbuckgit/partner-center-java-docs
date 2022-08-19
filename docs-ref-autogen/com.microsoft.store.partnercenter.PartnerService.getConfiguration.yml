@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerService.getConfiguration()"
   summary: "Gets the partner service configuration."
   syntax: "public Configuration getConfiguration()"
+  desc: "Gets the partner service configuration."
   returns:
     description: "The partner service configuration."
     type: "<xref href=\"com.microsoft.store.partnercenter.configuration.Configuration?alt=com.microsoft.store.partnercenter.configuration.Configuration&text=Configuration\" data-throw-if-not-resolved=\"False\" />"

@@ -14,6 +14,7 @@ members:
     name: "newCustomerUser"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CustomerUser create(CustomerUser newCustomerUser)"
+  desc: "Creates a new user."
   returns:
     description: "The newly created user."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />"

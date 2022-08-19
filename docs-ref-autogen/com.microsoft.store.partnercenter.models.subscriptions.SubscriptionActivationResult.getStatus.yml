@@ -10,6 +10,7 @@ members:
   nameWithType: "SubscriptionActivationResult.getStatus()"
   summary: "Gets the status for the activation."
   syntax: "public String getStatus()"
+  desc: "Gets the status for the activation."
   returns:
     description: "The status for the activation."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

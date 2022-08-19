@@ -3,12 +3,12 @@ uid: "com.microsoft.store.partnercenter.exception.PartnerException"
 fullName: "com.microsoft.store.partnercenter.exception.PartnerException"
 name: "PartnerException"
 nameWithType: "PartnerException"
-summary: "The standard exception thrown by the partner SDK. This pertains to errors accessing the partner service. Other standard exceptions such as null argument exceptions will also be thrown in case of malformed input."
+summary: "The standard exception thrown by the partner SDK."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Throwable\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Exception\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.RuntimeException\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Throwable?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Exception?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.RuntimeException?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -52,6 +52,7 @@ methods:
 - "com.microsoft.store.partnercenter.exception.PartnerException.setServiceErrorPayload(com.microsoft.store.partnercenter.models.ApiFault)"
 - "com.microsoft.store.partnercenter.exception.PartnerException.toString()"
 type: "class"
+desc: "The standard exception thrown by the partner SDK. This pertains to errors accessing the partner service. Other standard exceptions such as null argument exceptions will also be thrown in case of malformed input."
 metadata: {}
 package: "com.microsoft.store.partnercenter.exception"
 artifact: com.microsoft.store:partnercenter:1.15.3

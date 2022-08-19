@@ -5,8 +5,8 @@ name: "SubscriptionProvisioningStatus"
 nameWithType: "SubscriptionProvisioningStatus"
 summary: "The subscription provisioning status details."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -33,6 +33,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setSkuId(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionProvisioningStatus.setStatus(com.microsoft.store.partnercenter.models.subscriptions.ProvisioningStatus)"
 type: "class"
+desc: "The subscription provisioning status details."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

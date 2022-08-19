@@ -14,6 +14,7 @@ members:
     name: "country"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IProductExtensionsByCountry byCountry(String country)"
+  desc: "Retrieves the extension operations that can be applied on products from a given country."
   returns:
     description: "The product extensions operations by country."
     type: "<xref href=\"com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry?alt=com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry&text=IProductExtensionsByCountry\" data-throw-if-not-resolved=\"False\" />"

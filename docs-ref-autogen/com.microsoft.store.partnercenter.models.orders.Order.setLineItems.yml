@@ -8,12 +8,13 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.orders.Order.setLineItems(Iterable<OrderLineItem> value)"
   name: "setLineItems(Iterable<OrderLineItem> value)"
   nameWithType: "Order.setLineItems(Iterable<OrderLineItem> value)"
-  summary: "Sets the order line items. Each order line item refers to one offer purchase data."
+  summary: "Sets the order line items."
   parameters:
   - description: "The order line items. Each order line item refers to one offer purchase data."
     name: "value"
     type: "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.orders.OrderLineItem?alt=com.microsoft.store.partnercenter.models.orders.OrderLineItem&text=OrderLineItem\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public void setLineItems(Iterable<OrderLineItem> value)"
+  desc: "Sets the order line items. Each order line item refers to one offer purchase data."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.orders"

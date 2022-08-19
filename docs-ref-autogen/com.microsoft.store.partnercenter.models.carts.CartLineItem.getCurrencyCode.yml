@@ -10,6 +10,7 @@ members:
   nameWithType: "CartLineItem.getCurrencyCode()"
   summary: "Gets the currency code."
   syntax: "public String getCurrencyCode()"
+  desc: "Gets the currency code."
   returns:
     description: "The currency code."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

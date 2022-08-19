@@ -23,6 +23,7 @@ members:
     name: "lineItemNumber"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public OrderLineItemOperations(IPartner rootPartnerOperations, String customerId, String orderId, int lineItemNumber)"
+  desc: "Initializes a new instance of the OrderLineItemOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.orders"

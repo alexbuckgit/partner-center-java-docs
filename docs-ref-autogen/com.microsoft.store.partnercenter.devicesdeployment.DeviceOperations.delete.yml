@@ -10,6 +10,7 @@ members:
   nameWithType: "DeviceOperations.delete()"
   summary: "Deletes a device associated to the customer."
   syntax: "public void delete()"
+  desc: "Deletes a device associated to the customer."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.devicesdeployment"

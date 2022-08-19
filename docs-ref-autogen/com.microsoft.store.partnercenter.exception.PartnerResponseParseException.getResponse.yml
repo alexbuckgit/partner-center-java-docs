@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerResponseParseException.getResponse()"
   summary: "Gets the HTTP response payload that could not be parsed."
   syntax: "public String getResponse()"
+  desc: "Gets the HTTP response payload that could not be parsed."
   returns:
     description: "The HTTP response payload that could not be parsed."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerServiceRequestCollectionOperations.getSupportTopics()"
   summary: "Retrieves a collection of operations that can be performed on support topics."
   syntax: "public ISupportTopicsCollection getSupportTopics()"
+  desc: "Retrieves a collection of operations that can be performed on support topics."
   returns:
     description: "a collection of operations that can be performed on support topics."
     type: "<xref href=\"com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection?alt=com.microsoft.store.partnercenter.servicerequests.ISupportTopicsCollection&text=ISupportTopicsCollection\" data-throw-if-not-resolved=\"False\" />"

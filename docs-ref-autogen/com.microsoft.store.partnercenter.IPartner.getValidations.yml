@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartner.getValidations()"
   summary: "Gets the validation operations available to the partner."
   syntax: "public abstract IValidationOperations getValidations()"
+  desc: "Gets the validation operations available to the partner."
   returns:
     description: "The validation operations available to the partner."
     type: "<xref href=\"com.microsoft.store.partnercenter.validations.IValidationOperations?alt=com.microsoft.store.partnercenter.validations.IValidationOperations&text=IValidationOperations\" data-throw-if-not-resolved=\"False\" />"

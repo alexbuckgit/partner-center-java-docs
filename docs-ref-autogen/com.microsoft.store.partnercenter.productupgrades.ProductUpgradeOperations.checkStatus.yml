@@ -14,6 +14,7 @@ members:
     name: "productUpgradeRequest"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest&text=ProductUpgradeRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ProductUpgradeStatus checkStatus(ProductUpgradeRequest productUpgradeRequest)"
+  desc: "Checks the product upgrade status"
   returns:
     description: "The status of the product upgrade."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeStatus?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeStatus&text=ProductUpgradeStatus\" data-throw-if-not-resolved=\"False\" />"

@@ -5,9 +5,9 @@ name: "AzureResourceMonthlyUsageRecord"
 nameWithType: "AzureResourceMonthlyUsageRecord"
 summary: "Defines the monthly usage record for an Azure subscription resource."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
@@ -48,6 +48,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setSubcategory(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.usage.AzureResourceMonthlyUsageRecord.setUnit(java.lang.String)"
 type: "class"
+desc: "Defines the monthly usage record for an Azure subscription resource."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.usage"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getPriceAdjustmentDescription()"
   summary: "Gets the description for the pricing adjustment."
   syntax: "public String getPriceAdjustmentDescription()"
+  desc: "Gets the description for the pricing adjustment."
   returns:
     description: "The description for the pricing adjustment."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

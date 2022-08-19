@@ -10,6 +10,7 @@ members:
   nameWithType: "IReceipt.getDocuments()"
   summary: "Gets the available document operations."
   syntax: "public abstract IReceiptDocuments getDocuments()"
+  desc: "Gets the available document operations."
   returns:
     description: "The available document operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IReceiptDocuments?alt=com.microsoft.store.partnercenter.invoices.IReceiptDocuments&text=IReceiptDocuments\" data-throw-if-not-resolved=\"False\" />"

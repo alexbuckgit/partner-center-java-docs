@@ -5,7 +5,7 @@ name: "AvailabilityTerm"
 nameWithType: "AvailabilityTerm"
 summary: "Represents the terms for an availability."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -31,6 +31,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setDuration(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.products.AvailabilityTerm.setRenewalOptions(java.lang.Iterable<com.microsoft.store.partnercenter.models.products.RenewalOption>)"
 type: "class"
+desc: "Represents the terms for an availability."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"
 artifact: com.microsoft.store:partnercenter:1.15.3

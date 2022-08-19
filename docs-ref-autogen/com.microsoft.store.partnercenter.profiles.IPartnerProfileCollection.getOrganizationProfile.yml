@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartnerProfileCollection.getOrganizationProfile()"
   summary: "Gets the operations available for the organization profile."
   syntax: "public abstract IOrganizationProfile getOrganizationProfile()"
+  desc: "Gets the operations available for the organization profile."
   returns:
     description: "The operations available for the organization profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.profiles.IOrganizationProfile?alt=com.microsoft.store.partnercenter.profiles.IOrganizationProfile&text=IOrganizationProfile\" data-throw-if-not-resolved=\"False\" />"

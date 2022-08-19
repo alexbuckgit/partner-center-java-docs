@@ -10,6 +10,7 @@ members:
   nameWithType: "IDevice.delete()"
   summary: "Deletes the device."
   syntax: "public abstract void delete()"
+  desc: "Deletes the device."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.devicesdeployment"

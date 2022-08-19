@@ -3,9 +3,9 @@ uid: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail"
 fullName: "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail"
 name: "InvoiceSummaryDetail"
 nameWithType: "InvoiceSummaryDetail"
-summary: "Represent a summary of individual details for an invoice type. for example recurring perpetual."
+summary: "Represent a summary of individual details for an invoice type."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -27,6 +27,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail.setInvoiceType(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.invoices.InvoiceSummaryDetail.setSummary(com.microsoft.store.partnercenter.models.invoices.InvoiceSummary)"
 type: "class"
+desc: "Represent a summary of individual details for an invoice type. for example recurring perpetual."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

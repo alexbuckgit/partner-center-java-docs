@@ -8,6 +8,7 @@ syntax: "public interface IAadLoginHandler"
 methods:
 - "com.microsoft.store.partnercenter.IAadLoginHandler.authenticate()"
 type: "interface"
+desc: "Represents the interface for Azure Active Directory handler."
 metadata: {}
 package: "com.microsoft.store.partnercenter"
 artifact: com.microsoft.store:partnercenter:1.15.3

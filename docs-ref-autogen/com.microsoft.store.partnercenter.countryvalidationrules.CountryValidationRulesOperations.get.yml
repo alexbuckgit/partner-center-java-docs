@@ -10,6 +10,7 @@ members:
   nameWithType: "CountryValidationRulesOperations.get()"
   summary: "Gets the market specific validation data by country."
   syntax: "public CountryValidationRules get()"
+  desc: "Gets the market specific validation data by country."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules?alt=com.microsoft.store.partnercenter.models.countryvalidationrules.CountryValidationRules&text=CountryValidationRules\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getRateOfPartnerEarnedCredit()"
   summary: "Gets the rate of partner earned credit."
   syntax: "public double getRateOfPartnerEarnedCredit()"
+  desc: "Gets the rate of partner earned credit."
   returns:
     description: "The rate of partner earned credit."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

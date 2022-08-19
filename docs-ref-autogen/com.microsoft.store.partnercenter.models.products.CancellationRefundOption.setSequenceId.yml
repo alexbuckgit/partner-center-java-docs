@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setSequenceId(String value)"
+  desc: "Sets the identifier that represents the position of this refund option (relative to other sibling refund options)."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"

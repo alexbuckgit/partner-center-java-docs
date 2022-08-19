@@ -10,6 +10,7 @@ members:
   nameWithType: "ValidationCode.getOrganizationName()"
   summary: "Gets the name of the organization."
   syntax: "public String getOrganizationName()"
+  desc: "Gets the name of the organization."
   returns:
     description: "The name of the organization."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -5,8 +5,8 @@ name: "ServiceCostLineItem"
 nameWithType: "ServiceCostLineItem"
 summary: "Represents a charge incurred by the partner per customer for a given subscription."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -81,6 +81,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setTermAndBillingCycle(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostLineItem.setUnitPrice(java.lang.Double)"
 type: "class"
+desc: "Represents a charge incurred by the partner per customer for a given subscription."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.servicecosts"
 artifact: com.microsoft.store:partnercenter:1.15.3

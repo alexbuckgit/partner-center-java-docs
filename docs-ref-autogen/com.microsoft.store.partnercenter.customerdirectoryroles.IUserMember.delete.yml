@@ -10,6 +10,7 @@ members:
   nameWithType: "IUserMember.delete()"
   summary: "Remove directory user member from directory role."
   syntax: "public abstract void delete()"
+  desc: "Remove directory user member from directory role."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.customerdirectoryroles"

@@ -10,6 +10,7 @@ members:
   nameWithType: "Agreement.getUserId()"
   summary: "Gets the partner's user identifier."
   syntax: "public String getUserId()"
+  desc: "Gets the partner's user identifier."
   returns:
     description: "The partner's user identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getCustomerCountry()"
   summary: "Gets the country for the customer."
   syntax: "public String getCustomerCountry()"
+  desc: "Gets the country for the customer."
   returns:
     description: "Sets the country for the customer."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

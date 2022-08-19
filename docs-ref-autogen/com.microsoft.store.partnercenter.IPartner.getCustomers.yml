@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartner.getCustomers()"
   summary: "Gets the partner customers operations."
   syntax: "public abstract ICustomerCollection getCustomers()"
+  desc: "Gets the partner customers operations."
   returns:
     description: "The partner customers operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.customers.ICustomerCollection?alt=com.microsoft.store.partnercenter.customers.ICustomerCollection&text=ICustomerCollection\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "AuthenticationToken.isExpired()"
   summary: "Indicates whether the token has expired or not."
   syntax: "public boolean isExpired()"
+  desc: "Indicates whether the token has expired or not."
   returns:
     description: "true if token has expired; otherwise false."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "CancellationRefundOption.getExpiresAfter()"
   summary: "Gets the ISO standard representation of the duration allowed before this refund option expires.."
   syntax: "public String getExpiresAfter()"
+  desc: "Gets the ISO standard representation of the duration allowed before this refund option expires.."
   returns:
     description: "The ISO standard representation of the duration allowed before this refund option expires."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

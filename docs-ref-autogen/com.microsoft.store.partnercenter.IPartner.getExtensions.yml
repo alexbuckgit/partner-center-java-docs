@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartner.getExtensions()"
   summary: "Gets the extensions operations available to the partner."
   syntax: "public abstract IExtensions getExtensions()"
+  desc: "Gets the extensions operations available to the partner."
   returns:
     description: "The extensions operations available to the partner."
     type: "<xref href=\"com.microsoft.store.partnercenter.extensions.IExtensions?alt=com.microsoft.store.partnercenter.extensions.IExtensions&text=IExtensions\" data-throw-if-not-resolved=\"False\" />"

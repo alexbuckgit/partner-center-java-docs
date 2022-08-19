@@ -29,6 +29,7 @@ members:
     name: "period"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)"
+  desc: "Initializes a new instance of the ReconciliationLineItemCollectionOperations class."
 - uid: "com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)"
   fullName: "com.microsoft.store.partnercenter.invoices.ReconciliationLineItemCollectionOperations.ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
   name: "ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
@@ -57,6 +58,7 @@ members:
     name: "pageSize"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ReconciliationLineItemCollectionOperations(IPartner rootPartnerOperations, String invoiceId, BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
+  desc: "Initializes a new instance of the ReconciliationLineItemCollectionOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.invoices"

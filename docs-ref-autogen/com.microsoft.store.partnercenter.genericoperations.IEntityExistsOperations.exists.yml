@@ -10,6 +10,7 @@ members:
   nameWithType: "IEntityExistsOperations.exists()"
   summary: "Checks if an entity exists or not."
   syntax: "public abstract boolean exists()"
+  desc: "Checks if an entity exists or not."
   returns:
     description: "A value indicating whether the entity exists or not."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

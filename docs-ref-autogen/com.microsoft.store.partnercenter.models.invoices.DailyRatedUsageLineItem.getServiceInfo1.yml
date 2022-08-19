@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getServiceInfo1()"
   summary: "Gets the internal Azure Service Metadata."
   syntax: "public String getServiceInfo1()"
+  desc: "Gets the internal Azure Service Metadata."
   returns:
     description: "The internal Azure Service Metadata."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

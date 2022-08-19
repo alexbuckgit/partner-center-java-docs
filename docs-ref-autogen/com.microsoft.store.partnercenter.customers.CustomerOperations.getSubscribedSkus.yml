@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerOperations.getSubscribedSkus()"
   summary: "Obtains the subscribed SKUs for the customer."
   syntax: "public ICustomerSubscribedSkuCollection getSubscribedSkus()"
+  desc: "Obtains the subscribed SKUs for the customer."
   returns:
     description: "The customer usage spending budget operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection?alt=com.microsoft.store.partnercenter.subscribedskus.ICustomerSubscribedSkuCollection&text=ICustomerSubscribedSkuCollection\" data-throw-if-not-resolved=\"False\" />"

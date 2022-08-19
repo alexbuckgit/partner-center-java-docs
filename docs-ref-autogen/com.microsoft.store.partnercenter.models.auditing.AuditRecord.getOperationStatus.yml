@@ -10,6 +10,7 @@ members:
   nameWithType: "AuditRecord.getOperationStatus()"
   summary: "Gets the status of the operation that is audited."
   syntax: "public OperationStatus getOperationStatus()"
+  desc: "Gets the status of the operation that is audited."
   returns:
     description: "The status of the operation that is audited."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.auditing.OperationStatus?alt=com.microsoft.store.partnercenter.models.auditing.OperationStatus&text=OperationStatus\" data-throw-if-not-resolved=\"False\" />"

@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setIsPurchasable(boolean value)"
+  desc: "Sets a flag indicating whether the availability is purchasable or not."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"

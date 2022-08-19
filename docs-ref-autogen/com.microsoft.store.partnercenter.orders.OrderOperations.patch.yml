@@ -14,6 +14,7 @@ members:
     name: "order"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Order patch(Order order)"
+  desc: "Updates a customer order."
   returns:
     description: "The updated order."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.orders.Order?alt=com.microsoft.store.partnercenter.models.orders.Order&text=Order\" data-throw-if-not-resolved=\"False\" />"

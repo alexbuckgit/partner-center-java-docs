@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerBillingProfile.getFirstName()"
   summary: "Gets the first name."
   syntax: "public String getFirstName()"
+  desc: "Gets the first name."
   returns:
     description: "The first name."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -5,7 +5,7 @@ name: "AzureEntitlement"
 nameWithType: "AzureEntitlement"
 summary: "Represents an Azure entitlement."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -31,6 +31,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement.setStatus(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.subscriptions.AzureEntitlement.setSubscriptionId(java.lang.String)"
 type: "class"
+desc: "Represents an Azure entitlement."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

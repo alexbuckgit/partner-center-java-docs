@@ -5,7 +5,7 @@ name: "FieldFilter"
 nameWithType: "FieldFilter"
 summary: "A base class that represents a filter applied to a field."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -28,6 +28,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setFieldType(com.microsoft.store.partnercenter.models.query.filters.FieldType)"
 - "com.microsoft.store.partnercenter.models.query.filters.FieldFilter.setOperator(com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation)"
 type: "class"
+desc: "A base class that represents a filter applied to a field."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.query.filters"
 artifact: com.microsoft.store:partnercenter:1.15.3

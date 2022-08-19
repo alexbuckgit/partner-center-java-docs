@@ -10,6 +10,7 @@ members:
   nameWithType: "AuditRecord.getApplicationId()"
   summary: "Gets the identifier of the application invoking the operation."
   syntax: "public String getApplicationId()"
+  desc: "Gets the identifier of the application invoking the operation."
   returns:
     description: "The identifier of the application invoking the operation."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

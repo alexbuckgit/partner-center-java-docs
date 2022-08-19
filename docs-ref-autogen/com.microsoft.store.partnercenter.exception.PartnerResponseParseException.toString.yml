@@ -11,6 +11,7 @@ members:
   summary: "Displays the partner API network exception details."
   overridden: "com.microsoft.store.partnercenter.exception.PartnerException.toString()"
   syntax: "public String toString()"
+  desc: "Displays the partner API network exception details."
   returns:
     description: "A string representing the network exception including the base and extended properties."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

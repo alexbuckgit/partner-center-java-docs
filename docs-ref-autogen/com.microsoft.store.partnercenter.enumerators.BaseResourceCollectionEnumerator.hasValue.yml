@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.enumerators.BaseResourceCollectionEnumerator<T>.hasValue()"
   name: "hasValue()"
   nameWithType: "BaseResourceCollectionEnumerator<T>.hasValue()"
-  summary: "Gets whether the current result collection has a value or not. This indicates if the collection has been fully enumerated or not."
+  summary: "Gets whether the current result collection has a value or not."
   syntax: "public boolean hasValue()"
+  desc: "Gets whether the current result collection has a value or not. This indicates if the collection has been fully enumerated or not."
   returns:
     description: "A flag indicating whether the current result collection has a value or not."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

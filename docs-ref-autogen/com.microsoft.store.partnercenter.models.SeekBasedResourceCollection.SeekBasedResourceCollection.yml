@@ -14,6 +14,7 @@ members:
     name: "resourceCollection"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public SeekBasedResourceCollection(ResourceCollection<T> resourceCollection)"
+  desc: "Initializes a new instance of the SeekBasedResourceCollection class."
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(java.util.List<T>)"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>.SeekBasedResourceCollection(List<T> items)"
   name: "SeekBasedResourceCollection(List<T> items)"
@@ -24,6 +25,7 @@ members:
     name: "items"
     type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public SeekBasedResourceCollection(List<T> items)"
+  desc: "Initializes a new instance of the SeekBasedResourceCollection class."
 - uid: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection.SeekBasedResourceCollection(java.util.List<T>,java.lang.String)"
   fullName: "com.microsoft.store.partnercenter.models.SeekBasedResourceCollection<T>.SeekBasedResourceCollection(List<T> items, String continuationToken)"
   name: "SeekBasedResourceCollection(List<T> items, String continuationToken)"
@@ -37,6 +39,7 @@ members:
     name: "continuationToken"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public SeekBasedResourceCollection(List<T> items, String continuationToken)"
+  desc: "Initializes a new instance of the SeekBasedResourceCollection class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"

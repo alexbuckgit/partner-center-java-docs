@@ -10,6 +10,7 @@ members:
   nameWithType: "Entitlement.getEntitledArtifacts()"
   summary: "Gets the collection of entitled artifacts."
   syntax: "public Iterable<Artifact> getEntitledArtifacts()"
+  desc: "Gets the collection of entitled artifacts."
   returns:
     description: "The collection of entitled artifacts."
     type: "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Artifact?alt=com.microsoft.store.partnercenter.models.entitlements.Artifact&text=Artifact\" data-throw-if-not-resolved=\"False\" />&gt;"

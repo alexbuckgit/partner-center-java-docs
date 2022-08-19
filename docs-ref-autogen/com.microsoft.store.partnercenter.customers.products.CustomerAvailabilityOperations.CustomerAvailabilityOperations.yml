@@ -26,6 +26,7 @@ members:
     name: "availabilityId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CustomerAvailabilityOperations(IPartner rootPartnerOperations, String customerId, String productId, String skuId, String availabilityId)"
+  desc: "Initializes a new instance of the CustomerAvailabilityOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.customers.products"

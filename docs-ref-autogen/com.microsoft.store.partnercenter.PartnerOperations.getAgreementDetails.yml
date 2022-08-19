@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerOperations.getAgreementDetails()"
   summary: "Gets the agreement metadata operations."
   syntax: "public IAgreementDetailsCollection getAgreementDetails()"
+  desc: "Gets the agreement metadata operations."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection?alt=com.microsoft.store.partnercenter.agreements.IAgreementDetailsCollection&text=IAgreementDetailsCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

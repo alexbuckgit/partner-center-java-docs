@@ -5,8 +5,8 @@ name: "LicensesInsightsBase"
 nameWithType: "LicensesInsightsBase"
 summary: "Encapsulation of common properties of all licenses' insights."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -31,6 +31,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setProcessedDateTime(org.joda.time.DateTime)"
 - "com.microsoft.store.partnercenter.models.analytics.LicensesInsightsBase.setServiceName(java.lang.String)"
 type: "class"
+desc: "Encapsulation of common properties of all licenses' insights."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.analytics"
 artifact: com.microsoft.store:partnercenter:1.15.3

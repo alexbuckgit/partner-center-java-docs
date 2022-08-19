@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerOfferCollectionOperations.get()"
   summary: "Gets the offers available to customer from partner."
   syntax: "public ResourceCollection<Offer> get()"
+  desc: "Gets the offers available to customer from partner."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.store.partnercenter.offers.CustomerOfferCollectionOperations.get(int,int)"
@@ -25,6 +26,7 @@ members:
     name: "size"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResourceCollection<Offer> get(int offset, int size)"
+  desc: "Gets a segment of the offers available to customer from partner.."
   returns:
     description: "The required offers segment."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"

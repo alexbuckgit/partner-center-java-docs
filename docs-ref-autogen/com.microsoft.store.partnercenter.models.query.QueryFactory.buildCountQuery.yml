@@ -10,6 +10,7 @@ members:
   nameWithType: "QueryFactory.buildCountQuery()"
   summary: "Builds a count query."
   syntax: "public IQuery buildCountQuery()"
+  desc: "Builds a count query."
   returns:
     description: "A count query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
@@ -23,6 +24,7 @@ members:
     name: "filter"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IQuery buildCountQuery(FieldFilter filter)"
+  desc: "Builds a count query."
   returns:
     description: "A count query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
@@ -39,6 +41,7 @@ members:
     name: "token"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IQuery buildCountQuery(FieldFilter filter, Object token)"
+  desc: "Builds a count query."
   returns:
     description: "A count query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"

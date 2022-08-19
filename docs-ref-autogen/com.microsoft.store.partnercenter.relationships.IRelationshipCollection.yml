@@ -9,6 +9,7 @@ methods:
 - "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.Query(com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType,com.microsoft.store.partnercenter.models.query.IQuery)"
 - "com.microsoft.store.partnercenter.relationships.IRelationshipCollection.get(com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType)"
 type: "interface"
+desc: "This interface represents the operations that can be done on a partner's relationships."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

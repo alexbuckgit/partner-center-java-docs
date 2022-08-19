@@ -10,6 +10,7 @@ members:
   nameWithType: "AzureInstanceData.getLocation()"
   summary: "Gets the region in which the service was run."
   syntax: "public String getLocation()"
+  desc: "Gets the region in which the service was run."
   returns:
     description: "The region in which the service was run."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

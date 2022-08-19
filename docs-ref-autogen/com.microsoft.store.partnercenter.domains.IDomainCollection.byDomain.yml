@@ -14,6 +14,7 @@ members:
     name: "domain"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IDomain byDomain(String domain)"
+  desc: "Obtains a specific domain behavior."
   returns:
     description: "The domain operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.domains.IDomain?alt=com.microsoft.store.partnercenter.domains.IDomain&text=IDomain\" data-throw-if-not-resolved=\"False\" />"

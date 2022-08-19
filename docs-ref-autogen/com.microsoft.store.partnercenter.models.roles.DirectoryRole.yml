@@ -5,8 +5,8 @@ name: "DirectoryRole"
 nameWithType: "DirectoryRole"
 summary: "Represents a customer directory role object."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -29,6 +29,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setId(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.roles.DirectoryRole.setName(java.lang.String)"
 type: "class"
+desc: "Represents a customer directory role object."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.roles"
 artifact: com.microsoft.store:partnercenter:1.15.3

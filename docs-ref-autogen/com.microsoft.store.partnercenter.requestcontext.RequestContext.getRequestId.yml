@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.requestcontext.RequestContext.getRequestId()"
   name: "getRequestId()"
   nameWithType: "RequestContext.getRequestId()"
-  summary: "Gets the request identifier. Uniquely identifies the operation."
+  summary: "Gets the request identifier."
   syntax: "public UUID getRequestId()"
+  desc: "Gets the request identifier. Uniquely identifies the operation."
   returns:
     description: "the request identifier."
     type: "<xref href=\"java.util.UUID?alt=java.util.UUID&text=UUID\" data-throw-if-not-resolved=\"False\" />"

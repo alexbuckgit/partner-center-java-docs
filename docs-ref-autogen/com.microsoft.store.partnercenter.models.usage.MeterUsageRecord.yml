@@ -5,9 +5,9 @@ name: "MeterUsageRecord"
 nameWithType: "MeterUsageRecord"
 summary: "Defines the estimated monetary cost of a subscription's meter level usage in the current billing cycle."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
@@ -54,6 +54,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.usage.MeterUsageRecord.setSubscriptionId(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.usage.MeterUsageRecord.setUnit(java.lang.String)"
 type: "class"
+desc: "Defines the estimated monetary cost of a subscription's meter level usage in the current billing cycle."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.usage"
 artifact: com.microsoft.store:partnercenter:1.15.3

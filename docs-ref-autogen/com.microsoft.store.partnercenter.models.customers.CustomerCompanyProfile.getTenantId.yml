@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerCompanyProfile.getTenantId()"
   summary: "Gets the tenant identifier."
   syntax: "public String getTenantId()"
+  desc: "Gets the tenant identifier."
   returns:
     description: "The tenant identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

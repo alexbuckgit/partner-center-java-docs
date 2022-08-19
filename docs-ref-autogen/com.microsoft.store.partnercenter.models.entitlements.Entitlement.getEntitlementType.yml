@@ -10,6 +10,7 @@ members:
   nameWithType: "Entitlement.getEntitlementType()"
   summary: "Gets the entitlement type."
   syntax: "public String getEntitlementType()"
+  desc: "Gets the entitlement type."
   returns:
     description: "The entitlement type."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

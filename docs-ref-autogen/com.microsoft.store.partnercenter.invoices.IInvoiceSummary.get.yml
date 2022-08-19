@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.invoices.IInvoiceSummary.get()"
   name: "get()"
   nameWithType: "IInvoiceSummary.get()"
-  summary: "Retrieves the invoice summary. This operation is currently only supported for user based credentials."
+  summary: "Retrieves the invoice summary."
   syntax: "public abstract InvoiceSummary get()"
+  desc: "Retrieves the invoice summary. This operation is currently only supported for user based credentials."
   returns:
     description: "The invoice summary."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceSummary?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceSummary&text=InvoiceSummary\" data-throw-if-not-resolved=\"False\" />"

@@ -14,6 +14,7 @@ members:
     name: "newEntity"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.agreements.Agreement?alt=com.microsoft.store.partnercenter.models.agreements.Agreement&text=Agreement\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract Agreement create(Agreement newEntity)"
+  desc: "Creates an agreement between the partner and customer."
   returns:
     description: "The newly created agreement."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.agreements.Agreement?alt=com.microsoft.store.partnercenter.models.agreements.Agreement&text=Agreement\" data-throw-if-not-resolved=\"False\" />"

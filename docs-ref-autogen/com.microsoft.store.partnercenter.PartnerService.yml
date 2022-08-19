@@ -5,7 +5,7 @@ name: "PartnerService"
 nameWithType: "PartnerService"
 summary: "This class contains the partner SDK properties and acts as the main entry point to create partners."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -36,6 +36,7 @@ methods:
 - "com.microsoft.store.partnercenter.PartnerService.setProxyOptions(java.lang.String,java.lang.Integer)"
 - "com.microsoft.store.partnercenter.PartnerService.setRefreshCredentialsHandler(com.microsoft.store.partnercenter.IPartnerCredentials)"
 type: "class"
+desc: "This class contains the partner SDK properties and acts as the main entry point to create partners."
 metadata: {}
 package: "com.microsoft.store.partnercenter"
 artifact: com.microsoft.store:partnercenter:1.15.3

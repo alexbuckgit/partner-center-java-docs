@@ -10,6 +10,7 @@ members:
   nameWithType: "Configuration.getDefaultMaxRetryAttempts()"
   summary: "Gets the default max retry attempts."
   syntax: "public int getDefaultMaxRetryAttempts()"
+  desc: "Gets the default max retry attempts."
   returns:
     description: "The default max retry attempts."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

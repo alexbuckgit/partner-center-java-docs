@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerRelationshipRequest.getUrl()"
   summary: "Gets the URL to be used by the customer to establish a relationship with a partner."
   syntax: "public URI getUrl()"
+  desc: "Gets the URL to be used by the customer to establish a relationship with a partner."
   returns:
     description: "The URL to be used by the customer to establish a relationship with a partner."
     type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"

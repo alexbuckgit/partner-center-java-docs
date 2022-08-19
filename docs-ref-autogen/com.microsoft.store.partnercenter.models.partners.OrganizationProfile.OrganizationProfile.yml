@@ -10,6 +10,7 @@ members:
   nameWithType: "OrganizationProfile.OrganizationProfile()"
   summary: "Initializes a new instance of the OrganizationProfile class."
   syntax: "public OrganizationProfile()"
+  desc: "Initializes a new instance of the OrganizationProfile class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.partners"

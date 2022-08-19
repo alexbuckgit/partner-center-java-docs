@@ -11,6 +11,7 @@ members:
   summary: "Prints the simple filter details."
   overridden: "java.lang.Object.toString()"
   syntax: "public String toString()"
+  desc: "Prints the simple filter details."
   returns:
     description: "Simple filter details"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

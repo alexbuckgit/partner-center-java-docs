@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerService.getApiRootUrl()"
   summary: "Gets the API root URL."
   syntax: "public String getApiRootUrl()"
+  desc: "Gets the API root URL."
   returns:
     description: "The API root URL."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

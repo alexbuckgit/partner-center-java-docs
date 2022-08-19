@@ -10,6 +10,7 @@ members:
   nameWithType: "OfferAddOnsOperations.get()"
   summary: "Retrieves the add-ons for the given offer."
   syntax: "public ResourceCollection<Offer> get()"
+  desc: "Retrieves the add-ons for the given offer."
   returns:
     description: "The offer add-ons."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -26,6 +27,7 @@ members:
     name: "size"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResourceCollection<Offer> get(int offset, int size)"
+  desc: "Retrieves a subset of offers for the provided country."
   returns:
     description: "The requested segment of the offers for the provided country."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"

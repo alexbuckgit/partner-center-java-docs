@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerBillingProfile.getId()"
   summary: "Gets the profile identifier."
   syntax: "public String getId()"
+  desc: "Gets the profile identifier."
   returns:
     description: "The profile identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

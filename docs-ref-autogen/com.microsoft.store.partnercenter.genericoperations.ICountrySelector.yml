@@ -10,6 +10,7 @@ methods:
 type: "interface"
 typeParameters:
 - name: "TOperations"
+desc: "Returns operations interfaces based on the given country."
 metadata: {}
 package: "com.microsoft.store.partnercenter.genericoperations"
 artifact: com.microsoft.store:partnercenter:1.15.3

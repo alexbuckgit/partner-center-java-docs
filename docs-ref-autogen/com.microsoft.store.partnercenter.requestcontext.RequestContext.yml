@@ -5,7 +5,7 @@ name: "RequestContext"
 nameWithType: "RequestContext"
 summary: "Request context implementation."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -34,6 +34,7 @@ methods:
 - "com.microsoft.store.partnercenter.requestcontext.RequestContext.setRequestId(java.util.UUID)"
 - "com.microsoft.store.partnercenter.requestcontext.RequestContext.toString()"
 type: "class"
+desc: "Request context implementation."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

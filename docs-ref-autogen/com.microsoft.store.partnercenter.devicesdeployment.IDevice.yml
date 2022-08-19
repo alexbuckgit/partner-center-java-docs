@@ -9,6 +9,7 @@ methods:
 - "com.microsoft.store.partnercenter.devicesdeployment.IDevice.delete()"
 - "com.microsoft.store.partnercenter.devicesdeployment.IDevice.patch(com.microsoft.store.partnercenter.models.devicesdeployment.Device)"
 type: "interface"
+desc: "Represents the operations that can be done on the partner's device."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.TripletTuple?alt=com.microsoft.store.partnercenter.models.utils.TripletTuple&text=TripletTuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device\" data-throw-if-not-resolved=\"False\" />&gt;"

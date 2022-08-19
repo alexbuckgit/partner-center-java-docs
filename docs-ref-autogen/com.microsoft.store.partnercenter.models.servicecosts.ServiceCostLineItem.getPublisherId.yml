@@ -10,6 +10,7 @@ members:
   nameWithType: "ServiceCostLineItem.getPublisherId()"
   summary: "Gets the identifier of the publisher."
   syntax: "public String getPublisherId()"
+  desc: "Gets the identifier of the publisher."
   returns:
     description: "The identifier of the publisher."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

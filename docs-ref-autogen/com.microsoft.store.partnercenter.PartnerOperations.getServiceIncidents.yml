@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerOperations.getServiceIncidents()"
   summary: "Gets the Service incidents operations available."
   syntax: "public IServiceIncidentCollection getServiceIncidents()"
+  desc: "Gets the Service incidents operations available."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection?alt=com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection&text=IServiceIncidentCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

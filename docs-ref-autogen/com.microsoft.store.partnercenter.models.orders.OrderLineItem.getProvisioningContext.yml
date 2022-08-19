@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItem.getProvisioningContext()"
   summary: "Gets the provisioning context for the offer."
   syntax: "public Map<String,String> getProvisioningContext()"
+  desc: "Gets the provisioning context for the offer."
   returns:
     description: "The provisioning context for the offer."
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"

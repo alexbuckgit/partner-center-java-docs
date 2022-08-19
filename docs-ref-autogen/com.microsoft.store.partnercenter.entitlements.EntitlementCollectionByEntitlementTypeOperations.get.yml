@@ -10,6 +10,7 @@ members:
   nameWithType: "EntitlementCollectionByEntitlementTypeOperations.get()"
   summary: "Gets an entitlement collection with the given entitlement type."
   syntax: "public ResourceCollection<Entitlement> get()"
+  desc: "Gets an entitlement collection with the given entitlement type."
   returns:
     description: "The collection of entitlements corresponding to a specific entitlement type for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -23,6 +24,7 @@ members:
     name: "showExpiry"
     type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResourceCollection<Entitlement> get(Boolean showExpiry)"
+  desc: "Gets an entitlement collection with the given entitlement type."
   returns:
     description: "The collection of entitlements corresponding to a specific entitlement type for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />&gt;"

@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getPCToBCExchangeRateDate()"
   summary: "Gets the pricing currency to billing currency exchange rate date."
   syntax: "public DateTime getPCToBCExchangeRateDate()"
+  desc: "Gets the pricing currency to billing currency exchange rate date."
   returns:
     description: "The pricing currency to billing currency exchange rate date."
     type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"

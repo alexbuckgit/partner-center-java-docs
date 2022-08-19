@@ -13,6 +13,7 @@ methods:
 - "com.microsoft.store.partnercenter.customerusers.ICustomerUser.getLicenses()"
 - "com.microsoft.store.partnercenter.customerusers.ICustomerUser.patch(com.microsoft.store.partnercenter.models.users.CustomerUser)"
 type: "interface"
+desc: "Encapsulates a customer user behavior."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityDeleteOperations&text=IEntityDeleteOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.users.CustomerUser?alt=com.microsoft.store.partnercenter.models.users.CustomerUser&text=CustomerUser\" data-throw-if-not-resolved=\"False\" />&gt;"

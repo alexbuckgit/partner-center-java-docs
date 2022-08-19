@@ -5,9 +5,9 @@ name: "ManagedService"
 nameWithType: "ManagedService"
 summary: "Partner managed services (AOBO links) for customers"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
@@ -36,6 +36,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.managedservices.ManagedService.setLinks(com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks)"
 - "com.microsoft.store.partnercenter.models.managedservices.ManagedService.setName(java.lang.String)"
 type: "class"
+desc: "Partner managed services (AOBO links) for customers"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.managedservices"
 artifact: com.microsoft.store:partnercenter:1.15.3

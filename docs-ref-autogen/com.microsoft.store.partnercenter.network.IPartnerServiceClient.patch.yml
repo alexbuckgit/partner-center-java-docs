@@ -23,6 +23,7 @@ members:
     name: "content"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract U <T,U>patch(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)"
+  desc: "Executes a PATCH operation against the partner service."
   returns:
     description: "The response from the PATCH operation."
     type: "<xref href=\"U?alt=U&text=U\" data-throw-if-not-resolved=\"False\" />"

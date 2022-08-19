@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartner.getProducts()"
   summary: "Gets the product operations available to the partner."
   syntax: "public abstract IProductCollection getProducts()"
+  desc: "Gets the product operations available to the partner."
   returns:
     description: "The product operations available to the partner."
     type: "<xref href=\"com.microsoft.store.partnercenter.products.IProductCollection?alt=com.microsoft.store.partnercenter.products.IProductCollection&text=IProductCollection\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "CartLineItem.getOrderGroup()"
   summary: "Gets the order group which indicates which items can be place in a single order."
   syntax: "public String getOrderGroup()"
+  desc: "Gets the order group which indicates which items can be place in a single order."
   returns:
     description: "The order group which indicates which items can be place in a single order."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

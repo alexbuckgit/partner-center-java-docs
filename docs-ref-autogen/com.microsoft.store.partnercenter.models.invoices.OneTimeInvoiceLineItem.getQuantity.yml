@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getQuantity()"
   summary: "Gets the number of units associated with this line item."
   syntax: "public int getQuantity()"
+  desc: "Gets the number of units associated with this line item."
   returns:
     description: "The number of units associated with this line item."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

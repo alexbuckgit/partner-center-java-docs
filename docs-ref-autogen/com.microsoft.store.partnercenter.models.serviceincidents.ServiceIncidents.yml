@@ -5,7 +5,7 @@ name: "ServiceIncidents"
 nameWithType: "ServiceIncidents"
 summary: "Represents a service incident."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -31,6 +31,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setStatus(com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus)"
 - "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents.setWorkload(java.lang.String)"
 type: "class"
+desc: "Represents a service incident."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.serviceincidents"
 artifact: com.microsoft.store:partnercenter:1.15.3

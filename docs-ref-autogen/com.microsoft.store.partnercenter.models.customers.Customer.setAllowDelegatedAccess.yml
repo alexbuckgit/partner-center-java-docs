@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setAllowDelegatedAccess(Boolean value)"
+  desc: "Sets a flag indicating whether allow delegated access is enabled or not."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.customers"

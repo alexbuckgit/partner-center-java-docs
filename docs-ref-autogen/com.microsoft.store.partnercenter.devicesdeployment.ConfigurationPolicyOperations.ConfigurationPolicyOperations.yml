@@ -20,6 +20,7 @@ members:
     name: "policyId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ConfigurationPolicyOperations(IPartner rootPartnerOperations, String customerId, String policyId)"
+  desc: "Initializes a new instance of the ConfigurationPolicyOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.devicesdeployment"

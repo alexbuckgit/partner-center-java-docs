@@ -17,6 +17,7 @@ members:
     name: "region"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AzureRateCard getShared(String currency, String region)"
+  desc: "Gets the Azure CSL rate card which provides real-time prices for Azure offers."
   returns:
     description: "The Azure rate card for the partner."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ratecards.AzureRateCard?alt=com.microsoft.store.partnercenter.models.ratecards.AzureRateCard&text=AzureRateCard\" data-throw-if-not-resolved=\"False\" />"

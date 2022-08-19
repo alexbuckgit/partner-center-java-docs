@@ -17,6 +17,7 @@ members:
     name: "expiryTime"
     type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public AuthenticationToken(String token, DateTime expiryTime)"
+  desc: "Initializes a new instance of the AuthenticationToken class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter"

@@ -5,8 +5,8 @@ name: "ServiceIncidentStatus"
 nameWithType: "ServiceIncidentStatus"
 summary: "Represents the status of partner center services."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,21 +31,25 @@ fields:
   name: "CRITICAL"
   nameWithType: "ServiceIncidentStatus.CRITICAL"
   summary: "Critical status."
+  desc: "Critical status."
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.INFORMATION"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.INFORMATION"
   name: "INFORMATION"
   nameWithType: "ServiceIncidentStatus.INFORMATION"
   summary: "Informational status."
+  desc: "Informational status."
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.NORMAL"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.NORMAL"
   name: "NORMAL"
   nameWithType: "ServiceIncidentStatus.NORMAL"
   summary: "Default status - normal."
+  desc: "Default status - normal."
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.WARNING"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.WARNING"
   name: "WARNING"
   nameWithType: "ServiceIncidentStatus.WARNING"
   summary: "Warning status."
+  desc: "Warning status."
 methods:
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.toString()"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus.toString()"
@@ -54,6 +58,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -74,6 +79,7 @@ methods:
   syntax: "public static ServiceIncidentStatus[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus?alt=com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentStatus&text=ServiceIncidentStatus\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Represents the status of partner center services."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.serviceincidents"
 artifact: com.microsoft.store:partnercenter:1.15.3

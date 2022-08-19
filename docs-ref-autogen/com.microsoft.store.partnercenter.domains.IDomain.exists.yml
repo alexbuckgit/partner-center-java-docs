@@ -10,6 +10,7 @@ members:
   nameWithType: "IDomain.exists()"
   summary: "Checks if the domain is available or not."
   syntax: "public abstract boolean exists()"
+  desc: "Checks if the domain is available or not."
   returns:
     description: "true if the domain exists, false otherwise."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

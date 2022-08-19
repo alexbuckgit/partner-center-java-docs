@@ -10,6 +10,7 @@ members:
   nameWithType: "Agreement.getPrimaryContact()"
   summary: "Gets the primary contact for the agreement."
   syntax: "public Contact getPrimaryContact()"
+  desc: "Gets the primary contact for the agreement."
   returns:
     description: "The primary contact for the agreement."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.Contact?alt=com.microsoft.store.partnercenter.models.Contact&text=Contact\" data-throw-if-not-resolved=\"False\" />"

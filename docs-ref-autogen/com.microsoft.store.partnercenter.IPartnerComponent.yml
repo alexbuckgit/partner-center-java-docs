@@ -3,7 +3,7 @@ uid: "com.microsoft.store.partnercenter.IPartnerComponent"
 fullName: "com.microsoft.store.partnercenter.IPartnerComponent<TContext>"
 name: "IPartnerComponent<TContext>"
 nameWithType: "IPartnerComponent<TContext>"
-summary: "Represents a partner SDK component. The type of the component's context object."
+summary: "Represents a partner SDK component."
 syntax: "public interface IPartnerComponent<TContext>"
 methods:
 - "com.microsoft.store.partnercenter.IPartnerComponent.getContext()"
@@ -11,6 +11,7 @@ methods:
 type: "interface"
 typeParameters:
 - name: "TContext"
+desc: "Represents a partner SDK component. The type of the component's context object."
 metadata: {}
 package: "com.microsoft.store.partnercenter"
 artifact: com.microsoft.store:partnercenter:1.15.3

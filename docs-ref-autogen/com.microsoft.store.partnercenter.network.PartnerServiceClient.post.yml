@@ -23,6 +23,7 @@ members:
     name: "content"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public U <T,U>post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)"
+  desc: "Executes a POST operation against the partner service."
   returns:
     description: "The response from the POST operation."
     type: "<xref href=\"U?alt=U&text=U\" data-throw-if-not-resolved=\"False\" />"
@@ -48,6 +49,7 @@ members:
     name: "parameters"
     type: "<xref href=\"java.util.Collection?alt=java.util.Collection&text=Collection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.KeyValuePair?alt=com.microsoft.store.partnercenter.models.utils.KeyValuePair&text=KeyValuePair\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
   syntax: "public U <T,U>post(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content, Collection<KeyValuePair<String,String>> parameters)"
+  desc: "Executes a POST operation against the partner service."
   returns:
     description: "The response from the POST operation."
     type: "<xref href=\"U?alt=U&text=U\" data-throw-if-not-resolved=\"False\" />"

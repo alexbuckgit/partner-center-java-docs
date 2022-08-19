@@ -15,6 +15,7 @@ members:
     name: "obj"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public boolean equals(Object obj)"
+  desc: "Determines whether the specified object, is equal to this instance."
   returns:
     description: "true if the specified object is equal to this instance; otherwise, false."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

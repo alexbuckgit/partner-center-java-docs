@@ -5,8 +5,8 @@ name: "MessageType"
 nameWithType: "MessageType"
 summary: "Represents the status of partner center services."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,21 +31,25 @@ fields:
   name: "ALL"
   nameWithType: "MessageType.ALL"
   summary: "All types."
+  desc: "All types."
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.INCIDENT"
   name: "INCIDENT"
   nameWithType: "MessageType.INCIDENT"
   summary: "Active incident."
+  desc: "Active incident."
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.MESSAGE_CENTER"
   name: "MESSAGE_CENTER"
   nameWithType: "MessageType.MESSAGE_CENTER"
   summary: "Message center message."
+  desc: "Message center message."
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.NONE"
   name: "NONE"
   nameWithType: "MessageType.NONE"
   summary: "Default type none."
+  desc: "Default type none."
 methods:
 - uid: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()"
   fullName: "com.microsoft.store.partnercenter.models.serviceincidents.MessageType.toString()"
@@ -54,6 +58,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -74,6 +79,7 @@ methods:
   syntax: "public static MessageType[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.serviceincidents.MessageType?alt=com.microsoft.store.partnercenter.models.serviceincidents.MessageType&text=MessageType\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Represents the status of partner center services."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.serviceincidents"
 artifact: com.microsoft.store:partnercenter:1.15.3

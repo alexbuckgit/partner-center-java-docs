@@ -10,6 +10,7 @@ members:
   nameWithType: "BaseQuery.getPageSize()"
   summary: "Gets or sets the results page size."
   syntax: "public int getPageSize()"
+  desc: "Gets or sets the results page size."
   returns:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

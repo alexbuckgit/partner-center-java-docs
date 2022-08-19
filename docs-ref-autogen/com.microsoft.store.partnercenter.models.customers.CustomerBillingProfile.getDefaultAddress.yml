@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerBillingProfile.getDefaultAddress()"
   summary: "Gets the default address for the customer."
   syntax: "public Address getDefaultAddress()"
+  desc: "Gets the default address for the customer."
   returns:
     description: "The default address for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.Address?alt=com.microsoft.store.partnercenter.models.Address&text=Address\" data-throw-if-not-resolved=\"False\" />"

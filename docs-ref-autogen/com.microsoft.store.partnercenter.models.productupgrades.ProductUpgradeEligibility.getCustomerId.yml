@@ -10,6 +10,7 @@ members:
   nameWithType: "ProductUpgradeEligibility.getCustomerId()"
   summary: "Gets the identifier for the customer."
   syntax: "public String getCustomerId()"
+  desc: "Gets the identifier for the customer."
   returns:
     description: "The identifier for the customer."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

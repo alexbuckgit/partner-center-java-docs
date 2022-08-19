@@ -5,7 +5,7 @@ name: "Pricing"
 nameWithType: "Pricing"
 summary: "Represents the pricing details for a line item."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -28,6 +28,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.orders.Pricing.getPrice()"
 - "com.microsoft.store.partnercenter.models.orders.Pricing.getProratedPrice()"
 type: "class"
+desc: "Represents the pricing details for a line item."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

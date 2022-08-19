@@ -11,6 +11,7 @@ members:
   summary: "Gets the resource unique identifier."
   overridden: "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getResourceId()"
   syntax: "public String getResourceId()"
+  desc: "Gets the resource unique identifier."
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

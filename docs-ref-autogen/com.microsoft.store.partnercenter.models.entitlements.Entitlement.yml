@@ -5,9 +5,9 @@ name: "Entitlement"
 nameWithType: "Entitlement"
 summary: "Class that represents an entitlement."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBaseWithLinks?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
@@ -48,6 +48,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setReferenceOrder(com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder)"
 - "com.microsoft.store.partnercenter.models.entitlements.Entitlement.setSkuId(java.lang.String)"
 type: "class"
+desc: "Class that represents an entitlement."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.entitlements"
 artifact: com.microsoft.store:partnercenter:1.15.3

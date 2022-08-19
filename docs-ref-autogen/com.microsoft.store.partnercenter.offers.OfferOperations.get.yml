@@ -10,6 +10,7 @@ members:
   nameWithType: "OfferOperations.get()"
   summary: "Retrieves the offer details."
   syntax: "public Offer get()"
+  desc: "Retrieves the offer details."
   returns:
     description: "The offer details."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />"

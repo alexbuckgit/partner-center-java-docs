@@ -8,6 +8,7 @@ syntax: "public interface IProductExtensions extends IPartnerComponentString"
 methods:
 - "com.microsoft.store.partnercenter.extensions.products.IProductExtensions.byCountry(java.lang.String)"
 type: "interface"
+desc: "Holds extension operations for products."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

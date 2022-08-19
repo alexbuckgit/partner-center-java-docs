@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomer.getServiceCosts()"
   summary: "Gets the service costs behavior for the customer."
   syntax: "public abstract ICustomerServiceCostsCollection getServiceCosts()"
+  desc: "Gets the service costs behavior for the customer."
   returns:
     description: "The service costs behavior for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.ICustomerServiceCostsCollection&text=ICustomerServiceCostsCollection\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getSubtotal()"
   summary: "Gets the amount after discount."
   syntax: "public double getSubtotal()"
+  desc: "Gets the amount after discount."
   returns:
     description: "The amount after discount."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

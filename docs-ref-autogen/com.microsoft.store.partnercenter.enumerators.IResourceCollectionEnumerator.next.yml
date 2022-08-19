@@ -10,6 +10,7 @@ members:
   nameWithType: "IResourceCollectionEnumerator<T>.next()"
   summary: "Retrieves the next result set."
   syntax: "public abstract void next()"
+  desc: "Retrieves the next result set."
 - uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.next(com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
   fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>.next(IRequestContext context)"
   name: "next(IRequestContext context)"
@@ -20,6 +21,7 @@ members:
     name: "context"
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void next(IRequestContext context)"
+  desc: "Retrieves the next result set."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.enumerators"

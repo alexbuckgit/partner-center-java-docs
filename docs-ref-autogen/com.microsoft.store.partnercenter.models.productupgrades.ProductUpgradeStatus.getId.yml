@@ -10,6 +10,7 @@ members:
   nameWithType: "ProductUpgradeStatus.getId()"
   summary: "Gets the identifier for the product upgrade."
   syntax: "public String getId()"
+  desc: "Gets the identifier for the product upgrade."
   returns:
     description: "The identifier for the product upgrade."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

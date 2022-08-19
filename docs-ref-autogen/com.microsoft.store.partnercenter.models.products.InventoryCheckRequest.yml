@@ -5,7 +5,7 @@ name: "InventoryCheckRequest"
 nameWithType: "InventoryCheckRequest"
 summary: "Class that represents an inventory check request."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -27,6 +27,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setInventoryContext(java.util.Map<java.lang.String,java.lang.String>)"
 - "com.microsoft.store.partnercenter.models.products.InventoryCheckRequest.setTargetItems(java.util.List<com.microsoft.store.partnercenter.models.products.InventoryItem>)"
 type: "class"
+desc: "Class that represents an inventory check request."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"
 artifact: com.microsoft.store:partnercenter:1.15.3

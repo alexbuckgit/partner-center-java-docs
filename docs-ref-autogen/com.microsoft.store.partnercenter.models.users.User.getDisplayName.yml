@@ -10,6 +10,7 @@ members:
   nameWithType: "User.getDisplayName()"
   summary: "Gets the display name for the user."
   syntax: "public String getDisplayName()"
+  desc: "Gets the display name for the user."
   returns:
     description: "The display name for the user."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

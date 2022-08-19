@@ -10,6 +10,7 @@ members:
   nameWithType: "ValidationCode.getValidationId()"
   summary: "Gets the identifier for the validation."
   syntax: "public String getValidationId()"
+  desc: "Gets the identifier for the validation."
   returns:
     description: "The identifier for the validation."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

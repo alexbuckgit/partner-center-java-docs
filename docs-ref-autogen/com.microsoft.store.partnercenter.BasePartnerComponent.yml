@@ -3,9 +3,9 @@ uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
 fullName: "com.microsoft.store.partnercenter.BasePartnerComponent<TContext>"
 name: "BasePartnerComponent<TContext>"
 nameWithType: "BasePartnerComponent<TContext>"
-summary: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
+summary: "Holds common partner component properties and behavior."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -27,6 +27,7 @@ methods:
 type: "class"
 typeParameters:
 - name: "TContext"
+desc: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

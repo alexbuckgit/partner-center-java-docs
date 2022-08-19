@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"java.net.URI?alt=java.net.URI&text=URI\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setUrl(URI value)"
+  desc: "Sets the URL to be used by the customer to establish a relationship with a partner."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.relationshiprequests"

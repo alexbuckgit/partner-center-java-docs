@@ -11,6 +11,7 @@ members:
   summary: "Displays the partner exception details."
   overridden: "java.lang.Throwable.toString()"
   syntax: "public String toString()"
+  desc: "Displays the partner exception details."
   returns:
     description: "A string representing the partner exception including the base and extended properties."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

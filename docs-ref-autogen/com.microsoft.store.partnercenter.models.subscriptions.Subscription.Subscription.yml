@@ -10,6 +10,7 @@ members:
   nameWithType: "Subscription.Subscription()"
   summary: "Initializes a new instance of the subscription class."
   syntax: "public Subscription()"
+  desc: "Initializes a new instance of the subscription class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"

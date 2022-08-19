@@ -5,7 +5,7 @@ name: "FileInfo"
 nameWithType: "FileInfo"
 summary: "Represents a File Information"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -33,6 +33,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setFileSize(long)"
 - "com.microsoft.store.partnercenter.models.servicerequests.FileInfo.setId(java.lang.String)"
 type: "class"
+desc: "Represents a File Information"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.servicerequests"
 artifact: com.microsoft.store:partnercenter:1.15.3

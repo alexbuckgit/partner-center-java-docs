@@ -5,8 +5,8 @@ name: "EntitlementCollectionByEntitlementTypeOperations"
 nameWithType: "EntitlementCollectionByEntitlementTypeOperations"
 summary: "Entitlement collection by entitlement type operations class."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -28,6 +28,7 @@ methods:
 - "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.get()"
 - "com.microsoft.store.partnercenter.entitlements.EntitlementCollectionByEntitlementTypeOperations.get(java.lang.Boolean)"
 type: "class"
+desc: "Entitlement collection by entitlement type operations class."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType?alt=com.microsoft.store.partnercenter.entitlements.IEntitlementCollectionByEntitlementType&text=IEntitlementCollectionByEntitlementType\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerCompanyProfile.getDomain()"
   summary: "Gets the domain."
   syntax: "public String getDomain()"
+  desc: "Gets the domain."
   returns:
     description: "The domain."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

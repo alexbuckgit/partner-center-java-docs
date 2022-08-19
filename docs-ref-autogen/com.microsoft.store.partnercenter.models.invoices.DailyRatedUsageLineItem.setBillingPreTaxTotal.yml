@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setBillingPreTaxTotal(double value)"
+  desc: "Sets the extended cost or total cost before tax in local currency of the customer or billing currency."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.invoices"

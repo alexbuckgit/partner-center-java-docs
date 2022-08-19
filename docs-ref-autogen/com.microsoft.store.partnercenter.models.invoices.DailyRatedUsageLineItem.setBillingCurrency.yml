@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setBillingCurrency(String value)"
+  desc: "Sets the ISO currency in which the meter is charged in local currency of the customer or billing currency."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.invoices"

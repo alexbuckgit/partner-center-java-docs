@@ -10,6 +10,7 @@ members:
   nameWithType: "MeterUsageRecord.getUnit()"
   summary: "Gets the unit of measure for the Azure resource."
   syntax: "public String getUnit()"
+  desc: "Gets the unit of measure for the Azure resource."
   returns:
     description: "The unit of measure for the Azure resource."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

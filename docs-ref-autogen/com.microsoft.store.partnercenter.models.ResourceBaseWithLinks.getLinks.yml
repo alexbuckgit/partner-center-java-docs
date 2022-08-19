@@ -10,6 +10,7 @@ members:
   nameWithType: "ResourceBaseWithLinks<TLinks>.getLinks()"
   summary: "Gets the links."
   syntax: "public TLinks getLinks()"
+  desc: "Gets the links."
   returns:
     description: "The links."
     type: "<xref href=\"TLinks?alt=TLinks&text=TLinks\" data-throw-if-not-resolved=\"False\" />"

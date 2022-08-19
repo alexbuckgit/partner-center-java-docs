@@ -10,6 +10,7 @@ members:
   nameWithType: "ProductUpgradeLineItem.getTargetProduct()"
   summary: "Gets the target product for the upgrade."
   syntax: "public ProductUpgradeDetail getTargetProduct()"
+  desc: "Gets the target product for the upgrade."
   returns:
     description: "The target product for the upgrade."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeDetail?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeDetail&text=ProductUpgradeDetail\" data-throw-if-not-resolved=\"False\" />"

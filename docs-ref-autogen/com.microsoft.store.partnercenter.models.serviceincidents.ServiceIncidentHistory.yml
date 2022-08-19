@@ -3,9 +3,9 @@ uid: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentH
 fullName: "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory"
 name: "ServiceIncidentHistory"
 nameWithType: "ServiceIncidentHistory"
-summary: "Represents the message history for service incident. \\*"
+summary: "Represents the message history for service incident."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -27,6 +27,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory.setMessageText(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidentHistory.setPublishedTime(org.joda.time.DateTime)"
 type: "class"
+desc: "Represents the message history for service incident. \\*"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.serviceincidents"
 artifact: com.microsoft.store:partnercenter:1.15.3

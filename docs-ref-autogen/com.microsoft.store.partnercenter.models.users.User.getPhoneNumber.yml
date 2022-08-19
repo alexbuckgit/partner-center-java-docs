@@ -10,6 +10,7 @@ members:
   nameWithType: "User.getPhoneNumber()"
   summary: "Gets the phone number for the user."
   syntax: "public String getPhoneNumber()"
+  desc: "Gets the phone number for the user."
   returns:
     description: "The phone number for the user."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

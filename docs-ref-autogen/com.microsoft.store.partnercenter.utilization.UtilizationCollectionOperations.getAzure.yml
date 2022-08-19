@@ -10,6 +10,7 @@ members:
   nameWithType: "UtilizationCollectionOperations.getAzure()"
   summary: "Gets the Azure subscription utilization behavior."
   syntax: "public IAzureUtilizationCollection getAzure()"
+  desc: "Gets the Azure subscription utilization behavior."
   returns:
     description: "the Azure subscription utilization behavior."
     type: "<xref href=\"com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection?alt=com.microsoft.store.partnercenter.utilization.IAzureUtilizationCollection&text=IAzureUtilizationCollection\" data-throw-if-not-resolved=\"False\" />"

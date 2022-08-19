@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getUnitType()"
   summary: "Gets the type of the unit."
   syntax: "public String getUnitType()"
+  desc: "Gets the type of the unit."
   returns:
     description: "The type of the unit."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

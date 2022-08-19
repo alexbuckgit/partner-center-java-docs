@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getServiceInfo2()"
   summary: "Gets the service information for example, an image type for a virtual machine and ISP name for ExpressRoute."
   syntax: "public String getServiceInfo2()"
+  desc: "Gets the service information for example, an image type for a virtual machine and ISP name for ExpressRoute."
   returns:
     description: "The the service information for example, an image type for a virtual machine and ISP name for ExpressRoute."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

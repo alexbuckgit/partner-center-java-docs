@@ -14,6 +14,7 @@ members:
     name: "rootPartnerOperations"
     type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CustomerUsageRecordCollectionOperations(IPartner rootPartnerOperations)"
+  desc: "Initializes a new instance of the CustomerUsageRecordCollectionOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.usage"

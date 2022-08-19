@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomer.getUsers()"
   summary: "Gets the users behavior for the customer."
   syntax: "public abstract ICustomerUserCollection getUsers()"
+  desc: "Gets the users behavior for the customer."
   returns:
     description: "The users behavior for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection?alt=com.microsoft.store.partnercenter.customerusers.ICustomerUserCollection&text=ICustomerUserCollection\" data-throw-if-not-resolved=\"False\" />"

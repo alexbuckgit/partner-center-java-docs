@@ -5,9 +5,9 @@ name: "CustomerBillingProfileOperations"
 nameWithType: "CustomerBillingProfileOperations"
 summary: "Implements the customer billing profile operations."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -29,6 +29,7 @@ methods:
 - "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.get()"
 - "com.microsoft.store.partnercenter.customers.profiles.CustomerBillingProfileOperations.update(com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile)"
 type: "class"
+desc: "Implements the customer billing profile operations."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile?alt=com.microsoft.store.partnercenter.customers.profiles.ICustomerProfile&text=ICustomerProfile\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile?alt=com.microsoft.store.partnercenter.models.customers.CustomerBillingProfile&text=CustomerBillingProfile\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

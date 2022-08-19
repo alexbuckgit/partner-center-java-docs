@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerProductCollectionByTargetViewByTargetSegmentOperations.get()"
   summary: "Gets all the products in a given catalog view and that apply to a given customer, filtered by target segment."
   syntax: "public ResourceCollection<Product> get()"
+  desc: "Gets all the products in a given catalog view and that apply to a given customer, filtered by target segment."
   returns:
     description: "The products in a given catalog view and that apply to a given customer, filtered by target segment."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.products.Product?alt=com.microsoft.store.partnercenter.models.products.Product&text=Product\" data-throw-if-not-resolved=\"False\" />&gt;"

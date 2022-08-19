@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getChargeStartDate()"
   summary: "Gets the charge start date associated with this purchase."
   syntax: "public DateTime getChargeStartDate()"
+  desc: "Gets the charge start date associated with this purchase."
   returns:
     description: "The charge start date associated with this purchase."
     type: "<xref href=\"org.joda.time.DateTime?alt=org.joda.time.DateTime&text=DateTime\" data-throw-if-not-resolved=\"False\" />"

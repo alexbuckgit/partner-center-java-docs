@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartnerProfileCollection.getMpnProfile()"
   summary: "Gets the operations available for the partner network profile."
   syntax: "public abstract IMpnProfile getMpnProfile()"
+  desc: "Gets the operations available for the partner network profile."
   returns:
     description: "The operations available for the partner network profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.profiles.IMpnProfile?alt=com.microsoft.store.partnercenter.profiles.IMpnProfile&text=IMpnProfile\" data-throw-if-not-resolved=\"False\" />"

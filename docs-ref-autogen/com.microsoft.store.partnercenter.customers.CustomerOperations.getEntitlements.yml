@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerOperations.getEntitlements()"
   summary: "Obtains the entitlement collection object."
   syntax: "public IEntitlementCollection getEntitlements()"
+  desc: "Obtains the entitlement collection object."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.entitlements.IEntitlementCollection?alt=com.microsoft.store.partnercenter.entitlements.IEntitlementCollection&text=IEntitlementCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

@@ -10,6 +10,7 @@ members:
   nameWithType: "ReferenceOrder.getAlternateId()"
   summary: "Gets the alternate identifier value."
   syntax: "public String getAlternateId()"
+  desc: "Gets the alternate identifier value."
   returns:
     description: "The value of the alternate identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

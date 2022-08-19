@@ -10,6 +10,7 @@ members:
   nameWithType: "AzureEntitlement.getSubscriptionId()"
   summary: "Gets the subscription identifier for the entitlement."
   syntax: "public String getSubscriptionId()"
+  desc: "Gets the subscription identifier for the entitlement."
   returns:
     description: "The subscription identifier for the entitlement."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

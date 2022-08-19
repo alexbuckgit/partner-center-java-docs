@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerUsageSummaryOperations.get()"
   summary: "Gets the partner's usage summary."
   syntax: "public PartnerUsageSummary get()"
+  desc: "Gets the partner's usage summary."
   returns:
     description: "The partner's usage summary."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary?alt=com.microsoft.store.partnercenter.models.usage.PartnerUsageSummary&text=PartnerUsageSummary\" data-throw-if-not-resolved=\"False\" />"

@@ -14,6 +14,7 @@ members:
     name: "deviceBatchId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IDevicesBatch byId(String deviceBatchId)"
+  desc: "Retrieves a specific customer devices batch behavior."
   returns:
     description: "The devices batch behavior."
     type: "<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch?alt=com.microsoft.store.partnercenter.devicesdeployment.IDevicesBatch&text=IDevicesBatch\" data-throw-if-not-resolved=\"False\" />"

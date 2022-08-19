@@ -14,6 +14,7 @@ members:
     name: "pageSize"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IQuery buildIndexedQuery(int pageSize)"
+  desc: "Builds an indexed query."
   returns:
     description: "A paged query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
@@ -30,6 +31,7 @@ members:
     name: "index"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IQuery buildIndexedQuery(int pageSize, int index)"
+  desc: "Builds an indexed query."
   returns:
     description: "A paged query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
@@ -49,6 +51,7 @@ members:
     name: "filter"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IQuery buildIndexedQuery(int pageSize, int index, FieldFilter filter)"
+  desc: "Builds an indexed query."
   returns:
     description: "A paged query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
@@ -71,6 +74,7 @@ members:
     name: "sortOption"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.sort.Sort?alt=com.microsoft.store.partnercenter.models.query.sort.Sort&text=Sort\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IQuery buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption)"
+  desc: "Builds an indexed query."
   returns:
     description: "A paged query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
@@ -96,6 +100,7 @@ members:
     name: "token"
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IQuery buildIndexedQuery(int pageSize, int index, FieldFilter filter, Sort sortOption, Object token)"
+  desc: "Builds an indexed query."
   returns:
     description: "A paged query."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"

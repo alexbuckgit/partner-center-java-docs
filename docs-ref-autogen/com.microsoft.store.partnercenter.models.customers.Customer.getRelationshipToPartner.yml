@@ -10,6 +10,7 @@ members:
   nameWithType: "Customer.getRelationshipToPartner()"
   summary: "Gets the relationship to the partner."
   syntax: "public CustomerPartnerRelationship getRelationshipToPartner()"
+  desc: "Gets the relationship to the partner."
   returns:
     description: "The relationship to the partner."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship?alt=com.microsoft.store.partnercenter.models.customers.CustomerPartnerRelationship&text=CustomerPartnerRelationship\" data-throw-if-not-resolved=\"False\" />"

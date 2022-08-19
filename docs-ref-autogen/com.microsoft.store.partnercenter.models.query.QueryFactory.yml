@@ -5,7 +5,7 @@ name: "QueryFactory"
 nameWithType: "QueryFactory"
 summary: "Creates new instances of IQuery objects."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -40,6 +40,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.query.QueryFactory.buildSimpleQuery(com.microsoft.store.partnercenter.models.query.filters.FieldFilter,com.microsoft.store.partnercenter.models.query.sort.Sort,java.lang.Object)"
 - "com.microsoft.store.partnercenter.models.query.QueryFactory.getInstance()"
 type: "class"
+desc: "Creates new instances of IQuery objects."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.query"
 artifact: com.microsoft.store:partnercenter:1.15.3

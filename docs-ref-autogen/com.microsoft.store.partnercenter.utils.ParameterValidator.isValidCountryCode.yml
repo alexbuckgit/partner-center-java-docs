@@ -14,6 +14,7 @@ members:
     name: "countryCode"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static void isValidCountryCode(String countryCode)"
+  desc: "Ensures that a given country code is valid."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.utils"

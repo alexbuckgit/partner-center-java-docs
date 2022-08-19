@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Conversion.getQuantity()"
   name: "getQuantity()"
   nameWithType: "Conversion.getQuantity()"
-  summary: "Gets the quantity to be purchased. Defaults to the source subscription quantity."
+  summary: "Gets the quantity to be purchased."
   syntax: "public int getQuantity()"
+  desc: "Gets the quantity to be purchased. Defaults to the source subscription quantity."
   returns:
     description: "The quantity to be purchased. Defaults to the source subscription quantity."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

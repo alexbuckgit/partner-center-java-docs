@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomerCollection.getRelationshipRequests()"
   summary: "Gets the customer relationship request operations."
   syntax: "public abstract ICustomerRelationshipRequest getRelationshipRequests()"
+  desc: "Gets the customer relationship request operations."
   returns:
     description: "The customer relationship request operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest?alt=com.microsoft.store.partnercenter.relationshiprequests.ICustomerRelationshipRequest&text=ICustomerRelationshipRequest\" data-throw-if-not-resolved=\"False\" />"

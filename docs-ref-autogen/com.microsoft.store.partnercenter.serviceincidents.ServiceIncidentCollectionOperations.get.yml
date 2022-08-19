@@ -10,6 +10,7 @@ members:
   nameWithType: "ServiceIncidentCollectionOperations.get()"
   summary: "Gets the list of service incidents."
   syntax: "public ResourceCollection<ServiceIncidents> get()"
+  desc: "Gets the list of service incidents."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents?alt=com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents&text=ServiceIncidents\" data-throw-if-not-resolved=\"False\" />&gt;"
 - uid: "com.microsoft.store.partnercenter.serviceincidents.ServiceIncidentCollectionOperations.get(com.microsoft.store.partnercenter.models.query.IQuery)"
@@ -22,6 +23,7 @@ members:
     name: "serviceIncidentsQuery"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.IQuery?alt=com.microsoft.store.partnercenter.models.query.IQuery&text=IQuery\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResourceCollection<ServiceIncidents> get(IQuery serviceIncidentsQuery)"
+  desc: "Retrieves all service incidents."
   returns:
     description: "The list of service incidents."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents?alt=com.microsoft.store.partnercenter.models.serviceincidents.ServiceIncidents&text=ServiceIncidents\" data-throw-if-not-resolved=\"False\" />&gt;"

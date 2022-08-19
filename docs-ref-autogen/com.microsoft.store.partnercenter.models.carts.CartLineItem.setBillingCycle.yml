@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.products.BillingCycleType?alt=com.microsoft.store.partnercenter.models.products.BillingCycleType&text=BillingCycleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setBillingCycle(BillingCycleType value)"
+  desc: "Sets the type of billing cycle for the selected catalog item."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.carts"

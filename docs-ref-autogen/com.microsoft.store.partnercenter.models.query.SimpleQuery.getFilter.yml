@@ -11,6 +11,7 @@ members:
   summary: "Gets or sets the query filter."
   overridden: "com.microsoft.store.partnercenter.models.query.BaseQuery.getFilter()"
   syntax: "public FieldFilter getFilter()"
+  desc: "Gets or sets the query filter."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.filters.FieldFilter?alt=com.microsoft.store.partnercenter.models.query.filters.FieldFilter&text=FieldFilter\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

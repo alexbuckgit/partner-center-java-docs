@@ -5,8 +5,8 @@ name: "Offer"
 nameWithType: "Offer"
 summary: "Represents a form of product availability to customer"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -79,6 +79,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.offers.Offer.setUpgradeTargetOffers(java.util.List<java.lang.String>)"
 - "com.microsoft.store.partnercenter.models.offers.Offer.setUri(java.net.URI)"
 type: "class"
+desc: "Represents a form of product availability to customer"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.offers"
 artifact: com.microsoft.store:partnercenter:1.15.3

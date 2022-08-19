@@ -23,6 +23,7 @@ members:
     name: "content"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public U <T,U>put(IPartner rootPartnerOperations, TypeReference<U> responseType, String relativeUri, T content)"
+  desc: "Executes a PUT operation against the partner service."
   returns:
     description: "The response from the POST operation."
     type: "<xref href=\"U?alt=U&text=U\" data-throw-if-not-resolved=\"False\" />"

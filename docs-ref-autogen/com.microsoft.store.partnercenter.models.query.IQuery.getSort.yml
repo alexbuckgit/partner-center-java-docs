@@ -10,6 +10,7 @@ members:
   nameWithType: "IQuery.getSort()"
   summary: "Gets the query sorting options."
   syntax: "public abstract Sort getSort()"
+  desc: "Gets the query sorting options."
   returns:
     description: "The query sorting options."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.sort.Sort?alt=com.microsoft.store.partnercenter.models.query.sort.Sort&text=Sort\" data-throw-if-not-resolved=\"False\" />"

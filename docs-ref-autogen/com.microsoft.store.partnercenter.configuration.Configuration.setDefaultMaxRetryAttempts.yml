@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setDefaultMaxRetryAttempts(int value)"
+  desc: "Sets the default max retry attempts."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.configuration"

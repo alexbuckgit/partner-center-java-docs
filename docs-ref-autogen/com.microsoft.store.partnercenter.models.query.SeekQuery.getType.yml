@@ -11,6 +11,7 @@ members:
   summary: "Gets the query type."
   overridden: "com.microsoft.store.partnercenter.models.query.IndexedQuery.getType()"
   syntax: "public QueryType getType()"
+  desc: "Gets the query type."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.QueryType?alt=com.microsoft.store.partnercenter.models.query.QueryType&text=QueryType\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

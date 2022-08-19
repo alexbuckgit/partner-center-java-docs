@@ -10,6 +10,7 @@ members:
   nameWithType: "Subscription.getRefundOptions()"
   summary: "Gets the refund options for this subscription if applicable."
   syntax: "public Iterable<RefundOption> getRefundOptions()"
+  desc: "Gets the refund options for this subscription if applicable."
   returns:
     description: "The refund options for this subscription if applicable."
     type: "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.RefundOption?alt=com.microsoft.store.partnercenter.models.subscriptions.RefundOption&text=RefundOption\" data-throw-if-not-resolved=\"False\" />&gt;"

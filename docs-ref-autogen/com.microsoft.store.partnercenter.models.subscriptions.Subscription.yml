@@ -5,9 +5,9 @@ name: "Subscription"
 nameWithType: "Subscription"
 summary: "The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.Contract\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.Contract?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.Contract.getContractType()"
 - "com.microsoft.store.partnercenter.models.Contract.getOrderId()"
@@ -80,6 +80,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setTermDuration(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.subscriptions.Subscription.setUnitType(java.lang.String)"
 type: "class"
+desc: "The subscription resource represents the life cycle of a subscription and includes properties that define the states throughout the subscription life cycle"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -17,6 +17,7 @@ members:
     name: "invoiceId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public InvoiceStatementOperations(IPartner rootPartnerOperations, String invoiceId)"
+  desc: "Initializes a new instance of the InvoiceStatementOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.invoices"

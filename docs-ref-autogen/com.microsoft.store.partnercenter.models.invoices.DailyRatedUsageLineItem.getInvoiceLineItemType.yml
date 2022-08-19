@@ -11,6 +11,7 @@ members:
   summary: "Gets the type of the invoice line item."
   overridden: "com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem.getInvoiceLineItemType()"
   syntax: "public InvoiceLineItemType getInvoiceLineItemType()"
+  desc: "Gets the type of the invoice line item."
   returns:
     description: "The type of invoice line item."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType&text=InvoiceLineItemType\" data-throw-if-not-resolved=\"False\" />"

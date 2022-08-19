@@ -10,6 +10,7 @@ members:
   nameWithType: "ServiceCostLineItem.getInvoiceNumber()"
   summary: "Gets the invoice number associated with this line item."
   syntax: "public String getInvoiceNumber()"
+  desc: "Gets the invoice number associated with this line item."
   returns:
     description: "The invoice number associated with this line item."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

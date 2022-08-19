@@ -10,6 +10,7 @@ members:
   nameWithType: "IConfigurationPolicy.delete()"
   summary: "Deletes the configuration policy."
   syntax: "public abstract void delete()"
+  desc: "Deletes the configuration policy."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.devicesdeployment"

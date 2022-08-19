@@ -10,6 +10,7 @@ members:
   nameWithType: "ValidationCode.getETag()"
   summary: "Gets the ETag value for the object."
   syntax: "public String getETag()"
+  desc: "Gets the ETag value for the object."
   returns:
     description: "The ETag value for the object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

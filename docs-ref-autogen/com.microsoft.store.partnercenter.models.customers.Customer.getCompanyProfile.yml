@@ -10,6 +10,7 @@ members:
   nameWithType: "Customer.getCompanyProfile()"
   summary: "Gets the company profile."
   syntax: "public CustomerCompanyProfile getCompanyProfile()"
+  desc: "Gets the company profile."
   returns:
     description: "The company profile."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile?alt=com.microsoft.store.partnercenter.models.customers.CustomerCompanyProfile&text=CustomerCompanyProfile\" data-throw-if-not-resolved=\"False\" />"

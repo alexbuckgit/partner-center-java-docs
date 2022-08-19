@@ -8,6 +8,7 @@ syntax: "public interface IEstimateCollection extends IPartnerComponent<String>"
 methods:
 - "com.microsoft.store.partnercenter.invoices.IEstimateCollection.getLinks()"
 type: "interface"
+desc: "Represents the operations that can be done on the partner's estimate collection."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}

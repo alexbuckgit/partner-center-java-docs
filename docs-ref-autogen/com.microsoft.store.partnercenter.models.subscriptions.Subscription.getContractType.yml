@@ -11,6 +11,7 @@ members:
   summary: "Gets the type of contract"
   overridden: "com.microsoft.store.partnercenter.models.Contract.getContractType()"
   syntax: "public ContractType getContractType()"
+  desc: "Gets the type of contract"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ContractType?alt=com.microsoft.store.partnercenter.models.ContractType&text=ContractType\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

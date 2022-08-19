@@ -10,6 +10,7 @@ members:
   nameWithType: "Configuration.getDefaultAuthenticationTokenExpiryBufferInSeconds()"
   summary: "Gets the default authentication token expiry buffer in seconds."
   syntax: "public int getDefaultAuthenticationTokenExpiryBufferInSeconds()"
+  desc: "Gets the default authentication token expiry buffer in seconds."
   returns:
     description: "The default authentication token expiry buffer in seconds."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

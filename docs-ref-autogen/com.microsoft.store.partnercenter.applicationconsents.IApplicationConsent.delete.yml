@@ -10,6 +10,7 @@ members:
   nameWithType: "IApplicationConsent.delete()"
   summary: "Remove application consent."
   syntax: "public abstract void delete()"
+  desc: "Remove application consent."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.applicationconsents"

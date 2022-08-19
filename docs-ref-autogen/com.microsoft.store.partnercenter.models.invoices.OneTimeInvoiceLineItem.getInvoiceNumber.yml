@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getInvoiceNumber()"
   summary: "Gets the invoice number."
   syntax: "public String getInvoiceNumber()"
+  desc: "Gets the invoice number."
   returns:
     description: "The invoice number."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -20,6 +20,7 @@ members:
     name: "relativeUri"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract T <T>head(IPartner rootPartnerOperations, TypeReference<T> responseType, String relativeUri)"
+  desc: "Executes a HEAD operation against the partner service."
   returns:
     description: "The response from the HEAD operation."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"

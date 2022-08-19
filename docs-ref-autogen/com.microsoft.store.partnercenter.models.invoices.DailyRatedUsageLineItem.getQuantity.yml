@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getQuantity()"
   summary: "Gets the quantity of the usage."
   syntax: "public double getQuantity()"
+  desc: "Gets the quantity of the usage."
   returns:
     description: "The quantity of the usage"
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

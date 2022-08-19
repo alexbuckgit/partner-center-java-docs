@@ -10,6 +10,7 @@ members:
   nameWithType: "Subscription.getIsTrial()"
   summary: "Gets a flag indicating whether or not the subscription is a trial."
   syntax: "public boolean getIsTrial()"
+  desc: "Gets a flag indicating whether or not the subscription is a trial."
   returns:
     description: "A flag indicating whether or not the subscription is a trial."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

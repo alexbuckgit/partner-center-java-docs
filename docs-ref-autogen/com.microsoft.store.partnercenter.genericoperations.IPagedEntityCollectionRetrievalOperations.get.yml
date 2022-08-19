@@ -17,6 +17,7 @@ members:
     name: "size"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract TResourceCollection get(int offset, int size)"
+  desc: "Retrieves a subset of entities."
   returns:
     description: "The requested entities subset."
     type: "<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />"

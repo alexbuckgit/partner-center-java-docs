@@ -13,6 +13,7 @@ members:
   - name: "country"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IOfferCategoryCollection byCountry(String country)"
+  desc: "Scopes offers behavior to a specific country."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.offers.IOfferCategoryCollection?alt=com.microsoft.store.partnercenter.offers.IOfferCategoryCollection&text=IOfferCategoryCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

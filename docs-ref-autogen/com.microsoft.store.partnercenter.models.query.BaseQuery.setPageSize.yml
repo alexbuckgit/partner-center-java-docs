@@ -13,6 +13,7 @@ members:
   - name: "value"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setPageSize(int value)"
+  desc: "Sets the results page size."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.query"

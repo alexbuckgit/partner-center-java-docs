@@ -14,6 +14,7 @@ members:
     name: "address"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.Address?alt=com.microsoft.store.partnercenter.models.Address&text=Address\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public Boolean isAddressValid(Address address)"
+  desc: "Checks if the address is valid or not."
   returns:
     description: "True if the address is valid, false otherwise."
     type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"

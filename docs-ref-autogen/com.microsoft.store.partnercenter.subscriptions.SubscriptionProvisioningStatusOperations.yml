@@ -5,8 +5,8 @@ name: "SubscriptionProvisioningStatusOperations"
 nameWithType: "SubscriptionProvisioningStatusOperations"
 summary: "Implements getting customer subscription provisioning status details for a given subscription."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
 - "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
@@ -27,6 +27,7 @@ constructors:
 methods:
 - "com.microsoft.store.partnercenter.subscriptions.SubscriptionProvisioningStatusOperations.get()"
 type: "class"
+desc: "Implements getting customer subscription provisioning status details for a given subscription."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionProvisioningStatus&text=ISubscriptionProvisioningStatus\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

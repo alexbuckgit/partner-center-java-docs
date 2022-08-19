@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getSkuId()"
   summary: "Gets the SKU unique identifier."
   syntax: "public String getSkuId()"
+  desc: "Gets the SKU unique identifier."
   returns:
     description: "The SKU unique identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

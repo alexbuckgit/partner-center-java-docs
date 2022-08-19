@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.offers.BillingCycleType?alt=com.microsoft.store.partnercenter.models.offers.BillingCycleType&text=BillingCycleType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setBillingCycle(BillingCycleType value)"
+  desc: "Sets the billing cycle that defines how often the partner is billed for this subscription."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"

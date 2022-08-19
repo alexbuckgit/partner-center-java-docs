@@ -3,9 +3,9 @@ uid: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
 fullName: "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
 name: "ValidationCode"
 nameWithType: "ValidationCode"
-summary: "Represents validation codes. Used to create Government Community Cloud (GCC) accounts."
+summary: "Represents validation codes."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -35,6 +35,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setRemainingCreates(int)"
 - "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode.setValidationId(java.lang.String)"
 type: "class"
+desc: "Represents validation codes. Used to create Government Community Cloud (GCC) accounts."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.validationcodes"
 artifact: com.microsoft.store:partnercenter:1.15.3

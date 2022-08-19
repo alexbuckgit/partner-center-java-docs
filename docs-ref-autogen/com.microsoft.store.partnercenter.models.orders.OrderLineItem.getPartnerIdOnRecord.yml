@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItem.getPartnerIdOnRecord()"
   summary: "Gets the partner identifier on record."
   syntax: "public String getPartnerIdOnRecord()"
+  desc: "Gets the partner identifier on record."
   returns:
     description: "The partner identifier on record."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

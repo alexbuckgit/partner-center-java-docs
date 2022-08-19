@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerUsageSpendingBudgetOperations.get()"
   summary: "Gets the usage spending budget allocated to a customer by the partner."
   syntax: "public SpendingBudget get()"
+  desc: "Gets the usage spending budget allocated to a customer by the partner."
   returns:
     description: "The customer usage spending budget."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.usage.SpendingBudget?alt=com.microsoft.store.partnercenter.models.usage.SpendingBudget&text=SpendingBudget\" data-throw-if-not-resolved=\"False\" />"

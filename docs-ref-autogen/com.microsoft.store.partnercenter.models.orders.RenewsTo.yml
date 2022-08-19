@@ -5,7 +5,7 @@ name: "RenewsTo"
 nameWithType: "RenewsTo"
 summary: "Represent the renews to for a order line item."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -25,6 +25,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.orders.RenewsTo.getTermDuration()"
 - "com.microsoft.store.partnercenter.models.orders.RenewsTo.setTermDuration(java.lang.String)"
 type: "class"
+desc: "Represent the renews to for a order line item."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.orders"
 artifact: com.microsoft.store:partnercenter:1.15.3

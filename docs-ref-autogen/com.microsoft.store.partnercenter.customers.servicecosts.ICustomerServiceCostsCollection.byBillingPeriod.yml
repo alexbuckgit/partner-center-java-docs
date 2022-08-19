@@ -14,6 +14,7 @@ members:
     name: "billingPeriod"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod&text=ServiceCostsBillingPeriod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract IServiceCostsCollection byBillingPeriod(ServiceCostsBillingPeriod billingPeriod)"
+  desc: "Obtains the service cost operations by billing period."
   returns:
     description: "The service cost operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection?alt=com.microsoft.store.partnercenter.customers.servicecosts.IServiceCostsCollection&text=IServiceCostsCollection\" data-throw-if-not-resolved=\"False\" />"

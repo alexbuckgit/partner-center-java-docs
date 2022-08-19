@@ -3,7 +3,7 @@ uid: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerato
 fullName: "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator<T>"
 name: "IResourceCollectionEnumerator<T>"
 nameWithType: "IResourceCollectionEnumerator<T>"
-summary: "Provides resource collection enumeration capabilities. This interface can page through results and determines whether the current page is the first or last page or not. The enumeration result type."
+summary: "Provides resource collection enumeration capabilities."
 syntax: "public interface IResourceCollectionEnumerator<T>"
 methods:
 - "com.microsoft.store.partnercenter.enumerators.IResourceCollectionEnumerator.getCurrent()"
@@ -17,6 +17,7 @@ methods:
 type: "interface"
 typeParameters:
 - name: "T"
+desc: "Provides resource collection enumeration capabilities. This interface can page through results and determines whether the current page is the first or last page or not. The enumeration result type."
 metadata: {}
 package: "com.microsoft.store.partnercenter.enumerators"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.query.BaseQuery.getToken()"
   name: "getToken()"
   nameWithType: "BaseQuery.getToken()"
-  summary: "Gets the query token. The token may hold context used to represent current state with back end services."
+  summary: "Gets the query token."
   syntax: "public Object getToken()"
+  desc: "Gets the query token. The token may hold context used to represent current state with back end services."
   returns:
     type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

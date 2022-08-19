@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerBillingProfile.getCulture()"
   summary: "Gets the culture."
   syntax: "public String getCulture()"
+  desc: "Gets the culture."
   returns:
     description: "The culture."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

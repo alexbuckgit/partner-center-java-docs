@@ -10,6 +10,7 @@ members:
   nameWithType: "CancellationRefundOption.getType()"
   summary: "Gets the type of refund (full or partial)."
   syntax: "public String getType()"
+  desc: "Gets the type of refund (full or partial)."
   returns:
     description: "The type of refund (full or partial)."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

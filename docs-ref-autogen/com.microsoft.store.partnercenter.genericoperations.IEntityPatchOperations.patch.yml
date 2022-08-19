@@ -14,6 +14,7 @@ members:
     name: "entity"
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract T patch(T entity)"
+  desc: "Patches an entity."
   returns:
     description: "The updated entity."
     type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"

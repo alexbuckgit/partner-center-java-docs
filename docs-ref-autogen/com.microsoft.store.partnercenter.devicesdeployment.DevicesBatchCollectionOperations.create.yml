@@ -14,6 +14,7 @@ members:
     name: "newDeviceBatch"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest?alt=com.microsoft.store.partnercenter.models.devicesdeployment.DeviceBatchCreationRequest&text=DeviceBatchCreationRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public String create(DeviceBatchCreationRequest newDeviceBatch)"
+  desc: "Creates a new devices batch along with the devices."
   returns:
     description: "The location which indicates the URL of the API to query for status of the create request."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

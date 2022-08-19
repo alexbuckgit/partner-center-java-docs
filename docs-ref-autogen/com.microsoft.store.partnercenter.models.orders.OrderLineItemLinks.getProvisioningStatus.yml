@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItemLinks.getProvisioningStatus()"
   summary: "Gets the provisioning status link for the order line item."
   syntax: "public Link getProvisioningStatus()"
+  desc: "Gets the provisioning status link for the order line item."
   returns:
     description: "The provisioning status link for the order line item."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"

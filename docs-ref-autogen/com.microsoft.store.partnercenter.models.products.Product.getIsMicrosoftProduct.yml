@@ -10,6 +10,7 @@ members:
   nameWithType: "Product.getIsMicrosoftProduct()"
   summary: "Gets a flag indicating whether this is a Microsoft product or not."
   syntax: "public boolean getIsMicrosoftProduct()"
+  desc: "Gets a flag indicating whether this is a Microsoft product or not."
   returns:
     description: "A flag indicating whether this is a Microsoft product or not."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

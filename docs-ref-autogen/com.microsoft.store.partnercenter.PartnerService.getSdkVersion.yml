@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerService.getSdkVersion()"
   summary: "Gets the SDK version."
   syntax: "public String getSdkVersion()"
+  desc: "Gets the SDK version."
   returns:
     description: "The SDK version."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

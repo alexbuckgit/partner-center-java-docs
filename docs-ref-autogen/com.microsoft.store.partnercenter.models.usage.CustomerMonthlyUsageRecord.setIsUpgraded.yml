@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setIsUpgraded(boolean value)"
+  desc: "Sets a value indicating whether the customer's Azure subscription is upgraded."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.usage"

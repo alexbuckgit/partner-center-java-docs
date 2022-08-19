@@ -11,6 +11,7 @@ members:
   summary: "Converts this object to a string."
   overridden: "java.lang.Object.toString()"
   syntax: "public String toString()"
+  desc: "Converts this object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

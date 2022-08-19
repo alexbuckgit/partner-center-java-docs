@@ -17,6 +17,7 @@ members:
     name: "invoiceLineItemType"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType?alt=com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType&text=InvoiceLineItemType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IInvoiceLineItemCollection by(BillingProvider billingProvider, InvoiceLineItemType invoiceLineItemType)"
+  desc: "Creates an invoice line item collection operation given a billing provider and invoice line item type."
   returns:
     description: "The invoice line item collection operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection?alt=com.microsoft.store.partnercenter.invoices.IInvoiceLineItemCollection&text=IInvoiceLineItemCollection\" data-throw-if-not-resolved=\"False\" />"
@@ -39,6 +40,7 @@ members:
     name: "period"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BillingPeriod?alt=com.microsoft.store.partnercenter.models.invoices.BillingPeriod&text=BillingPeriod\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period)"
+  desc: "Creates an invoice line item collection operations given a billing provider and invoice line item type."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection?alt=com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection&text=IReconciliationLineItemCollection\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.store.partnercenter.invoices.InvoiceOperations.by(com.microsoft.store.partnercenter.models.invoices.BillingProvider,com.microsoft.store.partnercenter.models.invoices.InvoiceLineItemType,java.lang.String,com.microsoft.store.partnercenter.models.invoices.BillingPeriod,int)"
@@ -63,6 +65,7 @@ members:
     name: "pageSize"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IReconciliationLineItemCollection by(BillingProvider provider, InvoiceLineItemType invoiceLineItemType, String currencyCode, BillingPeriod period, int pageSize)"
+  desc: "Creates an invoice line item collection operations given a billing provider and invoice line item type."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection?alt=com.microsoft.store.partnercenter.invoices.IReconciliationLineItemCollection&text=IReconciliationLineItemCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

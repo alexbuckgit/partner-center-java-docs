@@ -10,6 +10,7 @@ members:
   nameWithType: "SubscriptionOperations.getUsageRecords()"
   summary: "Gets the current subscription's usage record operations."
   syntax: "public ISubscriptionUsageRecordCollection getUsageRecords()"
+  desc: "Gets the current subscription's usage record operations."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection?alt=com.microsoft.store.partnercenter.usage.ISubscriptionUsageRecordCollection&text=ISubscriptionUsageRecordCollection\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

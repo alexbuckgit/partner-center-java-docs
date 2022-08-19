@@ -11,6 +11,7 @@ members:
   summary: "Gets the links."
   overridden: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.getLinks()"
   syntax: "public ManagedServiceLinks getLinks()"
+  desc: "Gets the links."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks?alt=com.microsoft.store.partnercenter.models.managedservices.ManagedServiceLinks&text=ManagedServiceLinks\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

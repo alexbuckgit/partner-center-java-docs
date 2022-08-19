@@ -8,6 +8,7 @@ syntax: "public interface IProductExtensionsByCountry extends IPartnerComponentS
 methods:
 - "com.microsoft.store.partnercenter.extensions.products.IProductExtensionsByCountry.checkInventory(com.microsoft.store.partnercenter.models.products.InventoryCheckRequest)"
 type: "interface"
+desc: "Holds extension operations for products by country."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

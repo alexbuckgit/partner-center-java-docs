@@ -10,6 +10,7 @@ members:
   nameWithType: "IDeviceCollection.get()"
   summary: "Retrieves all devices."
   syntax: "public abstract ResourceCollection<Device> get()"
+  desc: "Retrieves all devices."
   returns:
     description: "All of the devices."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.Device?alt=com.microsoft.store.partnercenter.models.devicesdeployment.Device&text=Device\" data-throw-if-not-resolved=\"False\" />&gt;"

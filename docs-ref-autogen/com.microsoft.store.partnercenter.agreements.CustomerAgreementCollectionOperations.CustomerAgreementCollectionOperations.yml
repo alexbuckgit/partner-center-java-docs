@@ -17,6 +17,7 @@ members:
     name: "customerId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CustomerAgreementCollectionOperations(IPartner rootPartnerOperations, String customerId)"
+  desc: "Initializes a new instance of the CustomerAgreementCollectionOperations class."
 - uid: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.CustomerAgreementCollectionOperations(com.microsoft.store.partnercenter.IPartner,java.lang.String,java.lang.String)"
   fullName: "com.microsoft.store.partnercenter.agreements.CustomerAgreementCollectionOperations.CustomerAgreementCollectionOperations(IPartner rootPartnerOperations, String customerId, String agreementType)"
   name: "CustomerAgreementCollectionOperations(IPartner rootPartnerOperations, String customerId, String agreementType)"
@@ -33,6 +34,7 @@ members:
     name: "agreementType"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CustomerAgreementCollectionOperations(IPartner rootPartnerOperations, String customerId, String agreementType)"
+  desc: "Initializes a new instance of the CustomerAgreementCollectionOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.agreements"

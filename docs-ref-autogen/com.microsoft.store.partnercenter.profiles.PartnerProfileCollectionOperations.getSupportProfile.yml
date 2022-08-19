@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerProfileCollectionOperations.getSupportProfile()"
   summary: "Gets the operations available for the partner network profile."
   syntax: "public ISupportProfile getSupportProfile()"
+  desc: "Gets the operations available for the partner network profile."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.profiles.ISupportProfile?alt=com.microsoft.store.partnercenter.profiles.ISupportProfile&text=ISupportProfile\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

@@ -10,6 +10,7 @@ members:
   nameWithType: "IServiceRequestCollection.get()"
   summary: "Retrieves all service requests."
   syntax: "public abstract ResourceCollection<ServiceRequest> get()"
+  desc: "Retrieves all service requests."
   returns:
     description: "The service requests."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />&gt;"

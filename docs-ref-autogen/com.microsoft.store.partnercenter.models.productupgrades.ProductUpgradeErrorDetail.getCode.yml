@@ -10,6 +10,7 @@ members:
   nameWithType: "ProductUpgradeErrorDetail.getCode()"
   summary: "Gets the error code of the product upgrade."
   syntax: "public String getCode()"
+  desc: "Gets the error code of the product upgrade."
   returns:
     description: "The error code of the product upgrade."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

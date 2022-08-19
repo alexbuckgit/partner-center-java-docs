@@ -10,6 +10,7 @@ members:
   nameWithType: "ResourceUsageRecord.getSubscriptionId()"
   summary: "Gets the identifier for the subscription."
   syntax: "public String getSubscriptionId()"
+  desc: "Gets the identifier for the subscription."
   returns:
     description: "The identifier for the subscription."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

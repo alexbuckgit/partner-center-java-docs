@@ -10,6 +10,7 @@ members:
   nameWithType: "ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks()"
   summary: "Initializes a new instance of the ResourceBaseWithLinks class."
   syntax: "protected ResourceBaseWithLinks()"
+  desc: "Initializes a new instance of the ResourceBaseWithLinks class."
 - uid: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks.ResourceBaseWithLinks(java.lang.String)"
   fullName: "com.microsoft.store.partnercenter.models.ResourceBaseWithLinks<TLinks>.ResourceBaseWithLinks(String objectType)"
   name: "ResourceBaseWithLinks(String objectType)"
@@ -20,6 +21,7 @@ members:
     name: "objectType"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected ResourceBaseWithLinks(String objectType)"
+  desc: "Initializes a new instance of the ResourceBaseWithLinks class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"

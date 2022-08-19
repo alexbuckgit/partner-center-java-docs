@@ -20,6 +20,7 @@ members:
     name: "acceptType"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract InputStream getFileContents(IPartner rootPartnerOperations, String relativeUri, String acceptType)"
+  desc: "Executes a file content request against the partner service."
   returns:
     description: "The response from the file content request."
     type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"

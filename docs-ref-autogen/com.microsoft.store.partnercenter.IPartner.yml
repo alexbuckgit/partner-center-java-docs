@@ -3,7 +3,7 @@ uid: "com.microsoft.store.partnercenter.IPartner"
 fullName: "com.microsoft.store.partnercenter.IPartner"
 name: "IPartner"
 nameWithType: "IPartner"
-summary: "The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more."
+summary: "The main entry point into using the partner SDK functionality."
 syntax: "public interface IPartner"
 methods:
 - "com.microsoft.store.partnercenter.IPartner.getAgreementDetails()"
@@ -31,6 +31,7 @@ methods:
 - "com.microsoft.store.partnercenter.IPartner.getUsageSummary()"
 - "com.microsoft.store.partnercenter.IPartner.getValidations()"
 type: "interface"
+desc: "The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more."
 metadata: {}
 package: "com.microsoft.store.partnercenter"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartner.getServiceIncidents()"
   summary: "Gets the service health operations that can be performed on a partner's subscribed services."
   syntax: "public abstract IServiceIncidentCollection getServiceIncidents()"
+  desc: "Gets the service health operations that can be performed on a partner's subscribed services."
   returns:
     description: "The service health operations that can be performed on a partner's subscribed services."
     type: "<xref href=\"com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection?alt=com.microsoft.store.partnercenter.serviceincidents.IServiceIncidentCollection&text=IServiceIncidentCollection\" data-throw-if-not-resolved=\"False\" />"

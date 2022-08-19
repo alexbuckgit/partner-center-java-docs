@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"java.util.UUID?alt=java.util.UUID&text=UUID\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setCorrelationId(UUID value)"
+  desc: "Sets the correlation identifier."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.requestcontext"

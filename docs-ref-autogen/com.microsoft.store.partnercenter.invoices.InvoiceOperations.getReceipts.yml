@@ -10,6 +10,7 @@ members:
   nameWithType: "InvoiceOperations.getReceipts()"
   summary: "Gets the available receipt operations."
   syntax: "public IReceiptCollection getReceipts()"
+  desc: "Gets the available receipt operations."
   returns:
     description: "The available receipt operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IReceiptCollection?alt=com.microsoft.store.partnercenter.invoices.IReceiptCollection&text=IReceiptCollection\" data-throw-if-not-resolved=\"False\" />"

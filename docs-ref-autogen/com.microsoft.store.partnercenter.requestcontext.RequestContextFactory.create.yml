@@ -10,6 +10,7 @@ members:
   nameWithType: "RequestContextFactory.create()"
   summary: "Creates a request context object which will use a randomly generated correlation Id and a unique request Id for each partner API call."
   syntax: "public IRequestContext create()"
+  desc: "Creates a request context object which will use a randomly generated correlation Id and a unique request Id for each partner API call."
   returns:
     description: "A request context object."
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
@@ -23,6 +24,7 @@ members:
     name: "locale"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IRequestContext create(String locale)"
+  desc: "Creates a request context object which will use a randomly generated correlation Id, a unique request Id and provided locale for each partner API call."
   returns:
     description: "A request context object."
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
@@ -36,6 +38,7 @@ members:
     name: "correlationId"
     type: "<xref href=\"java.util.UUID?alt=java.util.UUID&text=UUID\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IRequestContext create(UUID correlationId)"
+  desc: "Creates a request context object with the provided correlation Id and a unique request Id for each partner API call."
   returns:
     description: "A request context object."
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
@@ -52,6 +55,7 @@ members:
     name: "locale"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IRequestContext create(UUID correlationId, String locale)"
+  desc: "Creates a request context object with the provided correlation Id, a unique request Id and provided locale for each partner API call."
   returns:
     description: "A request context object."
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
@@ -68,6 +72,7 @@ members:
     name: "requestId"
     type: "<xref href=\"java.util.UUID?alt=java.util.UUID&text=UUID\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IRequestContext create(UUID correlationId, UUID requestId)"
+  desc: "Creates a request context object with the provided correlation and request Ids."
   returns:
     description: "A request context object."
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"
@@ -87,6 +92,7 @@ members:
     name: "locale"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IRequestContext create(UUID correlationId, UUID requestId, String locale)"
+  desc: "Creates a request context object with the provided correlation, request Ids and locale."
   returns:
     description: "A request context object."
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.IRequestContext?alt=com.microsoft.store.partnercenter.requestcontext.IRequestContext&text=IRequestContext\" data-throw-if-not-resolved=\"False\" />"

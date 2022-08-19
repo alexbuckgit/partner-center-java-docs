@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getCustomerCountry()"
   summary: "Gets the country of the customer."
   syntax: "public String getCustomerCountry()"
+  desc: "Gets the country of the customer."
   returns:
     description: "The country of the customer."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

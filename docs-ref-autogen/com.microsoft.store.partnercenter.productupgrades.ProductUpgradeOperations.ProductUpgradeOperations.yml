@@ -17,6 +17,7 @@ members:
     name: "upgradeId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ProductUpgradeOperations(IPartner rootPartnerOperations, String upgradeId)"
+  desc: "Initializes a new instance of the ProductUpgradeOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.productupgrades"

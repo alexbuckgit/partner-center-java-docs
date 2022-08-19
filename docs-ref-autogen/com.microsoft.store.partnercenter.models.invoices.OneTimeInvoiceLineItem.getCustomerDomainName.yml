@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getCustomerDomainName()"
   summary: "Gets the customer domain name."
   syntax: "public String getCustomerDomainName()"
+  desc: "Gets the customer domain name."
   returns:
     description: "The customer domain name."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

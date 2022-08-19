@@ -10,6 +10,7 @@ members:
   nameWithType: "ResourceCollectionWithLinks<TResource,TLinks>.getItems()"
   summary: "Gets the collection items."
   syntax: "public Iterable<TResource> getItems()"
+  desc: "Gets the collection items."
   returns:
     description: "The items in the collection."
     type: "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"TResource?alt=TResource&text=TResource\" data-throw-if-not-resolved=\"False\" />&gt;"

@@ -10,6 +10,7 @@ members:
   nameWithType: "IEntireEntityCollectionRetrievalOperations<T,TResourceCollection>.get()"
   summary: "Retrieves all entities."
   syntax: "public abstract TResourceCollection get()"
+  desc: "Retrieves all entities."
   returns:
     description: "The entities."
     type: "<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "Entitlement.getReferenceOrder()"
   summary: "Gets the reference order related to the entitlement."
   syntax: "public ReferenceOrder getReferenceOrder()"
+  desc: "Gets the reference order related to the entitlement."
   returns:
     description: "The reference order related to the entitlement."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder?alt=com.microsoft.store.partnercenter.models.entitlements.ReferenceOrder&text=ReferenceOrder\" data-throw-if-not-resolved=\"False\" />"

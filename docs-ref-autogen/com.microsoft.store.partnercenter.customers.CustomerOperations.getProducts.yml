@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerOperations.getProducts()"
   summary: "Gets the cart behavior for the customer."
   syntax: "public ICustomerProductCollection getProducts()"
+  desc: "Gets the cart behavior for the customer."
   returns:
     description: "The customer carts."
     type: "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollection&text=ICustomerProductCollection\" data-throw-if-not-resolved=\"False\" />"

@@ -20,6 +20,7 @@ members:
     name: "country"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public OfferAddOnsOperations(IPartner rootPartnerOperations, String offerId, String country)"
+  desc: "Initializes a new instance of the OfferAddOnsOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.offers"

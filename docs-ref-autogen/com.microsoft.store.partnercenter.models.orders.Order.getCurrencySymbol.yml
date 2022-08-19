@@ -10,6 +10,7 @@ members:
   nameWithType: "Order.getCurrencySymbol()"
   summary: "Gets the currency symbol."
   syntax: "public String getCurrencySymbol()"
+  desc: "Gets the currency symbol."
   returns:
     description: "The currency symbol."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

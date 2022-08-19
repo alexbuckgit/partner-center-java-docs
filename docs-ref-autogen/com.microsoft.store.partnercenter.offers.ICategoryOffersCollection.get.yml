@@ -10,6 +10,7 @@ members:
   nameWithType: "ICategoryOffersCollection.get()"
   summary: "Retrieves all the offers in the given offer category."
   syntax: "public abstract ResourceCollection<Offer> get()"
+  desc: "Retrieves all the offers in the given offer category."
   returns:
     description: "The offers in the given offer category."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -26,6 +27,7 @@ members:
     name: "size"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ResourceCollection<Offer> get(int offset, int size)"
+  desc: "Retrieves a subset of offers in the given offer category."
   returns:
     description: "The requested segment of the offers in the given offer category."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.offers.Offer?alt=com.microsoft.store.partnercenter.models.offers.Offer&text=Offer\" data-throw-if-not-resolved=\"False\" />&gt;"

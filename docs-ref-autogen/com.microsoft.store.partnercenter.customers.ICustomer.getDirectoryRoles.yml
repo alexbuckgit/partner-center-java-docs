@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomer.getDirectoryRoles()"
   summary: "Gets the directory role behavior for the customer."
   syntax: "public abstract IDirectoryRoleCollection getDirectoryRoles()"
+  desc: "Gets the directory role behavior for the customer."
   returns:
     description: "The directory role behavior for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection?alt=com.microsoft.store.partnercenter.customerdirectoryroles.IDirectoryRoleCollection&text=IDirectoryRoleCollection\" data-throw-if-not-resolved=\"False\" />"

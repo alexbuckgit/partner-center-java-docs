@@ -10,6 +10,7 @@ members:
   nameWithType: "IInvoiceDocuments.getStatement()"
   summary: "Gets an invoice statement operations."
   syntax: "public abstract IInvoiceStatement getStatement()"
+  desc: "Gets an invoice statement operations."
   returns:
     description: "An invoice statement operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IInvoiceStatement?alt=com.microsoft.store.partnercenter.invoices.IInvoiceStatement&text=IInvoiceStatement\" data-throw-if-not-resolved=\"False\" />"

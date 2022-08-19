@@ -8,12 +8,13 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecord.setUserPrincipalName(String value)"
   name: "setUserPrincipalName(String value)"
   nameWithType: "AuditRecord.setUserPrincipalName(String value)"
-  summary: "Sets the identifier of the user who performed the operation. This could be in the context of application."
+  summary: "Sets the identifier of the user who performed the operation."
   parameters:
   - description: "The identifier of the user who performed the operation."
     name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setUserPrincipalName(String value)"
+  desc: "Sets the identifier of the user who performed the operation. This could be in the context of application."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.auditing"

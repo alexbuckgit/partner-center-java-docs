@@ -14,6 +14,7 @@ members:
     name: "targetView"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract ICustomerProductCollectionByTargetView byTargetView(String targetView)"
+  desc: "Retrieves the operations that can be applied on products in a given catalog view and that apply to a given customer."
   returns:
     description: "The catalog view operations by target view"
     type: "<xref href=\"com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView?alt=com.microsoft.store.partnercenter.customers.products.ICustomerProductCollectionByTargetView&text=ICustomerProductCollectionByTargetView\" data-throw-if-not-resolved=\"False\" />"

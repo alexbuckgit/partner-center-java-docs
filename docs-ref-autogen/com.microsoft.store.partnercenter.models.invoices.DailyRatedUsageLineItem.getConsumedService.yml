@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getConsumedService()"
   summary: "Gets the service that was consumed."
   syntax: "public String getConsumedService()"
+  desc: "Gets the service that was consumed."
   returns:
     description: "The service that was consumed."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

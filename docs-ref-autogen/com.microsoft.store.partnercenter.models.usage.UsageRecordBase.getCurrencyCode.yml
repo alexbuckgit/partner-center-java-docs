@@ -10,6 +10,7 @@ members:
   nameWithType: "UsageRecordBase.getCurrencyCode()"
   summary: "Gets the code of the currency."
   syntax: "public String getCurrencyCode()"
+  desc: "Gets the code of the currency."
   returns:
     description: "The code of the currency."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

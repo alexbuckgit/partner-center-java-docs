@@ -10,6 +10,7 @@ members:
   nameWithType: "AuditRecord.getOperationType()"
   summary: "Gets the type of the operation being performed."
   syntax: "public OperationType getOperationType()"
+  desc: "Gets the type of the operation being performed."
   returns:
     description: "The type of the operation being performed."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.auditing.OperationType?alt=com.microsoft.store.partnercenter.models.auditing.OperationType&text=OperationType\" data-throw-if-not-resolved=\"False\" />"

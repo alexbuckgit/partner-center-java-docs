@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartner.getDomains()"
   summary: "Gets the domains operations available to the partner."
   syntax: "public abstract IDomainCollection getDomains()"
+  desc: "Gets the domains operations available to the partner."
   returns:
     description: "The domains operations available to the partner."
     type: "<xref href=\"com.microsoft.store.partnercenter.domains.IDomainCollection?alt=com.microsoft.store.partnercenter.domains.IDomainCollection&text=IDomainCollection\" data-throw-if-not-resolved=\"False\" />"

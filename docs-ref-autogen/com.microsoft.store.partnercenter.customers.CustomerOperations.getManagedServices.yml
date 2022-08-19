@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerOperations.getManagedServices()"
   summary: "Obtains the managed services behavior for the customer."
   syntax: "public IManagedServiceCollection getManagedServices()"
+  desc: "Obtains the managed services behavior for the customer."
   returns:
     description: "The customer managed services operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection?alt=com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection&text=IManagedServiceCollection\" data-throw-if-not-resolved=\"False\" />"

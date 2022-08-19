@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getTags()"
   summary: "Gets the tags added by the customer."
   syntax: "public Map<String,Object> getTags()"
+  desc: "Gets the tags added by the customer."
   returns:
     description: "The tags added by the customer."
     type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"

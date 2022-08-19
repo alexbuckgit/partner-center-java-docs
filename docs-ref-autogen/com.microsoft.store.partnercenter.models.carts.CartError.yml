@@ -5,8 +5,8 @@ name: "CartError"
 nameWithType: "CartError"
 summary: "Represents an error associated to a cart line item."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -29,6 +29,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.carts.CartError.setErrorCode(com.microsoft.store.partnercenter.models.carts.CartErrorCode)"
 - "com.microsoft.store.partnercenter.models.carts.CartError.setErrorDescription(java.lang.String)"
 type: "class"
+desc: "Represents an error associated to a cart line item."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.carts"
 artifact: com.microsoft.store:partnercenter:1.15.3

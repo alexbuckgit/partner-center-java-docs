@@ -10,6 +10,7 @@ members:
   nameWithType: "Order.getTransactionType()"
   summary: "Gets the transaction type for the order."
   syntax: "public String getTransactionType()"
+  desc: "Gets the transaction type for the order."
   returns:
     description: "The transaction type for the order."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

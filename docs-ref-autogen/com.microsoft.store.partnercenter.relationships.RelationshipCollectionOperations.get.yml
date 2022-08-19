@@ -14,6 +14,7 @@ members:
     name: "partnerRelationshipType"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType&text=PartnerRelationshipType\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public ResourceCollection<PartnerRelationship> get(PartnerRelationshipType partnerRelationshipType)"
+  desc: "Retrieves all the partner relationships."
   returns:
     description: "The available partner relationships."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationship?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationship&text=PartnerRelationship\" data-throw-if-not-resolved=\"False\" />&gt;"

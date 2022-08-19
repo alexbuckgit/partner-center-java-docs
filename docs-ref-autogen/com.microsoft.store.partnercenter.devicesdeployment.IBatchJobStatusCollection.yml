@@ -8,6 +8,7 @@ syntax: "public interface IBatchJobStatusCollection extends IPartnerComponentStr
 methods:
 - "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatusCollection.byId(java.lang.String)"
 type: "interface"
+desc: "Represents the operations that can be done on the partner's batch upload status collection."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntitySelector?alt=com.microsoft.store.partnercenter.genericoperations.IEntitySelector&text=IEntitySelector\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus?alt=com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus&text=IBatchJobStatus\" data-throw-if-not-resolved=\"False\" />&gt;"

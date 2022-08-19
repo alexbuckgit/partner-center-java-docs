@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomer.getManagedServices()"
   summary: "Gets the managed services behavior for the customer."
   syntax: "public abstract IManagedServiceCollection getManagedServices()"
+  desc: "Gets the managed services behavior for the customer."
   returns:
     description: "The managed services behavior for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection?alt=com.microsoft.store.partnercenter.managedservices.IManagedServiceCollection&text=IManagedServiceCollection\" data-throw-if-not-resolved=\"False\" />"

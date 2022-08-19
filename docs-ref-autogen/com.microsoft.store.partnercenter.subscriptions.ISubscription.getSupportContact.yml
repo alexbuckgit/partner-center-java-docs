@@ -10,6 +10,7 @@ members:
   nameWithType: "ISubscription.getSupportContact()"
   summary: "Gets the current subscription's support contact operations."
   syntax: "public abstract ISubscriptionSupportContact getSupportContact()"
+  desc: "Gets the current subscription's support contact operations."
   returns:
     description: "The current subscription's support contact operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact&text=ISubscriptionSupportContact\" data-throw-if-not-resolved=\"False\" />"

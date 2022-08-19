@@ -10,6 +10,7 @@ members:
   nameWithType: "IInvoiceCollection.getSummary()"
   summary: "Gets the partner's current account balance."
   syntax: "public abstract IInvoiceSummary getSummary()"
+  desc: "Gets the partner's current account balance."
   returns:
     description: "invoice summary operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.invoices.IInvoiceSummary?alt=com.microsoft.store.partnercenter.invoices.IInvoiceSummary&text=IInvoiceSummary\" data-throw-if-not-resolved=\"False\" />"

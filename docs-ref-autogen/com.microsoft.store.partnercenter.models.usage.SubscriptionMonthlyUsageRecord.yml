@@ -5,9 +5,9 @@ name: "SubscriptionMonthlyUsageRecord"
 nameWithType: "SubscriptionMonthlyUsageRecord"
 summary: "Defines the monthly usage record of a subscription."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.usage.UsageRecordBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "com.microsoft.store.partnercenter.models.usage.UsageRecordBase.getCurrencyCode()"
@@ -46,6 +46,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setPartnerOnRecord(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.usage.SubscriptionMonthlyUsageRecord.setStatus(com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus)"
 type: "class"
+desc: "Defines the monthly usage record of a subscription."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.usage"
 artifact: com.microsoft.store:partnercenter:1.15.3

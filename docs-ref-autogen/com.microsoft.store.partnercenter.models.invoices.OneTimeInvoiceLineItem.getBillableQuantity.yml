@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getBillableQuantity()"
   summary: "Gets the number of units purchased."
   syntax: "public double getBillableQuantity()"
+  desc: "Gets the number of units purchased."
   returns:
     description: "The number of units purchased."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

@@ -5,8 +5,8 @@ name: "ProductLinks"
 nameWithType: "ProductLinks"
 summary: "Navigation links for Product."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.StandardResourceLinks\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.StandardResourceLinks?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.StandardResourceLinks.getSelf()"
 - "com.microsoft.store.partnercenter.models.StandardResourceLinks.setSelf(com.microsoft.store.partnercenter.models.Link)"
@@ -28,6 +28,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.products.ProductLinks.getSkus()"
 - "com.microsoft.store.partnercenter.models.products.ProductLinks.setSkus(com.microsoft.store.partnercenter.models.Link)"
 type: "class"
+desc: "Navigation links for Product."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"
 artifact: com.microsoft.store:partnercenter:1.15.3

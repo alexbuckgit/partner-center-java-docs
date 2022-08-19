@@ -5,8 +5,8 @@ name: "Agreement"
 nameWithType: "Agreement"
 summary: "Represents the details of certification provided by the partner."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -37,6 +37,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.agreements.Agreement.setType(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.agreements.Agreement.setUserId(java.lang.String)"
 type: "class"
+desc: "Represents the details of certification provided by the partner."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.agreements"
 artifact: com.microsoft.store:partnercenter:1.15.3

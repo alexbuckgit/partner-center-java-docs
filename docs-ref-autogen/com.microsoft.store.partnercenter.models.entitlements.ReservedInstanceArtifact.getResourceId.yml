@@ -10,6 +10,7 @@ members:
   nameWithType: "ReservedInstanceArtifact.getResourceId()"
   summary: "Gets the resource identifier for the reserved instance artifact."
   syntax: "public String getResourceId()"
+  desc: "Gets the resource identifier for the reserved instance artifact."
   returns:
     description: "The resource identifier for the reserved instance artifact."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

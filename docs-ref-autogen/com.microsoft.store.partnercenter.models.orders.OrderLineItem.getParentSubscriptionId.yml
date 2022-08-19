@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.orders.OrderLineItem.getParentSubscriptionId()"
   name: "getParentSubscriptionId()"
   nameWithType: "OrderLineItem.getParentSubscriptionId()"
-  summary: "Gets the parent subscription identifier. This parameter should only be set for add-on offer purchase applies to order updates only."
+  summary: "Gets the parent subscription identifier."
   syntax: "public String getParentSubscriptionId()"
+  desc: "Gets the parent subscription identifier. This parameter should only be set for add-on offer purchase applies to order updates only."
   returns:
     description: "The parent subscription identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

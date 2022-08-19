@@ -5,7 +5,7 @@ name: "InventoryItem"
 nameWithType: "InventoryItem"
 summary: "Class that represents an inventory item."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -31,6 +31,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.products.InventoryItem.setRestrictions(java.util.List<com.microsoft.store.partnercenter.models.products.InventoryRestriction>)"
 - "com.microsoft.store.partnercenter.models.products.InventoryItem.setSkuId(java.lang.String)"
 type: "class"
+desc: "Class that represents an inventory item."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.products"
 artifact: com.microsoft.store:partnercenter:1.15.3

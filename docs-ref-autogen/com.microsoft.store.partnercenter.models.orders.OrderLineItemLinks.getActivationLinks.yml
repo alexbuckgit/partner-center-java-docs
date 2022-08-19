@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItemLinks.getActivationLinks()"
   summary: "Gets the activation links for the order line item."
   syntax: "public Link getActivationLinks()"
+  desc: "Gets the activation links for the order line item."
   returns:
     description: "The activation links for the order line item."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.Link?alt=com.microsoft.store.partnercenter.models.Link&text=Link\" data-throw-if-not-resolved=\"False\" />"

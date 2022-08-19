@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getPricingPreTaxTotal()"
   summary: "Gets the extended cost or total cost before tax in USD or catalog currency used for rating."
   syntax: "public double getPricingPreTaxTotal()"
+  desc: "Gets the extended cost or total cost before tax in USD or catalog currency used for rating."
   returns:
     description: "The extended cost or total cost before tax in USD or catalog currency used for rating."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

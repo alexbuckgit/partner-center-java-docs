@@ -10,6 +10,7 @@ members:
   nameWithType: "SubscriptionOperations.getSupportContact()"
   summary: "Gets the current subscription's support contact operations."
   syntax: "public ISubscriptionSupportContact getSupportContact()"
+  desc: "Gets the current subscription's support contact operations."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionSupportContact&text=ISubscriptionSupportContact\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

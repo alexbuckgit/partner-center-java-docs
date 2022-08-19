@@ -14,6 +14,7 @@ members:
     name: "checkRequest"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.products.InventoryCheckRequest?alt=com.microsoft.store.partnercenter.models.products.InventoryCheckRequest&text=InventoryCheckRequest\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract List<InventoryItem> checkInventory(InventoryCheckRequest checkRequest)"
+  desc: "Retrieves inventory validation results for the provided country."
   returns:
     description: "The inventory check results."
     type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.products.InventoryItem?alt=com.microsoft.store.partnercenter.models.products.InventoryItem&text=InventoryItem\" data-throw-if-not-resolved=\"False\" />&gt;"

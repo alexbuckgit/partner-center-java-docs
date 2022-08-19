@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getPublisherName()"
   summary: "Gets the name of the publisher associated with the invoice line item type."
   syntax: "public String getPublisherName()"
+  desc: "Gets the name of the publisher associated with the invoice line item type."
   returns:
     description: "The name of the publisher associated with the invoice line item type."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

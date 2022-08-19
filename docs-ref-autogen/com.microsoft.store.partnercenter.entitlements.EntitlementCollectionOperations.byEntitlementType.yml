@@ -14,6 +14,7 @@ members:
     name: "entitlementType"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public IEntireEntityCollectionRetrievalOperations<Entitlement,ResourceCollection<Entitlement>> byEntitlementType(String entitlementType)"
+  desc: "Retrieves the operations that can be applied on entitlements with a given entitlement type."
   returns:
     description: "The entitlement collection operations by entitlement type."
     type: "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntireEntityCollectionRetrievalOperations&text=IEntireEntityCollectionRetrievalOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />,<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.Entitlement?alt=com.microsoft.store.partnercenter.models.entitlements.Entitlement&text=Entitlement\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"

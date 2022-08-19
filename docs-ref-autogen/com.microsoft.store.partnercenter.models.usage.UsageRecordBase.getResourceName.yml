@@ -10,6 +10,7 @@ members:
   nameWithType: "UsageRecordBase.getResourceName()"
   summary: "Gets the name of the resource."
   syntax: "public String getResourceName()"
+  desc: "Gets the name of the resource."
   returns:
     description: "The name of the resource."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

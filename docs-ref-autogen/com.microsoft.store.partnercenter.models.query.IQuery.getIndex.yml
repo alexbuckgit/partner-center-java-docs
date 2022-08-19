@@ -10,6 +10,7 @@ members:
   nameWithType: "IQuery.getIndex()"
   summary: "Gets the result starting index."
   syntax: "public abstract int getIndex()"
+  desc: "Gets the result starting index."
   returns:
     description: "The result starting index."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

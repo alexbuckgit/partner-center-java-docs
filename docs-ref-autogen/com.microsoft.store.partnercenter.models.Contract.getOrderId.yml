@@ -10,6 +10,7 @@ members:
   nameWithType: "Contract.getOrderId()"
   summary: "Gets the order identifier."
   syntax: "public String getOrderId()"
+  desc: "Gets the order identifier."
   returns:
     description: "The order identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

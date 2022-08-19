@@ -22,6 +22,7 @@ methods:
 - "com.microsoft.store.partnercenter.subscriptions.ISubscription.getUtilization()"
 - "com.microsoft.store.partnercenter.subscriptions.ISubscription.patch(com.microsoft.store.partnercenter.models.subscriptions.Subscription)"
 type: "interface"
+desc: "This interface defines the operations available on a customer's subscription."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.utils.Tuple?alt=com.microsoft.store.partnercenter.models.utils.Tuple&text=Tuple\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 - "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;"

@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerMonthlyUsageRecord.getIsUpgraded()"
   summary: "Gets a value indicating whether the customer's Azure subscription is upgraded."
   syntax: "public boolean getIsUpgraded()"
+  desc: "Gets a value indicating whether the customer's Azure subscription is upgraded."
   returns:
     description: "A value indicating whether the customer's Azure subscription is upgraded."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

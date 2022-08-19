@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getPCToBCExchangeRate()"
   summary: "Gets the pricing currency to billing currency exchange rate."
   syntax: "public double getPCToBCExchangeRate()"
+  desc: "Gets the pricing currency to billing currency exchange rate."
   returns:
     description: "The pricing currency to billing currency exchange rate."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

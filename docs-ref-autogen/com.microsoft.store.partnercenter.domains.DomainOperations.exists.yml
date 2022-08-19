@@ -10,6 +10,7 @@ members:
   nameWithType: "DomainOperations.exists()"
   summary: "Checks the availability of a domain."
   syntax: "public boolean exists()"
+  desc: "Checks the availability of a domain."
   returns:
     description: "A boolean value to indicate if the domain is available."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

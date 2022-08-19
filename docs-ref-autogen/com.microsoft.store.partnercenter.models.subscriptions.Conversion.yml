@@ -5,8 +5,8 @@ name: "Conversion"
 nameWithType: "Conversion"
 summary: "Represents the conversion for a subscription from a trial offer to a paid offer."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "java.lang.Object.clone()"
@@ -35,6 +35,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.subscriptions.Conversion.setQuantity(int)"
 - "com.microsoft.store.partnercenter.models.subscriptions.Conversion.setTargetOfferId(java.lang.String)"
 type: "class"
+desc: "Represents the conversion for a subscription from a trial offer to a paid offer."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

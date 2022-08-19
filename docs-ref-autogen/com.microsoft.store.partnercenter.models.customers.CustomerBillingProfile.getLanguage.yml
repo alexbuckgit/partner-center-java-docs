@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerBillingProfile.getLanguage()"
   summary: "Gets the language."
   syntax: "public String getLanguage()"
+  desc: "Gets the language."
   returns:
     description: "The language."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

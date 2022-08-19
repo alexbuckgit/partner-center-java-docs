@@ -10,6 +10,7 @@ members:
   nameWithType: "IPartner.getAuditRecords()"
   summary: "Gets the audit records operations available to the partner."
   syntax: "public abstract IAuditRecordsCollection getAuditRecords()"
+  desc: "Gets the audit records operations available to the partner."
   returns:
     description: "The audit records operations available to the partner."
     type: "<xref href=\"com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection?alt=com.microsoft.store.partnercenter.auditrecords.IAuditRecordsCollection&text=IAuditRecordsCollection\" data-throw-if-not-resolved=\"False\" />"

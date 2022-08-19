@@ -19,6 +19,7 @@ members:
     name: "resourceCollection"
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks?alt=com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks&text=ResourceCollectionWithLinks\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"TResource?alt=TResource&text=TResource\" data-throw-if-not-resolved=\"False\" />,<xref href=\"TLinks?alt=TLinks&text=TLinks\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "protected ResourceCollectionWithLinks(ResourceCollectionWithLinks<TResource,TLinks> resourceCollection)"
+  desc: "Initializes a new instance of the ResourceCollection class."
 - uid: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks.ResourceCollectionWithLinks(java.util.List<TResource>)"
   fullName: "com.microsoft.store.partnercenter.models.ResourceCollectionWithLinks<TResource,TLinks>.ResourceCollectionWithLinks(List<TResource> items)"
   name: "ResourceCollectionWithLinks(List<TResource> items)"
@@ -29,6 +30,7 @@ members:
     name: "items"
     type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"TResource?alt=TResource&text=TResource\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public ResourceCollectionWithLinks(List<TResource> items)"
+  desc: "Initializes a new instance of the ResourceCollection class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"

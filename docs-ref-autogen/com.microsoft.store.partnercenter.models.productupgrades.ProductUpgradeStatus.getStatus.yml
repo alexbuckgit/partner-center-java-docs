@@ -10,6 +10,7 @@ members:
   nameWithType: "ProductUpgradeStatus.getStatus()"
   summary: "Gets the status for the product upgrade."
   syntax: "public String getStatus()"
+  desc: "Gets the status for the product upgrade."
   returns:
     description: "The status for the product upgrade."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

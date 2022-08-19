@@ -10,6 +10,7 @@ members:
   nameWithType: "ValidationCode.getRemainingCreates()"
   summary: "Gets the remaining number of customer creates for this code."
   syntax: "public int getRemainingCreates()"
+  desc: "Gets the remaining number of customer creates for this code."
   returns:
     description: "The remaining number of customer creates for this code."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

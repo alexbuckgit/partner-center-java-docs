@@ -3,7 +3,7 @@ uid: "com.microsoft.store.partnercenter.models.query.IQuery"
 fullName: "com.microsoft.store.partnercenter.models.query.IQuery"
 name: "IQuery"
 nameWithType: "IQuery"
-summary: "Represents a query on an entity. All different queries should implement this contract."
+summary: "Represents a query on an entity."
 syntax: "public interface IQuery"
 methods:
 - "com.microsoft.store.partnercenter.models.query.IQuery.getFilter()"
@@ -20,6 +20,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.query.IQuery.setSort(com.microsoft.store.partnercenter.models.query.sort.Sort)"
 - "com.microsoft.store.partnercenter.models.query.IQuery.setToken(java.lang.Object)"
 type: "interface"
+desc: "Represents a query on an entity. All different queries should implement this contract."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.query"
 artifact: com.microsoft.store:partnercenter:1.15.3

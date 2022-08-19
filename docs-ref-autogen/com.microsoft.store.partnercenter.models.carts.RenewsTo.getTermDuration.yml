@@ -10,6 +10,7 @@ members:
   nameWithType: "RenewsTo.getTermDuration()"
   summary: "Gets the term duration if applicable."
   syntax: "public String getTermDuration()"
+  desc: "Gets the term duration if applicable."
   returns:
     description: "The term duration if applicable."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

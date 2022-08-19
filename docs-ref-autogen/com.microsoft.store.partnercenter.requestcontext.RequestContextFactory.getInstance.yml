@@ -10,6 +10,7 @@ members:
   nameWithType: "RequestContextFactory.getInstance()"
   summary: "Gets an instance of the request context factory."
   syntax: "public static RequestContextFactory getInstance()"
+  desc: "Gets an instance of the request context factory."
   returns:
     description: "An instance of the request context factory."
     type: "<xref href=\"com.microsoft.store.partnercenter.requestcontext.RequestContextFactory?alt=com.microsoft.store.partnercenter.requestcontext.RequestContextFactory&text=RequestContextFactory\" data-throw-if-not-resolved=\"False\" />"

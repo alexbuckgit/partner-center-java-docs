@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.Subscription.getTermDuration()"
   name: "getTermDuration()"
   nameWithType: "Subscription.getTermDuration()"
-  summary: "Gets the ISO 8601 representation of the term's duration. The current supported values are P1M (1 month), P1Y (1 year) and P3Y (3 years)."
+  summary: "Gets the ISO 8601 representation of the term's duration."
   syntax: "public String getTermDuration()"
+  desc: "Gets the ISO 8601 representation of the term's duration. The current supported values are P1M (1 month), P1Y (1 year) and P3Y (3 years)."
   returns:
     description: "The ISO 8601 representation of the term's duration."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

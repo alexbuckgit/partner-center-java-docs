@@ -10,6 +10,7 @@ members:
   nameWithType: "Entitlement.getQuantityDetails()"
   summary: "Gets the quantity details (quantity - state)."
   syntax: "public Iterable<QuantityDetail> getQuantityDetails()"
+  desc: "Gets the quantity details (quantity - state)."
   returns:
     description: "The quantity details (quantity - state)."
     type: "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.entitlements.QuantityDetail?alt=com.microsoft.store.partnercenter.models.entitlements.QuantityDetail&text=QuantityDetail\" data-throw-if-not-resolved=\"False\" />&gt;"

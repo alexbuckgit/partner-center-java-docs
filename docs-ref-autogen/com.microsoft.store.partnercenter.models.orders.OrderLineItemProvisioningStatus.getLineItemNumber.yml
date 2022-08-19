@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItemProvisioningStatus.getLineItemNumber()"
   summary: "Gets the order line item number."
   syntax: "public int getLineItemNumber()"
+  desc: "Gets the order line item number."
   returns:
     description: "The order line item number."
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

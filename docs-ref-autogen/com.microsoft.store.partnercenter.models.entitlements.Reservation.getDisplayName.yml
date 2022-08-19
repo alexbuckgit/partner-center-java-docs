@@ -10,6 +10,7 @@ members:
   nameWithType: "Reservation.getDisplayName()"
   summary: "Gets the display name for the reservation."
   syntax: "public String getDisplayName()"
+  desc: "Gets the display name for the reservation."
   returns:
     description: "The display for the reservation."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "AgreementMetaData.getTemplateId()"
   summary: "Gets the template identifier for the agreement."
   syntax: "public String getTemplateId()"
+  desc: "Gets the template identifier for the agreement."
   returns:
     description: "The template identifier for the agreement."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

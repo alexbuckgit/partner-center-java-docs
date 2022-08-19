@@ -10,6 +10,7 @@ members:
   nameWithType: "SubscriptionOperations.getRegistration()"
   summary: "Gets the current subscription's registration operations."
   syntax: "public ISubscriptionRegistration getRegistration()"
+  desc: "Gets the current subscription's registration operations."
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration?alt=com.microsoft.store.partnercenter.subscriptions.ISubscriptionRegistration&text=ISubscriptionRegistration\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

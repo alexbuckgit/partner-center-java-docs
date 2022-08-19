@@ -11,6 +11,7 @@ members:
   summary: "Returns a string representation of the query."
   overridden: "com.microsoft.store.partnercenter.models.query.SimpleQuery.toString()"
   syntax: "public String toString()"
+  desc: "Returns a string representation of the query."
   returns:
     description: "A string representation of the query."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getAlternateId()"
   summary: "Gets the alternate identifier (quote identifier)."
   syntax: "public String getAlternateId()"
+  desc: "Gets the alternate identifier (quote identifier)."
   returns:
     description: "The alternate identifier (quote identifier)."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

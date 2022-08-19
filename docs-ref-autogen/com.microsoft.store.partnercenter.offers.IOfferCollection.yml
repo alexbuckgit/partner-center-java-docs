@@ -11,6 +11,7 @@ methods:
 - "com.microsoft.store.partnercenter.offers.IOfferCollection.get()"
 - "com.microsoft.store.partnercenter.offers.IOfferCollection.get(int,int)"
 type: "interface"
+desc: "Encapsulates the basic offers behavior."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

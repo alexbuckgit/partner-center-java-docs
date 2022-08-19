@@ -10,6 +10,7 @@ members:
   nameWithType: "DailyRatedUsageLineItem.getBillingPreTaxTotal()"
   summary: "Gets the extended cost or total cost before tax in local currency of the customer or billing currency."
   syntax: "public double getBillingPreTaxTotal()"
+  desc: "Gets the extended cost or total cost before tax in local currency of the customer or billing currency."
   returns:
     description: "The extended cost or total cost before tax in local currency of the customer or billing currency."
     type: "<xref href=\"double?alt=double&text=double\" data-throw-if-not-resolved=\"False\" />"

@@ -10,6 +10,7 @@ members:
   nameWithType: "PartnerServiceRequestCollectionOperations.get()"
   summary: "Retrieves Service Requests associated to the partner."
   syntax: "public ResourceCollection<ServiceRequest> get()"
+  desc: "Retrieves Service Requests associated to the partner."
   returns:
     description: "A collection of service requests."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest?alt=com.microsoft.store.partnercenter.models.servicerequests.ServiceRequest&text=ServiceRequest\" data-throw-if-not-resolved=\"False\" />&gt;"

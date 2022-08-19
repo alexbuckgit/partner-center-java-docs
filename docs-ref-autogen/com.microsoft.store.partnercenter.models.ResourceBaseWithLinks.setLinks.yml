@@ -14,6 +14,7 @@ members:
     name: "value"
     type: "<xref href=\"TLinks?alt=TLinks&text=TLinks\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setLinks(TLinks value)"
+  desc: "Sets the links."
 type: "method"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models"

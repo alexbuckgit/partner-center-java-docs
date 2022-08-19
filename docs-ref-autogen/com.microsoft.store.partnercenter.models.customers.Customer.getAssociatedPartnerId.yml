@@ -10,6 +10,7 @@ members:
   nameWithType: "Customer.getAssociatedPartnerId()"
   summary: "Gets the indirect reseller associated to this customer account."
   syntax: "public String getAssociatedPartnerId()"
+  desc: "Gets the indirect reseller associated to this customer account."
   returns:
     description: "The indirect reseller associated to this customer account."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

@@ -9,6 +9,7 @@ methods:
 - "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response)"
 - "com.microsoft.store.partnercenter.errorhandling.IFailedPartnerServiceResponseHandler.handleFailedResponse(okhttp3.Response,com.microsoft.store.partnercenter.requestcontext.IRequestContext)"
 type: "interface"
+desc: "Defines behavior for handling non successful responses from the partner service."
 metadata: {}
 package: "com.microsoft.store.partnercenter.errorhandling"
 artifact: com.microsoft.store:partnercenter:1.15.3

@@ -8,6 +8,7 @@ syntax: "public interface IProductUpgradeCollection extends IPartnerComponent<St
 methods:
 - "com.microsoft.store.partnercenter.productupgrades.IProductUpgradeCollection.checkEligibility(com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest)"
 type: "interface"
+desc: "Represents operations that apply to product upgrades."
 implements:
 - "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponent?alt=com.microsoft.store.partnercenter.IPartnerComponent&text=IPartnerComponent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
 - "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityCreateOperations&text=IEntityCreateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest?alt=com.microsoft.store.partnercenter.models.productupgrades.ProductUpgradeRequest&text=ProductUpgradeRequest\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"

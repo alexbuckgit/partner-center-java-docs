@@ -10,6 +10,7 @@ members:
   nameWithType: "Subscription.getHasPurchasableAddOns()"
   summary: "Gets a flag indicating whether or not the subscription has purchasable addons."
   syntax: "public Boolean getHasPurchasableAddOns()"
+  desc: "Gets a flag indicating whether or not the subscription has purchasable addons."
   returns:
     description: "A flag indicating whether or not the subscription has purchasable addons."
     type: "<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />"

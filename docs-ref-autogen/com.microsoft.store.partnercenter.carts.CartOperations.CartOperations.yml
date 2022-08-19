@@ -20,6 +20,7 @@ members:
     name: "cartId"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public CartOperations(IPartner rootPartnerOperations, String customerId, String cartId)"
+  desc: "Initializes a new instance of the CartOperations class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.carts"

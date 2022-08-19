@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItem.getPricing()"
   summary: "Gets the pricing for the order line item."
   syntax: "public Pricing getPricing()"
+  desc: "Gets the pricing for the order line item."
   returns:
     description: "The pricing for the order line item."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.orders.Pricing?alt=com.microsoft.store.partnercenter.models.orders.Pricing&text=Pricing\" data-throw-if-not-resolved=\"False\" />"

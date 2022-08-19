@@ -10,6 +10,7 @@ members:
   nameWithType: "OneTimeInvoiceLineItem.getOrderId()"
   summary: "Gets the order unique identifier."
   syntax: "public String getOrderId()"
+  desc: "Gets the order unique identifier."
   returns:
     description: "The order unique identifier."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

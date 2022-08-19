@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderSubscriptionCollectionOperations.get()"
   summary: "Gets the subscriptions for the given order."
   syntax: "public ResourceCollection<Subscription> get()"
+  desc: "Gets the subscriptions for the given order."
   returns:
     description: "The order subscriptions."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.ResourceCollection?alt=com.microsoft.store.partnercenter.models.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.Subscription?alt=com.microsoft.store.partnercenter.models.subscriptions.Subscription&text=Subscription\" data-throw-if-not-resolved=\"False\" />&gt;"

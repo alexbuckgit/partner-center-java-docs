@@ -10,6 +10,7 @@ members:
   nameWithType: "ICustomer.getAnalytics()"
   summary: "Gets the analytics collection behavior for the customer."
   syntax: "public abstract ICustomerAnalyticsCollection getAnalytics()"
+  desc: "Gets the analytics collection behavior for the customer."
   returns:
     description: "The analytics collection behavior for the customer."
     type: "<xref href=\"com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection?alt=com.microsoft.store.partnercenter.analytics.ICustomerAnalyticsCollection&text=ICustomerAnalyticsCollection\" data-throw-if-not-resolved=\"False\" />"

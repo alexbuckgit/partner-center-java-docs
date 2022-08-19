@@ -5,10 +5,10 @@ name: "UsageBasedLineItem"
 nameWithType: "UsageBasedLineItem"
 summary: "Billing Line Items for Usage Based subscriptions"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.ResourceBase?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.invoices.InvoiceLineItem?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.store.partnercenter.models.ResourceBase.getAttributes()"
 - "com.microsoft.store.partnercenter.models.invoices.BaseUsageBasedLineItem.getBillingCycleType()"
@@ -104,6 +104,7 @@ methods:
 - "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.setSku(java.lang.String)"
 - "com.microsoft.store.partnercenter.models.invoices.UsageBasedLineItem.setTaxAmount(double)"
 type: "class"
+desc: "Billing Line Items for Usage Based subscriptions"
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.invoices"
 artifact: com.microsoft.store:partnercenter:1.15.3

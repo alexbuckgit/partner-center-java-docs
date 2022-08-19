@@ -10,6 +10,7 @@ members:
   nameWithType: "ISubscription.getUsageSummary()"
   summary: "Gets the current subscription's usage summary operations."
   syntax: "public abstract ISubscriptionUsageSummary getUsageSummary()"
+  desc: "Gets the current subscription's usage summary operations."
   returns:
     description: "The current subscription's usage summary operations."
     type: "<xref href=\"com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary?alt=com.microsoft.store.partnercenter.usage.ISubscriptionUsageSummary&text=ISubscriptionUsageSummary\" data-throw-if-not-resolved=\"False\" />"

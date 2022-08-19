@@ -10,6 +10,7 @@ members:
   nameWithType: "ServiceCostLineItem.getDiscountDetails()"
   summary: "Gets the discount details associated with this line item."
   syntax: "public String getDiscountDetails()"
+  desc: "Gets the discount details associated with this line item."
   returns:
     description: "The discount details associated with this line item."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

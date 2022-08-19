@@ -10,6 +10,7 @@ members:
   nameWithType: "OrderLineItem.getTermDuration()"
   summary: "Gets the term duration for the order line item."
   syntax: "public String getTermDuration()"
+  desc: "Gets the term duration for the order line item."
   returns:
     description: "The term duration for the order line item."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

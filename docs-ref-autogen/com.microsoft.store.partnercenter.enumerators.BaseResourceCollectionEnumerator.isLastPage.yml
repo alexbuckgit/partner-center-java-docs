@@ -10,6 +10,7 @@ members:
   nameWithType: "BaseResourceCollectionEnumerator<T>.isLastPage()"
   summary: "Gets whether the current collection is the last page of results or not."
   syntax: "public boolean isLastPage()"
+  desc: "Gets whether the current collection is the last page of results or not."
   returns:
     description: "A flag indicating whether the current collection is the last page of results or not."
     type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"

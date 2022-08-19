@@ -10,6 +10,7 @@ members:
   nameWithType: "SkuOperations.get()"
   summary: "Retrieves the SKU information."
   syntax: "public Sku get()"
+  desc: "Retrieves the SKU information."
   returns:
     description: "The SKUs information."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.products.Sku?alt=com.microsoft.store.partnercenter.models.products.Sku&text=Sku\" data-throw-if-not-resolved=\"False\" />"

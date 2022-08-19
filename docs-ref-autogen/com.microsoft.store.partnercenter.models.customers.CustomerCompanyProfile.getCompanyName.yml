@@ -10,6 +10,7 @@ members:
   nameWithType: "CustomerCompanyProfile.getCompanyName()"
   summary: "Gets the name of the company."
   syntax: "public String getCompanyName()"
+  desc: "Gets the name of the company."
   returns:
     description: "The name of the company."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

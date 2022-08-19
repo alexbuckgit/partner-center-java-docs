@@ -14,6 +14,7 @@ members:
     name: "maxRetryAttempts"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public PartnerServiceRetryStrategy(int maxRetryAttempts)"
+  desc: "Initializes a new instance of the <xref uid=\"com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy\" data-throw-if-not-resolved=\"false\" data-raw-source=\"PartnerServiceRetryStrategy\"></xref> class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.store.partnercenter.network"
