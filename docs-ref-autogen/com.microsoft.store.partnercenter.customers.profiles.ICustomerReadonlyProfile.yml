@@ -1,0 +1,30 @@
+### YamlMime:JavaType
+uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile"
+fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>"
+name: "ICustomerReadonlyProfile<T>"
+nameWithType: "ICustomerReadonlyProfile<T>"
+summary: "Encapsulates a single customer read-only profile behavior."
+syntax: "public interface ICustomerReadonlyProfile<T> extends IPartnerComponentString, IEntityGetOperations<T>"
+methods:
+- uid: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile.get()"
+  fullName: "com.microsoft.store.partnercenter.customers.profiles.ICustomerReadonlyProfile<T>.get()"
+  name: "get()"
+  nameWithType: "ICustomerReadonlyProfile<T>.get()"
+  summary: "Retrieves the customer profile."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract T get()"
+  desc: "Retrieves the customer profile."
+  returns:
+    description: "The customer profile."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+typeParameters:
+- name: "T"
+desc: "Encapsulates a single customer read-only profile behavior."
+implements:
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.microsoft.store.partnercenter.customers.profiles"
+artifact: com.microsoft.store:partnercenter:1.15.3

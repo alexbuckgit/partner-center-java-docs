@@ -1,0 +1,63 @@
+### YamlMime:JavaType
+uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant"
+fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant"
+name: "ApplicationGrant"
+nameWithType: "ApplicationGrant"
+summary: "The Application<wbr>Grant resource."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ApplicationGrant"
+constructors:
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.ApplicationGrant()"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.ApplicationGrant()"
+  name: "ApplicationGrant()"
+  nameWithType: "ApplicationGrant.ApplicationGrant()"
+  syntax: "public ApplicationGrant()"
+methods:
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getEnterpriseApplicationId()"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getEnterpriseApplicationId()"
+  name: "getEnterpriseApplicationId()"
+  nameWithType: "ApplicationGrant.getEnterpriseApplicationId()"
+  syntax: "public String getEnterpriseApplicationId()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope()"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.getScope()"
+  name: "getScope()"
+  nameWithType: "ApplicationGrant.getScope()"
+  syntax: "public String getScope()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setEnterpriseApplicationId(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setEnterpriseApplicationId(String value)"
+  name: "setEnterpriseApplicationId(String value)"
+  nameWithType: "ApplicationGrant.setEnterpriseApplicationId(String value)"
+  parameters:
+  - name: "value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setEnterpriseApplicationId(String value)"
+- uid: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setScope(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.models.applicationconsents.ApplicationGrant.setScope(String value)"
+  name: "setScope(String value)"
+  nameWithType: "ApplicationGrant.setScope(String value)"
+  parameters:
+  - name: "value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void setScope(String value)"
+type: "class"
+desc: "The ApplicationGrant resource. Represents the grants which enabled consents for an application."
+metadata: {}
+package: "com.microsoft.store.partnercenter.models.applicationconsents"
+artifact: com.microsoft.store:partnercenter:1.15.3

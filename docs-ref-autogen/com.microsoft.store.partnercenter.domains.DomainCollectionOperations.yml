@@ -1,0 +1,57 @@
+### YamlMime:JavaType
+uid: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations"
+fullName: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations"
+name: "DomainCollectionOperations"
+nameWithType: "DomainCollectionOperations"
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedMembers:
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getContext()"
+- "com.microsoft.store.partnercenter.BasePartnerComponent.getPartner()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class DomainCollectionOperations extends BasePartnerComponentString implements IDomainCollection"
+constructors:
+- uid: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations.DomainCollectionOperations(com.microsoft.store.partnercenter.IPartner)"
+  fullName: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations.DomainCollectionOperations(IPartner rootPartnerOperations)"
+  name: "DomainCollectionOperations(IPartner rootPartnerOperations)"
+  nameWithType: "DomainCollectionOperations.DomainCollectionOperations(IPartner rootPartnerOperations)"
+  summary: "Initializes a new instance of the Domain<wbr>Collection<wbr>Operations class"
+  parameters:
+  - description: "The root partner operations instance."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DomainCollectionOperations(IPartner rootPartnerOperations)"
+  desc: "Initializes a new instance of the DomainCollectionOperations class"
+methods:
+- uid: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations.byDomain(java.lang.String)"
+  fullName: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations.byDomain(String domain)"
+  name: "byDomain(String domain)"
+  nameWithType: "DomainCollectionOperations.byDomain(String domain)"
+  summary: "Obtains a specific domain behavior."
+  parameters:
+  - description: "The domain."
+    name: "domain"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public IDomain byDomain(String domain)"
+  desc: "Obtains a specific domain behavior."
+  returns:
+    description: "The domain operations."
+    type: "<xref href=\"com.microsoft.store.partnercenter.domains.IDomain?alt=com.microsoft.store.partnercenter.domains.IDomain&text=IDomain\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+implements:
+- "<xref href=\"com.microsoft.store.partnercenter.domains.IDomainCollection?alt=com.microsoft.store.partnercenter.domains.IDomainCollection&text=IDomainCollection\" data-throw-if-not-resolved=\"False\" />"
+metadata: {}
+package: "com.microsoft.store.partnercenter.domains"
+artifact: com.microsoft.store:partnercenter:1.15.3

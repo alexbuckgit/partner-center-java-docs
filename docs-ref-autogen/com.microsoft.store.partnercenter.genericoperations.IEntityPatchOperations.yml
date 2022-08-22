@@ -1,0 +1,31 @@
+### YamlMime:JavaType
+uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations"
+fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>"
+name: "IEntityPatchOperations<T>"
+nameWithType: "IEntityPatchOperations<T>"
+summary: "Groups operations for getting a single entity."
+syntax: "public interface IEntityPatchOperations<T>"
+methods:
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations.patch(T)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityPatchOperations<T>.patch(T entity)"
+  name: "patch(T entity)"
+  nameWithType: "IEntityPatchOperations<T>.patch(T entity)"
+  summary: "Patches an entity."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The entity information."
+    name: "entity"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract T patch(T entity)"
+  desc: "Patches an entity."
+  returns:
+    description: "The updated entity."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+typeParameters:
+- name: "T"
+desc: "Groups operations for getting a single entity. The entity type."
+metadata: {}
+package: "com.microsoft.store.partnercenter.genericoperations"
+artifact: com.microsoft.store:partnercenter:1.15.3

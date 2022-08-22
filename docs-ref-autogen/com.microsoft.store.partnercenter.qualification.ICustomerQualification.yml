@@ -1,0 +1,62 @@
+### YamlMime:JavaType
+uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
+fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification"
+name: "ICustomerQualification"
+nameWithType: "ICustomerQualification"
+syntax: "public interface ICustomerQualification extends IPartnerComponentString, IEntityGetOperations<CustomerQualification>, IEntityUpdateOperations<CustomerQualification>"
+methods:
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.get()"
+  name: "get()"
+  nameWithType: "ICustomerQualification.get()"
+  summary: "Retrieves the customer qualification."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract CustomerQualification get()"
+  desc: "Retrieves the customer qualification."
+  returns:
+    description: "Customer Qualification."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification)"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification)"
+  name: "update(CustomerQualification customerQualification)"
+  nameWithType: "ICustomerQualification.update(CustomerQualification customerQualification)"
+  summary: "Updates the customer qualification."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "Customer Qualification."
+    name: "customerQualification"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CustomerQualification update(CustomerQualification customerQualification)"
+  desc: "Updates the customer qualification."
+  returns:
+    description: "The updated customer qualification."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(com.microsoft.store.partnercenter.models.customers.CustomerQualification,com.microsoft.store.partnercenter.models.validationcodes.ValidationCode)"
+  fullName: "com.microsoft.store.partnercenter.qualification.ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
+  name: "update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
+  nameWithType: "ICustomerQualification.update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
+  summary: "Updates the customer qualification."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The customer qualification value."
+    name: "customerQualification"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Validation code necessary to complete only Government Community Cloud customer creation."
+    name: "governmentCommunityCloudValidationCode"
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.validationcodes.ValidationCode?alt=com.microsoft.store.partnercenter.models.validationcodes.ValidationCode&text=ValidationCode\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract CustomerQualification update(CustomerQualification customerQualification, ValidationCode governmentCommunityCloudValidationCode)"
+  desc: "Updates the customer qualification. Used for GovernmentCommunityCloud with validation code after successful registration through Microsoft."
+  returns:
+    description: "The updated customer qualification."
+    type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+implements:
+- "<xref href=\"com.microsoft.store.partnercenter.IPartnerComponentString?alt=com.microsoft.store.partnercenter.IPartnerComponentString&text=IPartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations&text=IEntityGetOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations?alt=com.microsoft.store.partnercenter.genericoperations.IEntityUpdateOperations&text=IEntityUpdateOperations\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.microsoft.store.partnercenter.qualification"
+artifact: com.microsoft.store:partnercenter:1.15.3

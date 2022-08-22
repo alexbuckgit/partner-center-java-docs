@@ -1,0 +1,35 @@
+### YamlMime:JavaType
+uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations"
+fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
+name: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
+nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
+summary: "A generic interface which represents paged entity retrieval operations."
+syntax: "public interface IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>"
+methods:
+- uid: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations.get(int,int)"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)"
+  name: "get(int offset, int size)"
+  nameWithType: "IPagedEntityCollectionRetrievalOperations<T,TResourceCollection>.get(int offset, int size)"
+  summary: "Retrieves a subset of entities."
+  modifiers:
+  - "abstract"
+  parameters:
+  - description: "The starting index."
+    name: "offset"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The maximum number of entities to return."
+    name: "size"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract TResourceCollection get(int offset, int size)"
+  desc: "Retrieves a subset of entities."
+  returns:
+    description: "The requested entities subset."
+    type: "<xref href=\"TResourceCollection?alt=TResourceCollection&text=TResourceCollection\" data-throw-if-not-resolved=\"False\" />"
+type: "interface"
+typeParameters:
+- name: "T"
+- name: "TResourceCollection"
+desc: "A generic interface which represents paged entity retrieval operations. The entity type.The entity collection type."
+metadata: {}
+package: "com.microsoft.store.partnercenter.genericoperations"
+artifact: com.microsoft.store:partnercenter:1.15.3
