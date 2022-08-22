@@ -1,9 +1,0 @@
-### YamlMime:JavaPackage
-uid: "com.microsoft.store.partnercenter.models.validationcodes"
-fullName: "com.microsoft.store.partnercenter.models.validationcodes"
-name: "com.microsoft.store.partnercenter.models.validationcodes"
-classes:
-- "com.microsoft.store.partnercenter.models.validationcodes.ValidationCode"
-metadata: {}
-package: "com.microsoft.store.partnercenter.models.validationcodes"
-artifact: com.microsoft.store:partnercenter:1.15.3
