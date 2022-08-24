@@ -18,7 +18,7 @@ This guide walks you through setting up a development environment. You will then
 
 ## Set up authentication
 
-Partner Center supports the app only and app + user authentication flows. It is important to note that not all Partner Center operations support the app only authentication flow. Review the [Partner Center scenarios](https://docs.microsoft.com/partner-center/develop/scenarios) to learn which authentication flow is supported for each operation.
+Partner Center supports the app only and app + user authentication flows. It is important to note that not all Partner Center operations support the app only authentication flow. Review the [Partner Center scenarios](/partner-center/develop/scenarios) to learn which authentication flow is supported for each operation.
 
 ### App only authentication
 
@@ -188,7 +188,7 @@ private static IAggregatePartner getUserPartnerOperations()
 ```
 
 > [!NOTE]
-> The implementation of the *AadUserLoginHandler* class has been omitted from this documentation. You can find a sample implementation, that leverages the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code), of this class [here](https://github.com/microsoft/Partner-Center-Java-Samples/blob/master/sdk/src/main/java/com/microsoft/store/partnercenter/samples/AadUserLoginHandler.java).
+> The implementation of the *AadUserLoginHandler* class has been omitted from this documentation. You can find a sample implementation, that leverages the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code), of this class [here](https://github.com/microsoft/Partner-Center-Java-Samples/blob/master/sdk/src/main/java/com/microsoft/store/partnercenter/samples/AadUserLoginHandler.java).
 
 Run the code as before using Maven:
 
