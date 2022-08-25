@@ -10,13 +10,13 @@ methods:
   fullName: "com.microsoft.store.partnercenter.devicesdeployment.IBatchJobStatus.get()"
   name: "get()"
   nameWithType: "IBatchJobStatus.get()"
-  summary: "Retrieves a specific customer devices batch upload status details."
+  summary: "Retrieves the batch upload status details of a specific customer's devices."
   modifiers:
   - "abstract"
   syntax: "public abstract BatchUploadDetails get()"
-  desc: "Retrieves a specific customer devices batch upload status details."
+  desc: "Retrieves the batch upload status details of a specific customer's devices."
   returns:
-    description: "The devices batch upload status details."
+    description: "The batch upload status details of a device."
     type: "<xref href=\"com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails?alt=com.microsoft.store.partnercenter.models.devicesdeployment.BatchUploadDetails&text=BatchUploadDetails\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 desc: "Represents the operations that can be done on the partner's device."
