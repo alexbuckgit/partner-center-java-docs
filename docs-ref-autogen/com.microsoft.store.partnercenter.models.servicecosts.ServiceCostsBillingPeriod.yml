@@ -5,8 +5,8 @@ name: "ServiceCostsBillingPeriod"
 nameWithType: "ServiceCostsBillingPeriod"
 summary: "Represents service costs billing periods."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,16 +31,19 @@ fields:
   name: "CURRENT"
   nameWithType: "ServiceCostsBillingPeriod.CURRENT"
   summary: "Current."
+  desc: "Current."
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.MOST_RECENT"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.MOST_RECENT"
   name: "MOST_RECENT"
   nameWithType: "ServiceCostsBillingPeriod.MOST_RECENT"
   summary: "Most recent."
+  desc: "Most recent."
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.NONE"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.NONE"
   name: "NONE"
   nameWithType: "ServiceCostsBillingPeriod.NONE"
   summary: "None."
+  desc: "None."
 methods:
 - uid: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.toString()"
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.toString()"
@@ -49,6 +52,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -56,6 +60,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "ServiceCostsBillingPeriod.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -66,9 +72,12 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod.values()"
   name: "values()"
   nameWithType: "ServiceCostsBillingPeriod.values()"
+  modifiers:
+  - "static"
   syntax: "public static ServiceCostsBillingPeriod[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod?alt=com.microsoft.store.partnercenter.models.servicecosts.ServiceCostsBillingPeriod&text=ServiceCostsBillingPeriod\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Represents service costs billing periods."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.servicecosts"
 artifact: com.microsoft.store:partnercenter:1.15.3

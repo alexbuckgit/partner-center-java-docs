@@ -5,8 +5,8 @@ name: "AzureUtilizationGranularity"
 nameWithType: "AzureUtilizationGranularity"
 summary: "Lists the time granularity options for retrieving A subscription's Azure utilization."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,11 +31,13 @@ fields:
   name: "DAILY"
   nameWithType: "AzureUtilizationGranularity.DAILY"
   summary: "Daily utilization."
+  desc: "Daily utilization."
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.HOURLY"
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.HOURLY"
   name: "HOURLY"
   nameWithType: "AzureUtilizationGranularity.HOURLY"
   summary: "Hourly utilization."
+  desc: "Hourly utilization."
 methods:
 - uid: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.toString()"
@@ -44,6 +46,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -51,6 +54,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "AzureUtilizationGranularity.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -61,9 +66,12 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity.values()"
   name: "values()"
   nameWithType: "AzureUtilizationGranularity.values()"
+  modifiers:
+  - "static"
   syntax: "public static AzureUtilizationGranularity[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity?alt=com.microsoft.store.partnercenter.models.utilizations.AzureUtilizationGranularity&text=AzureUtilizationGranularity\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Lists the time granularity options for retrieving A subscription's Azure utilization."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.utilizations"
 artifact: com.microsoft.store:partnercenter:1.15.3

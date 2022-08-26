@@ -5,8 +5,8 @@ name: "ConversionErrorCode"
 nameWithType: "ConversionErrorCode"
 summary: "The type of errors that prevent trial subscription conversion from happening."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,11 +31,13 @@ fields:
   name: "CONVERSIONS_NOT_FOUND"
   nameWithType: "ConversionErrorCode.CONVERSIONS_NOT_FOUND"
   summary: "Cannot find any conversions for the trial subscription."
+  desc: "Cannot find any conversions for the trial subscription."
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.OTHER"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.OTHER"
   name: "OTHER"
   nameWithType: "ConversionErrorCode.OTHER"
   summary: "General error"
+  desc: "General error"
 methods:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.toString()"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.toString()"
@@ -44,6 +46,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -51,6 +54,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "ConversionErrorCode.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -61,9 +66,12 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode.values()"
   name: "values()"
   nameWithType: "ConversionErrorCode.values()"
+  modifiers:
+  - "static"
   syntax: "public static ConversionErrorCode[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode?alt=com.microsoft.store.partnercenter.models.subscriptions.ConversionErrorCode&text=ConversionErrorCode\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "The type of errors that prevent trial subscription conversion from happening."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.subscriptions"
 artifact: com.microsoft.store:partnercenter:1.15.3

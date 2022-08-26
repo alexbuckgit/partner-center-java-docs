@@ -5,8 +5,8 @@ name: "PartnerRelationshipType"
 nameWithType: "PartnerRelationshipType"
 summary: "The types of relationships between partners for two tier partner scenario."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,11 +31,13 @@ fields:
   name: "IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF"
   nameWithType: "PartnerRelationshipType.IS_INDIRECT_CLOUD_SOLUTION_PROVIDER_OF"
   summary: "Is indirect cloud solution provider of."
+  desc: "Is indirect cloud solution provider of."
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_RESELLER_OF"
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.IS_INDIRECT_RESELLER_OF"
   name: "IS_INDIRECT_RESELLER_OF"
   nameWithType: "PartnerRelationshipType.IS_INDIRECT_RESELLER_OF"
   summary: "Is indirect reseller of."
+  desc: "Is indirect reseller of."
 methods:
 - uid: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString()"
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.toString()"
@@ -44,6 +46,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -51,6 +54,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "PartnerRelationshipType.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -61,9 +66,12 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType.values()"
   name: "values()"
   nameWithType: "PartnerRelationshipType.values()"
+  modifiers:
+  - "static"
   syntax: "public static PartnerRelationshipType[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType?alt=com.microsoft.store.partnercenter.models.relationships.PartnerRelationshipType&text=PartnerRelationshipType\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "The types of relationships between partners for two tier partner scenario."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.relationships"
 artifact: com.microsoft.store:partnercenter:1.15.3

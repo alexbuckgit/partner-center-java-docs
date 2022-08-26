@@ -3,13 +3,25 @@ uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations"
 fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>"
 name: "IEntityGetOperations<T>"
 nameWithType: "IEntityGetOperations<T>"
-summary: "Groups operations for getting a single entity. The entity type."
+summary: "Groups operations for getting a single entity."
 syntax: "public interface IEntityGetOperations<T>"
 methods:
-- "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()"
+- uid: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations.get()"
+  fullName: "com.microsoft.store.partnercenter.genericoperations.IEntityGetOperations<T>.get()"
+  name: "get()"
+  nameWithType: "IEntityGetOperations<T>.get()"
+  summary: "Retrieves an entity."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract T get()"
+  desc: "Retrieves an entity."
+  returns:
+    description: "The entity."
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 typeParameters:
 - name: "T"
+desc: "Groups operations for getting a single entity. The entity type."
 metadata: {}
 package: "com.microsoft.store.partnercenter.genericoperations"
 artifact: com.microsoft.store:partnercenter:1.15.3
