@@ -20,7 +20,7 @@
           "toc.yml"
         ],
         "src": "partner-center-breadcrumb",
-        "dest": "partnercenter-java_breadcrumb",
+        "dest": "partner-center-breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
