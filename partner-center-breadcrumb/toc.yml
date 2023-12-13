@@ -1,4 +1,7 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Partner Center
+  tocHref: /java/
+  topicHref: /partner-center/index
   items:
+  - name: Java API browser
+    tocHref: /java/
+    topicHref: /java/api/index
