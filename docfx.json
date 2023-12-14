@@ -20,7 +20,7 @@
           "toc.yml"
         ],
         "src": "partner-center-breadcrumb",
-        "dest": "partnercenter-java_breadcrumb",
+        "dest": "partner-center-breadcrumb",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -112,7 +112,7 @@
       "uhfHeaderId": "MSDocsHeader-Partner-Center",
       "apiPlatform": "java",
       "author": "isaiahwilliams",
-      "breadcrumb_path": "/java/partnercenter-java_breadcrumb/toc.json",
+      "breadcrumb_path": "/java/partner-center-breadcrumb/toc.json",
       "ms.author": "iswillia",
       "manager": "jasonh",
       "ms.topic": "reference",
