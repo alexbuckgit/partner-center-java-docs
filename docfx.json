@@ -118,12 +118,16 @@
       "ms.topic": "reference",
       "ms.devlang": "java",
       "ms.date": "02/05/2020",
-      "feedback_system": "Standard",
       "feedback_help_link_url": "https://techcommunity.microsoft.com/t5/microsoft-partner-community/ct-p/PartnerCommunity",
       "feedback_help_link_type": "ask-the-community",
       "ms.service": "partner-dashboard",
       "ms.subservice": "partnercenter-sdk",
-      "searchScope": [ "Partner Center", "Partner Center developer resources" ] 
+      "searchScope": [ "Partner Center", "Partner Center developer resources" ],
+      "ROBOTS": "NOINDEX,NOFOLLOW",
+      "is_archived": true,
+      "is_retired": true, //optional
+      "feedback_system": "None",
+      "learn_archive": "manual"
     },
     "fileMetadata": {
       "langs": {
