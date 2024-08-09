@@ -9,7 +9,7 @@
       "moniker_ranges": [
         "partnercenter-java-latest"
       ],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -92,3 +92,4 @@
     ".openpublishing.redirection.member-page-movement.json"
   ]
 }
+
