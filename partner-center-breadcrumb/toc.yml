@@ -1,7 +1,11 @@
-- name: Partner Center
-  tocHref: /java/
-  topicHref: /partner-center/index
+- name: Previous Versions
+  tocHref: /previous-versions/
+  topicHref: /previous-versions/
   items:
-  - name: Java API browser
+  - name: Partner Center
     tocHref: /java/
-    topicHref: /java/api/index
+    topicHref: /partner-center/index
+    items:
+    - name: Java API browser
+      tocHref: /java/
+      topicHref: /java/api/index
