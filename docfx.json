@@ -125,7 +125,7 @@
       "searchScope": [ "Partner Center", "Partner Center developer resources" ],
       "ROBOTS": "NOINDEX,NOFOLLOW",
       "is_archived": true,
-      "is_retired": true, //optional
+      "is_retired": true, 
       "feedback_system": "None",
       "learn_archive": "manual"
     },
