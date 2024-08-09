@@ -6,10 +6,44 @@ nameWithType: "IRequestContext"
 summary: "Bundles context information which is amended to the partner SDK operations."
 syntax: "public interface IRequestContext"
 methods:
-- "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()"
-- "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()"
-- "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
+- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getCorrelationId()"
+  name: "getCorrelationId()"
+  nameWithType: "IRequestContext.getCorrelationId()"
+  summary: "Gets the correlation identifier."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UUID getCorrelationId()"
+  desc: "Gets the correlation identifier. This identifier is used to group logical operations together."
+  returns:
+    description: "The correlation identifier."
+    type: "<xref href=\"java.util.UUID?alt=java.util.UUID&text=UUID\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getLocale()"
+  name: "getLocale()"
+  nameWithType: "IRequestContext.getLocale()"
+  summary: "Gets the locale."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getLocale()"
+  desc: "Gets the locale."
+  returns:
+    description: "The locale."
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
+  fullName: "com.microsoft.store.partnercenter.requestcontext.IRequestContext.getRequestId()"
+  name: "getRequestId()"
+  nameWithType: "IRequestContext.getRequestId()"
+  summary: "Gets the request identifier."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract UUID getRequestId()"
+  desc: "Gets the request identifier. Uniquely identifies the partner service operation."
+  returns:
+    description: "The request identifier."
+    type: "<xref href=\"java.util.UUID?alt=java.util.UUID&text=UUID\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "Bundles context information which is amended to the partner SDK operations."
 metadata: {}
 package: "com.microsoft.store.partnercenter.requestcontext"
 artifact: com.microsoft.store:partnercenter:1.15.3

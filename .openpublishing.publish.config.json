@@ -9,7 +9,7 @@
       "moniker_ranges": [
         "partnercenter-java-latest"
       ],
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -86,6 +86,9 @@
       "id": "memberpage.plugins",
       "nuget_feed": "https://www.myget.org/F/docfx/api/v2"
     }
+  ],
+  "redirection_files": [
+    ".openpublishing.redirection.member-page-movement.json"
   ],
   "docs_build_engine": {
     "name": "docfx_v3"

@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionSt
 name: "SubscriptionStatus"
 nameWithType: "SubscriptionStatus"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -30,21 +30,25 @@ fields:
   name: "ACTIVE"
   nameWithType: "SubscriptionStatus.ACTIVE"
   summary: "Subscription state: Active"
+  desc: "Subscription state: Active"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.DELETED"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.DELETED"
   name: "DELETED"
   nameWithType: "SubscriptionStatus.DELETED"
   summary: "Subscription state: Deleted"
+  desc: "Subscription state: Deleted"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.NONE"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.NONE"
   name: "NONE"
   nameWithType: "SubscriptionStatus.NONE"
   summary: "Enum representing the available states for a subscription Indicates nothing - no status, used as an initializer"
+  desc: "Enum representing the available states for a subscription Indicates nothing - no status, used as an initializer"
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SUSPENDED"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.SUSPENDED"
   name: "SUSPENDED"
   nameWithType: "SubscriptionStatus.SUSPENDED"
   summary: "Subscription state: Suspended"
+  desc: "Subscription state: Suspended"
 methods:
 - uid: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString()"
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.toString()"
@@ -53,6 +57,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -60,6 +65,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "SubscriptionStatus.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -70,6 +77,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus.values()"
   name: "values()"
   nameWithType: "SubscriptionStatus.values()"
+  modifiers:
+  - "static"
   syntax: "public static SubscriptionStatus[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus?alt=com.microsoft.store.partnercenter.models.subscriptions.SubscriptionStatus&text=SubscriptionStatus\" data-throw-if-not-resolved=\"False\" />[]"

@@ -4,8 +4,8 @@ fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection"
 name: "SortDirection"
 nameWithType: "SortDirection"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -29,12 +29,14 @@ fields:
   fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.ASCENDING"
   name: "ASCENDING"
   nameWithType: "SortDirection.ASCENDING"
-  summary: "Sort direction enumeration. Ascending sort."
+  summary: "Sort direction enumeration."
+  desc: "Sort direction enumeration. Ascending sort."
 - uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING"
   fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.DESCENDING"
   name: "DESCENDING"
   nameWithType: "SortDirection.DESCENDING"
   summary: "Descending sort."
+  desc: "Descending sort."
 methods:
 - uid: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
   fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.toString()"
@@ -43,6 +45,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -50,6 +53,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "SortDirection.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -60,6 +65,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.query.sort.SortDirection.values()"
   name: "values()"
   nameWithType: "SortDirection.values()"
+  modifiers:
+  - "static"
   syntax: "public static SortDirection[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.query.sort.SortDirection?alt=com.microsoft.store.partnercenter.models.query.sort.SortDirection&text=SortDirection\" data-throw-if-not-resolved=\"False\" />[]"

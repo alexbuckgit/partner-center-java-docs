@@ -5,8 +5,8 @@ name: "AuditRecordSearchField"
 nameWithType: "AuditRecordSearchField"
 summary: "Lists the supported audit search fields."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,16 +31,19 @@ fields:
   name: "COMPANY_NAME"
   nameWithType: "AuditRecordSearchField.COMPANY_NAME"
   summary: "Customer company name."
+  desc: "Customer company name."
 - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.CUSTOMER_ID"
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.CUSTOMER_ID"
   name: "CUSTOMER_ID"
   nameWithType: "AuditRecordSearchField.CUSTOMER_ID"
   summary: "Customer identifier (GUID)."
+  desc: "Customer identifier (GUID)."
 - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.RESOURCE_TYPE"
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.RESOURCE_TYPE"
   name: "RESOURCE_TYPE"
   nameWithType: "AuditRecordSearchField.RESOURCE_TYPE"
   summary: "Resource Type as defined in available Resource Types (Example: Order, Subscription)."
+  desc: "Resource Type as defined in available Resource Types (Example: Order, Subscription)."
 methods:
 - uid: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.toString()"
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.toString()"
@@ -49,6 +52,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -56,6 +60,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "AuditRecordSearchField.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -66,9 +72,12 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField.values()"
   name: "values()"
   nameWithType: "AuditRecordSearchField.values()"
+  modifiers:
+  - "static"
   syntax: "public static AuditRecordSearchField[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField?alt=com.microsoft.store.partnercenter.models.auditing.AuditRecordSearchField&text=AuditRecordSearchField\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Lists the supported audit search fields."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.auditing"
 artifact: com.microsoft.store:partnercenter:1.15.3

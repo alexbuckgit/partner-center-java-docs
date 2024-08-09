@@ -3,10 +3,10 @@ uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
 fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification"
 name: "CustomerQualification"
 nameWithType: "CustomerQualification"
-summary: "When a partner creates a new customer by default the customer is assigned \"CustomerQualification.None\". If the partner validates that the customer belongs to Education segment they can set the qualification of the Customer to \"CustomerQualification.Education\". This operation is irreversible and the partner will not be allowed to override the customer qualification once set."
+summary: "When a partner creates a new customer by default the customer is assigned \"Customer<wbr>Qualification.<wbr>None\"."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -31,16 +31,19 @@ fields:
   name: "EDUCATION"
   nameWithType: "CustomerQualification.EDUCATION"
   summary: "Education Qualification"
+  desc: "Education Qualification"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.NONE"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.NONE"
   name: "NONE"
   nameWithType: "CustomerQualification.NONE"
   summary: "No Qualification"
+  desc: "No Qualification"
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.NONPROFIT"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.NONPROFIT"
   name: "NONPROFIT"
   nameWithType: "CustomerQualification.NONPROFIT"
   summary: "Non-Profit / Charity Qualification"
+  desc: "Non-Profit / Charity Qualification"
 methods:
 - uid: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.toString()"
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.toString()"
@@ -49,6 +52,7 @@ methods:
   summary: "Converts the object to a string."
   overridden: "java.lang.Enum.toString()"
   syntax: "public String toString()"
+  desc: "Converts the object to a string."
   returns:
     description: "A string that represents this object."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -56,6 +60,8 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "CustomerQualification.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -66,9 +72,12 @@ methods:
   fullName: "com.microsoft.store.partnercenter.models.customers.CustomerQualification.values()"
   name: "values()"
   nameWithType: "CustomerQualification.values()"
+  modifiers:
+  - "static"
   syntax: "public static CustomerQualification[] values()"
   returns:
     type: "<xref href=\"com.microsoft.store.partnercenter.models.customers.CustomerQualification?alt=com.microsoft.store.partnercenter.models.customers.CustomerQualification&text=CustomerQualification\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "When a partner creates a new customer by default the customer is assigned \"CustomerQualification.None\". If the partner validates that the customer belongs to Education segment they can set the qualification of the Customer to \"CustomerQualification.Education\". This operation is irreversible and the partner will not be allowed to override the customer qualification once set."
 metadata: {}
 package: "com.microsoft.store.partnercenter.models.customers"
 artifact: com.microsoft.store:partnercenter:1.15.3
