@@ -9,7 +9,7 @@
       "moniker_ranges": [
         "partnercenter-java-latest"
       ],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -22,7 +22,7 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "base_path": "java",
+      "base_path": "previous-versions/java",
       "site_name": "Docs",
       "customized_template_paths": [
         "_dependentPackages/memberpage.plugins/content"
@@ -58,9 +58,7 @@
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
-  "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -69,7 +67,10 @@
       "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": null,
+  "branch_target_mapping": {},
+  "docs_build_engine": {},
+  "skip_source_output_uploading": false,
+  "contribution_branch_mappings": {},
   "need_generate_pdf_url_template": false,
   "dependent_packages": [
     {
@@ -89,8 +90,5 @@
   ],
   "redirection_files": [
     ".openpublishing.redirection.member-page-movement.json"
-  ],
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  }
+  ]
 }
